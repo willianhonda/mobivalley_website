@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0b0d12;
+  --color-ink-900: #0f1218;
+  --color-ink-800: #161a22;
+  --color-ink-700: #232835;
+  --color-paper: #f4f4f0;
+  --color-paper-2: #eaeae4;
+  --color-mint: #34e0a1;
+  --color-mint-deep: #0a7f58;
+
+  /* text on dark */
+  --color-fog: #a3a9b5;
+  --color-fog-2: #8a909c;
+  /* text on light */
+  --color-slate: #4a505d;
+  --color-slate-2: #676c77;
+
+  --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, "SF Mono", monospace;
+  --font-serif: var(--font-instrument-serif), ui-serif, Georgia, serif;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --animate-float: float 9s ease-in-out infinite;
+  --animate-float-slow: float 12s ease-in-out infinite;
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+    50% {
+      transform: translate3d(0, -10px, 0);
+    }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-ink font-sans text-paper antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: var(--color-mint);
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-mint);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  .on-light :focus-visible {
+    outline-color: var(--color-mint-deep);
+  }
+}
+
+@layer components {
+  /* Small uppercase label that opens each section. */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 font-mono text-[0.72rem] font-medium tracking-[0.14em] uppercase;
+  }
+  .eyebrow::before {
+    content: "";
+    @apply size-1.5 rounded-full bg-current;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Fine grid used behind dark sections. */
+  .grid-lines {
+    background-image:
+      linear-gradient(to right, rgb(255 255 255 / 0.045) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(255 255 255 / 0.045) 1px, transparent 1px);
+    background-size: 72px 72px;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Motion. Everything below is opt-in for people who have not asked for
+   reduced motion. Content is fully visible without it.
+   --------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: no-preference) {
+  .intro {
+    animation: intro 1s var(--ease-out-expo) both;
+    animation-delay: calc(var(--i, 0) * 90ms + 80ms);
+  }
+
+  @supports (animation-timeline: view()) {
+    .reveal {
+      animation: reveal linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 240px;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@keyframes intro {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 18px, 0);
+    filter: blur(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 28px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
