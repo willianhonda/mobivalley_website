@@ -24,34 +24,39 @@ export const colors = {
 };
 
 // ---------------------------------------------------------------------------
-// Symbol: two hills with a dot resting in the valley between them.
-// Drawn on a 48×48 grid.
+// Symbol: a geometric M whose 45° strokes cut a valley, with a mint diamond
+// (a bit, a node) resting in the notch. Every edge is vertical or 45°, so the
+// diamond runs parallel to the valley walls. Drawn on a 48×48 grid.
 // ---------------------------------------------------------------------------
-const GAP = 3.2; // valley width
-const R = (40 - GAP) / 4; // hill radius
-const HILL_TOP = 21; // y where the arc meets the straight sides
+const L = 6; // left edge
+const RGT = 42; // right edge
+const TOP = 7;
 const BASE = 41;
-const DOT_R = 4.4;
-const DOT_CLEARANCE = 1.1;
+const LEG = 7; // leg width
+const DIAG = 9; // vertical thickness of the diagonals
+const DIAMOND = 5; // half-diagonal of the diamond
+const GAP = 3.5; // vertical gap between the diamond and the valley
 
 const n = (v) => Number(v.toFixed(3));
-const hill = (x) =>
-  `M${n(x)} ${BASE}V${HILL_TOP}A${n(R)} ${n(R)} 0 0 1 ${n(x + 2 * R)} ${HILL_TOP}V${BASE}Z`;
-const dx = 24 - (4 + R);
-const dist = R + DOT_R + DOT_CLEARANCE;
-const dotCy = HILL_TOP - Math.sqrt(dist * dist - dx * dx);
-const top = dotCy - DOT_R;
-const shiftY = 24 - (top + BASE) / 2;
+const mid = (L + RGT) / 2;
+const valley = TOP + (mid - L); // y of the upper edge of the V at the center
+const innerY = TOP + DIAG + LEG; // where the inner diagonal meets a leg
+const markPath =
+  `M${L} ${BASE}V${TOP}L${mid} ${valley}L${RGT} ${TOP}V${BASE}H${RGT - LEG}V${innerY}` +
+  `L${mid} ${valley + DIAG}L${L + LEG} ${innerY}V${BASE}Z`;
+const dCy = valley - GAP - DIAMOND;
+const accentPath = `M${mid} ${dCy - DIAMOND}L${mid + DIAMOND} ${dCy}L${mid} ${dCy + DIAMOND}L${mid - DIAMOND} ${dCy}Z`;
+const shiftY = 24 - (TOP + BASE) / 2;
 
 export const symbol = {
-  hills: `${hill(4)}${hill(44 - 2 * R)}`,
-  dot: { cx: 24, cy: n(dotCy), r: DOT_R },
+  mark: markPath,
+  accent: accentPath,
   shiftY: n(shiftY),
-  bounds: { x: 4, y: n(top + shiftY), w: 40, h: n(BASE - top) },
+  bounds: { x: L, y: n(TOP + shiftY), w: RGT - L, h: BASE - TOP },
 };
 
 const symbolGroup = (fg, accent) =>
-  `<g transform="translate(0 ${symbol.shiftY})"><path d="${symbol.hills}" fill="${fg}"/><circle cx="${symbol.dot.cx}" cy="${symbol.dot.cy}" r="${symbol.dot.r}" fill="${accent}"/></g>`;
+  `<g transform="translate(0 ${symbol.shiftY})"><path d="${symbol.mark}" fill="${fg}"/><path d="${symbol.accent}" fill="${accent}"/></g>`;
 
 // ---------------------------------------------------------------------------
 // Wordmark: "mobivalley" set in Geist SemiBold, converted to outlines.
@@ -96,7 +101,7 @@ function horizontal(fg, accent) {
   const scale = symH / symbol.bounds.h;
   const gap = symH * 0.36;
   const symW = symbol.bounds.w * scale;
-  const baseline = symH; // wordmark baseline aligned with the base of the hills
+  const baseline = symH; // wordmark baseline aligned with the base of the M
   const width = symW + gap + wm.width;
   const height = baseline + yDesc;
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${n(width)} ${n(height)}" role="img" aria-label="Mobivalley"><g transform="translate(${n(-symbol.bounds.x * scale)} ${n(-symbol.bounds.y * scale)}) scale(${n(scale)})">${symbolGroup(fg, accent)}</g><path transform="translate(${n(symW + gap)} ${n(baseline)})" d="${wm.d}" fill="${fg}"/></svg>`;

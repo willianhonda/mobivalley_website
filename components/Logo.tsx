@@ -10,14 +10,14 @@ type Props = {
 
 const Mark = () => (
   <g transform={`translate(0 ${symbol.shiftY})`}>
-    <path d={symbol.hills} fill="currentColor" />
-    <circle cx={symbol.dot.cx} cy={symbol.dot.cy} r={symbol.dot.r} fill="var(--logo-accent, #34e0a1)" />
+    <path d={symbol.mark} fill="currentColor" />
+    <path d={symbol.accent} fill="var(--logo-accent, #34e0a1)" />
   </g>
 );
 
 /**
- * Brand logo drawn inline, so it inherits `color` for the hills and wordmark
- * and `--logo-accent` for the dot.
+ * Brand logo drawn inline, so it inherits `color` for the M and wordmark
+ * and `--logo-accent` for the diamond.
  */
 export function Logo({ variant = "full", className, title = "Mobivalley" }: Props) {
   const a11y = title ? { role: "img", "aria-label": title } : { "aria-hidden": true };

@@ -30,7 +30,7 @@ There is no test suite.
 
 ## Brand
 
-`scripts/build-brand.mjs` is the single source for the identity. The symbol is two hills with a dot in the valley, the wordmark is "mobivalley" in Geist SemiBold converted to outlines (fonts in `scripts/assets/`), and the palette is Ink `#0B0D12`, Paper `#F4F4F0`, Mint `#34E0A1`, and Mint Deep `#0E9F6E`. The script writes `public/brand/*`, `app/icon.svg`, `app/favicon.ico`, `app/apple-icon.png`, `public/og.png`, and `lib/brand.generated.ts`. Edit the script and rerun it. Don't edit the outputs by hand.
+`scripts/build-brand.mjs` is the single source for the identity. The symbol is a geometric M (vertical legs, 45° diagonals) with a mint diamond resting in its valley, the wordmark is "mobivalley" in Geist SemiBold converted to outlines (fonts in `scripts/assets/`), and the palette is Ink `#0B0D12`, Paper `#F4F4F0`, Mint `#34E0A1`, and Mint Deep `#0E9F6E`. The script writes `public/brand/*`, `app/icon.svg`, `app/favicon.ico`, `app/apple-icon.png`, `public/og.png`, and `lib/brand.generated.ts`. Edit the script and rerun it. Don't edit the outputs by hand.
 
 ## Notes
 

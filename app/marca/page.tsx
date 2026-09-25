@@ -31,7 +31,7 @@ const palette = [
   { name: "Ink", hex: "#0B0D12", use: "Fundo principal, texto sobre claro", swatch: "bg-ink ring-1 ring-white/10", text: "text-paper" },
   { name: "Grafite", hex: "#161A22", use: "Superfícies e cartões escuros", swatch: "bg-ink-800 ring-1 ring-white/10", text: "text-paper" },
   { name: "Paper", hex: "#F4F4F0", use: "Fundo claro, texto sobre escuro", swatch: "bg-paper ring-1 ring-ink/15", text: "text-ink" },
-  { name: "Mint", hex: "#34E0A1", use: "Acento: o ponto do símbolo, CTAs", swatch: "bg-mint", text: "text-ink" },
+  { name: "Mint", hex: "#34E0A1", use: "Acento: o losango do símbolo, CTAs", swatch: "bg-mint", text: "text-ink" },
   { name: "Mint Deep", hex: "#0E9F6E", use: "Acento sobre fundos claros", swatch: "bg-[#0E9F6E]", text: "text-ink" },
 ];
 
@@ -61,14 +61,14 @@ export default function BrandPage() {
           <div>
             <p className="eyebrow text-mint">Identidade visual</p>
             <h1 className="text-balance mt-5 text-5xl font-semibold tracking-[-0.045em] sm:text-7xl">
-              Duas colinas, <Accent>um ponto no vale</Accent>.
+              Um M, <Accent>um bit no vale</Accent>.
             </h1>
           </div>
           <div className="space-y-5 text-lg leading-relaxed text-fog">
             <p>
-              O símbolo desenha as duas colinas de um vale, que juntas formam o M de Mobivalley. No encontro
-              entre elas repousa um ponto: a ideia que encontrou seu lugar e o produto pronto para seguir em
-              frente.
+              O símbolo é o M de Mobivalley desenhado só com retas e ângulos de 45°. As diagonais cortam um
+              vale, e nele repousa um losango: um bit, um nó de rede, a ideia que encontrou seu lugar e o
+              produto pronto para seguir em frente.
             </p>
             <p>
               É uma forma geométrica e simples, feita para funcionar em 16 pixels numa aba do navegador e em
@@ -150,7 +150,7 @@ export default function BrandPage() {
             </h2>
             <p className="mt-3 max-w-2xl text-slate">
               Uma base neutra, quente e contida, com um único acento. O verde menta aparece pouco e sempre
-              com função: o ponto do símbolo, uma ação, um destaque.
+              com função: o losango do símbolo, uma ação, um destaque.
             </p>
             <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
               {palette.map((c) => (
@@ -189,7 +189,7 @@ export default function BrandPage() {
             <ul className="mt-8 grid gap-6 text-slate sm:grid-cols-3">
               <li>
                 <p className="font-semibold text-ink">Área de proteção</p>
-                <p className="mt-2">Mantenha ao redor do logo um espaço livre igual à altura de uma colina do símbolo.</p>
+                <p className="mt-2">Mantenha ao redor do logo um espaço livre igual à largura de uma perna do M do símbolo.</p>
               </li>
               <li>
                 <p className="font-semibold text-ink">Tamanho mínimo</p>
