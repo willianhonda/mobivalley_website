@@ -22,6 +22,8 @@ type Props = Omit<ComponentProps<"a">, "children"> & {
   size?: keyof typeof sizes;
   /** "arrow" for in-page moves, "external" for links that leave the site. */
   icon?: "arrow" | "external" | "none";
+  /** Screen-reader note for external links, e.g. "(opens in a new tab)". */
+  newTabLabel?: string;
 };
 
 export function Button({
@@ -30,6 +32,7 @@ export function Button({
   size = "md",
   icon = "arrow",
   className = "",
+  newTabLabel,
   ...props
 }: Props) {
   const Icon = icon === "external" ? ArrowUpRight : icon === "arrow" ? ArrowRight : null;
@@ -51,7 +54,7 @@ export function Button({
           strokeWidth={2.25}
         />
       )}
-      {external && <span className="sr-only"> (abre em nova aba)</span>}
+      {external && newTabLabel && <span className="sr-only"> {newTabLabel}</span>}
     </a>
   );
 }

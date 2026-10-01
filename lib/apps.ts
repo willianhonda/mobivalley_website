@@ -1,151 +1,136 @@
-// Portfolio data. Everything here comes from the public App Store listings of
-// the Mobivalley developer account (id1701006912). Images are fetched and
-// optimized by scripts/fetch-app-assets.mjs.
+// Portfolio model: store facts from data/apps.json (kept current by
+// scripts/sync-apps.mjs) merged with the hand-written copy in content/apps.ts.
+
+import rawData from "@/data/apps.json";
+import { curated, featuredSlug, order, type CuratedApp } from "@/content/apps";
+import type { Locale } from "@/lib/i18n";
+
+type LabelCategory = { category: string; dataTypes: string[] };
+type LabelPurpose = { purpose: string; categories: LabelCategory[] };
+
+/** App Store privacy labels ("App Privacy" section of the listing). */
+export type PrivacyLabels = {
+  notCollected: boolean;
+  notProvided: boolean;
+  tracking: LabelCategory[];
+  linked: LabelPurpose[];
+  notLinked: LabelPurpose[];
+};
+
+/** One entry of data/apps.json (written by scripts/sync-apps.mjs). */
+export type StoreApp = {
+  id: number;
+  slug: string;
+  name: string;
+  nameBR: string;
+  url: string;
+  genres: { en: string[]; pt: string[] };
+  releaseDate: string;
+  updatedAt: string;
+  version: string;
+  minimumOsVersion: string;
+  fileSizeBytes: number;
+  price: number;
+  languages: string[];
+  rating: { value: number; count: number; store: string };
+  gameCenter: boolean;
+  universal: boolean;
+  description: { en: string; pt: string };
+  releaseNotes: string;
+  icon: string;
+  tint: string;
+  screens: { src: string; width: number; height: number }[];
+  privacy: PrivacyLabels | null;
+};
+
+const data = rawData as { developerUrl: string; apps: StoreApp[] };
 
 export type App = {
   id: number;
   slug: string;
   name: string;
+  storeName: string;
   category: string;
+  genres: string[];
   year: number;
   summary: string;
-  /** Pastel tone sampled from the app icon, used behind the screenshot. */
+  features: string[];
   tint: string;
-  screens: { src: string; alt: string }[];
+  icon: string;
+  url: string;
+  screens: StoreApp["screens"];
+  cardScreen: StoreApp["screens"][number];
+  store: StoreApp;
+  legal: CuratedApp["legal"];
 };
 
-export const appStoreUrl = (id: number) => `https://apps.apple.com/br/app/id${id}`;
-export const iconSrc = (slug: string) => `/apps/${slug}/icon.webp`;
+export const developerUrl = data.developerUrl;
+export const storeApps = data.apps;
 
-export const featured = {
-  id: 6447742368,
-  slug: "place-guesser",
-  name: "Place Guesser",
-  fullName: "Place Guesser: Street View Geo",
-  category: "Jogos · Viagens · Trívia",
-  year: 2023,
-  summary:
-    "Um jogo de geografia com imagens reais de rua: você olha em volta, marca um ponto no mapa e descobre o quanto chegou perto. Tem Desafio Diário com ranking global, multiplayer em tempo real, desafios assíncronos entre amigos e um Passaporte com todos os países visitados.",
-  facts: [
-    { value: "4,7", label: "nota na App Store dos EUA, com 700+ avaliações" },
-    { value: "9", label: "idiomas, do português ao japonês" },
-    { value: "4", label: "plataformas: iPhone, iPad, Apple Watch e Apple TV" },
-  ],
-  features: [
-    "Imagens do Apple Look Around e do Google Street View",
-    "Multiplayer em tempo real e rankings no Game Center",
-    "Widgets, sequências diárias e cards de resultado",
-  ],
-  screens: [
-    { src: "/apps/place-guesser/screen-1.webp", alt: "Place Guesser: rodada com imagem de rua e mapa para marcar o palpite" },
-    { src: "/apps/place-guesser/screen-2.webp", alt: "Place Guesser: tela inicial com os modos de jogo" },
-    { src: "/apps/place-guesser/screen-3.webp", alt: "Place Guesser: resultado da rodada com a distância no mapa" },
-  ],
-} as const;
+const clean = (s: string) => s.replace(/\u00AD/g, "");
 
-export const apps: App[] = [
-  {
-    id: 6752722065,
-    slug: "aeroexplorer",
-    name: "AeroExplorer",
-    category: "Navegação · Viagens",
-    year: 2025,
-    summary:
-      "Mapas interativos com Flyover em 3D: sobrevoe cidades e marcos, salte para um ponto aleatório do planeta e alterne entre os estilos padrão, satélite e híbrido.",
-    tint: "#DCE8D6",
-    screens: [{ src: "/apps/aeroexplorer/screen-1.webp", alt: "AeroExplorer: vista 3D de Nova York em modo Flyover" }],
-  },
-  {
-    id: 1452023223,
-    slug: "sticker-maker",
-    name: "Sticker Maker",
-    category: "Foto e vídeo",
-    year: 2019,
-    summary:
-      "Transforma fotos em figurinhas e pacotes personalizados, com remoção automática de fundo, texto com contorno e exportação direta para o WhatsApp e o iMessage.",
-    tint: "#FBDCD6",
-    screens: [{ src: "/apps/sticker-maker/screen-1.webp", alt: "Sticker Maker: fotos viram figurinhas em segundos" }],
-  },
-  {
-    id: 6772647088,
-    slug: "speakscroll",
-    name: "SpeakScroll",
-    category: "Foto e vídeo · Produtividade",
-    year: 2026,
-    summary:
-      "Teleprompter e câmera no mesmo app: o roteiro rola sobre a câmera enquanto você fala olhando para a lente, e o vídeo sai limpo, sem sobreposições.",
-    tint: "#FAD3C8",
-    screens: [{ src: "/apps/speakscroll/screen-1.webp", alt: "SpeakScroll: roteiro rolando sobre a gravação de vídeo" }],
-  },
-  {
-    id: 6772645489,
-    slug: "gallery-optimizer",
-    name: "Gallery Optimizer",
-    category: "Foto e vídeo · Utilidades",
-    year: 2026,
-    summary:
-      "Encontra fotos duplicadas, parecidas e desfocadas, capturas de tela e vídeos grandes. Toda a análise acontece no iPhone, sem enviar nenhuma foto para a nuvem.",
-    tint: "#D6E2FB",
-    screens: [{ src: "/apps/gallery-optimizer/screen-1.webp", alt: "Gallery Optimizer: espaço recuperável na galeria de fotos" }],
-  },
-  {
-    id: 6759080666,
-    slug: "offchat-ai",
-    name: "OffChat AI",
-    category: "Produtividade",
-    year: 2026,
-    summary:
-      "Um assistente de IA que funciona offline. As respostas são geradas no próprio aparelho, então as conversas não saem do iPhone ou do iPad.",
-    tint: "#E3E7EF",
-    screens: [{ src: "/apps/offchat-ai/screen-1.webp", alt: "OffChat AI: conversa com o assistente rodando offline" }],
-  },
-  {
-    id: 6752260529,
-    slug: "littletube",
-    name: "LittleTube",
-    category: "Entretenimento · Educação",
-    year: 2025,
-    summary:
-      "Um player de vídeos em que só toca o que você escolheu: sem recomendações nem surpresas. Pensado para famílias, com perfis e proteção por Face ID.",
-    tint: "#D3E6FB",
-    screens: [{ src: "/apps/littletube/screen-1.webp", alt: "LittleTube: lista de vídeos escolhidos pela família" }],
-  },
-  {
-    id: 1547922378,
-    slug: "price-action",
-    name: "Price Action",
-    category: "Finanças",
-    year: 2021,
-    summary:
-      "Registro de operações no mercado financeiro, organizadas por status (abertas, com ganho, com perda ou aguardando), com busca por ativo e filtros por data.",
-    tint: "#D9DBE0",
-    screens: [{ src: "/apps/price-action/screen-1.webp", alt: "Price Action: lista de operações com ganhos e perdas" }],
-  },
-  {
-    id: 1515394611,
-    slug: "stock-calc",
-    name: "Stock Calc",
-    category: "Negócios",
-    year: 2020,
-    summary:
-      "Carteira de ações, fundos e títulos com cálculo automático de preço médio, quantidade e valor total a cada operação registrada.",
-    tint: "#CDEAE6",
-    screens: [{ src: "/apps/stock-calc/screen-1.webp", alt: "Stock Calc: preço médio de um ativo calculado a partir das operações" }],
-  },
-  {
-    id: 1425516744,
-    slug: "travel-budget",
-    name: "Despesas da Viagem",
-    category: "Finanças · Viagens",
-    year: 2018,
-    summary:
-      "Controle de gastos de viagem em qualquer moeda, com localização e foto em cada registro e exportação das despesas por e-mail.",
-    tint: "#D7EDCB",
-    screens: [{ src: "/apps/travel-budget/screen-1.webp", alt: "Despesas da Viagem: gastos registrados durante uma viagem" }],
-  },
-];
+/** First paragraph of the store description, used when an app has no curated copy. */
+function fallbackSummary(text: string) {
+  const first = text.split(/\n\s*\n/)[0].replace(/\s+/g, " ").trim();
+  return first.length > 220 ? `${first.slice(0, 217).replace(/\s+\S*$/, "")}…` : first;
+}
 
-export const allApps = [
-  { id: featured.id, slug: featured.slug, name: featured.name, category: featured.category },
-  ...apps,
-];
+function build(store: StoreApp, locale: Locale): App {
+  const c = curated[store.slug];
+  const storeName = locale === "pt" ? store.nameBR : store.name;
+  const genres = [...new Set(store.genres[locale].map(clean))];
+  return {
+    id: store.id,
+    slug: store.slug,
+    name: c?.name?.[locale] ?? storeName.split(/:\s| - /)[0],
+    storeName,
+    category: genres.slice(0, 2).join(" · "),
+    genres,
+    year: new Date(store.releaseDate).getUTCFullYear(),
+    summary: c?.copy[locale].summary ?? fallbackSummary(store.description[locale]),
+    features: c?.copy[locale].features ?? [],
+    tint: c?.tint ?? store.tint,
+    icon: store.icon,
+    url: store.url,
+    screens: store.screens,
+    cardScreen: store.screens[c?.cardScreen ?? 0] ?? store.screens[0],
+    store,
+    legal: c?.legal ?? { purchases: "unknown", thirdParties: [], permissions: [] },
+  };
+}
+
+const rank = (slug: string) => order.indexOf(slug);
+
+/** Every app on the store, curated order first, then new apps newest first. */
+export function getApps(locale: Locale): App[] {
+  return data.apps
+    .map((a) => build(a, locale))
+    .sort((a, b) => {
+      const ra = rank(a.slug);
+      const rb = rank(b.slug);
+      if (ra !== -1 && rb !== -1) return ra - rb;
+      if (ra !== -1) return -1;
+      if (rb !== -1) return 1;
+      return b.store.releaseDate.localeCompare(a.store.releaseDate);
+    });
+}
+
+export const getApp = (slug: string, locale: Locale) => getApps(locale).find((a) => a.slug === slug);
+
+export const getFeatured = (locale: Locale) => getApp(featuredSlug, locale) ?? getApps(locale)[0];
+
+/** Figures shown in the hero, computed from the store data. */
+export function portfolioStats() {
+  const years = data.apps.map((a) => new Date(a.releaseDate).getUTCFullYear());
+  const featured = data.apps.find((a) => a.slug === featuredSlug) ?? data.apps[0];
+  return {
+    count: data.apps.length,
+    firstYear: Math.min(...years),
+    featuredLanguages: featured.languages.length,
+  };
+}
+
+/** "750" -> "700+", so the number doesn't go stale between syncs. */
+export const ratingCountFloor = (n: number) => (n >= 100 ? Math.floor(n / 100) * 100 : n);
+
+export const hasRating = (app: App) => app.store.rating.count >= 20;

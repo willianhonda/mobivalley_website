@@ -1,0 +1,1236 @@
+{
+  "syncedAt": "2026-10-01T06:13:00.126Z",
+  "developerUrl": "https://apps.apple.com/br/developer/mobivalley/id1701006912",
+  "apps": [
+    {
+      "id": 6447742368,
+      "slug": "place-guesser",
+      "name": "Place Guesser: Street View Geo",
+      "nameBR": "Place Guesser: Street View Geo",
+      "url": "https://apps.apple.com/br/app/id6447742368",
+      "genres": {
+        "en": [
+          "Games",
+          "Casual",
+          "Travel",
+          "Trivia"
+        ],
+        "pt": [
+          "Jogos",
+          "Casual",
+          "Viagens",
+          "Trívia"
+        ]
+      },
+      "releaseDate": "2023-04-15T07:00:00Z",
+      "updatedAt": "2026-09-23T11:42:24Z",
+      "version": "1.62.0",
+      "minimumOsVersion": "18.6",
+      "fileSizeBytes": 87268352,
+      "price": 0,
+      "languages": [
+        "AR",
+        "EN",
+        "FR",
+        "DE",
+        "IT",
+        "JA",
+        "PT",
+        "RU",
+        "ES"
+      ],
+      "rating": {
+        "value": 4.66622,
+        "count": 752,
+        "store": "us"
+      },
+      "gameCenter": true,
+      "universal": true,
+      "description": {
+        "en": "Drop into a street somewhere in the world, look around, and guess where you are on the map. The closer your guess, the more points you score.\n\nPlace Guesser is a geography game played through real street-level imagery from Apple Look Around and Google Street View.\n\nHOW YOU PLAY\n• Play now: five rounds around the world, three minutes each, one tap from the home screen.\n• Daily Challenge: the same mystery places for everyone, every day, with a global leaderboard. Keep your streak alive.\n• Country Streak: how many countries can you name in a row before you miss?\n• Guess The Spot: a close-up that zooms out with every wrong answer. Fewer clues, more points.\n• Infinite Mode: keep going as long as you like.\n• Custom games: pick the timer, the number of rounds and how you're allowed to move.\n\nPLAY WITH FRIENDS\n• Real-time multiplayer: play the same places at the same time.\n• Async challenges: send a challenge and let friends play whenever they like.\n• Game Center leaderboards, achievements and friends boards.\n\nTRACK YOUR PROGRESS\n• A Passport of every country you've visited, with bronze, silver and gold medals.\n• Day streaks with streak freezes, so one busy day doesn't cost you everything.\n• Stats, personal bests and shareable result cards.\n\nMORE WAYS TO PLAY\n• Home screen widgets.\n• Apple Watch and Apple TV apps.\n\nPLACE GUESSER PRO\n• Choose a country and play only there.\n• Worldwide Pro: the full location pool, including Street View locations.\n• No Move and NMPZ rules (no move, no pan, no zoom).\n• The Daily Challenge archive: replay the last 30 days.\n• Longer timers, extra streak freezes and streak repair.\n\nPro is an auto-renewing subscription. Payment is charged to your Apple Account at confirmation. It renews automatically unless you cancel at least 24 hours before the end of the current period. Manage or cancel in your App Store account settings.\n\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "pt": "O jogo mostra uma rua em algum lugar do mundo, olhe em volta e adivinhe no mapa onde você está. Quanto mais perto, mais pontos.\n\nPlace Guesser é um jogo de geografia com imagens reais de rua do Apple Look Around e do Google Street View.\n\nCOMO JOGAR\n• Jogar agora: cinco rodadas pelo mundo, três minutos cada, a um toque da tela inicial.\n• Desafio Diário: os mesmos lugares misteriosos para todo mundo, todo dia, com ranking global. Mantenha sua sequência viva.\n• Country Streak: quantos países seguidos você acerta antes de errar?\n• Guess The Spot: uma imagem de perto que vai abrindo a cada erro. Menos pistas, mais pontos.\n• Modo Infinito: jogue quanto quiser.\n• Partidas personalizadas: escolha o tempo, o número de rodadas e como você pode se mover.\n\nJOGUE COM AMIGOS\n• Multiplayer em tempo real: os mesmos lugares, ao mesmo tempo.\n• Desafios assíncronos: mande um desafio e seus amigos jogam quando puderem.\n• Rankings, conquistas e placar de amigos no Game Center.\n\nACOMPANHE SEU PROGRESSO\n• Um Passaporte com todos os países que você visitou, com medalhas de bronze, prata e ouro.\n• Sequência de dias com proteção, para um dia corrido não custar tudo.\n• Estatísticas, recordes pessoais e cards de resultado para compartilhar.\n\nMAIS JEITOS DE JOGAR\n• Widgets na tela inicial.\n• Apps para Apple Watch e Apple TV.\n\nPLACE GUESSER PRO\n• Escolha um país e jogue só nele.\n• Worldwide Pro: todos os locais do jogo, incluindo locais com Street View.\n• Regras No Move e NMPZ (sem andar, sem girar, sem zoom).\n• Arquivo do Desafio Diário: jogue de novo os últimos 30 dias.\n• Tempos maiores, mais proteções de sequência e recuperação de sequência.\n\nO Pro é uma assinatura com renovação automática. O pagamento é cobrado na sua Conta Apple ao confirmar. A assinatura renova automaticamente, a menos que seja cancelada pelo menos 24 horas antes do fim do período atual. Gerencie ou cancele nos ajustes da sua conta da App Store.\n\nTermos de Uso: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+      },
+      "releaseNotes": "What's new in Place Guesser\n\n• More variety: fixed a bug that could repeat the same country within a single game.\n• New rules: No Move and NMPZ (no move, no pan, no zoom) for players who want a real challenge.\n• Daily Challenge archive: missed a day? Replay the last 30 challenges.\n• Streak freezes: a missed day no longer wipes out your streak. You can repair a recently lost streak, too.\n• Panorama-first layout: the street view fills the screen, and you open the map when you're ready to guess.\n• Country medals in your Passport: bronze, silver and gold for every country you play.\n• Share your results, compare with friends in Game Center, and unlock new achievements.\n• Country Streak now scores correct guesses reliably, plus other fixes and improvements.",
+      "icon": "/apps/place-guesser/icon.webp",
+      "tint": "#FDF8DB",
+      "screens": [
+        {
+          "src": "/apps/place-guesser/screen-1.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/place-guesser/screen-2.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/place-guesser/screen-3.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/place-guesser/screen-4.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/place-guesser/screen-5.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/place-guesser/screen-6.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/place-guesser/screen-7.webp",
+          "width": 640,
+          "height": 1138
+        }
+      ],
+      "privacy": {
+        "notCollected": false,
+        "notProvided": false,
+        "tracking": [],
+        "linked": [],
+        "notLinked": [
+          {
+            "purpose": "ANALYTICS",
+            "categories": [
+              {
+                "category": "USAGE_DATA",
+                "dataTypes": [
+                  "Product Interaction"
+                ]
+              },
+              {
+                "category": "DIAGNOSTICS",
+                "dataTypes": [
+                  "Crash Data"
+                ]
+              }
+            ]
+          },
+          {
+            "purpose": "APP_FUNCTIONALITY",
+            "categories": [
+              {
+                "category": "DIAGNOSTICS",
+                "dataTypes": [
+                  "Crash Data"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 1452023223,
+      "slug": "sticker-maker",
+      "name": "Sticker Maker: Photo Stickers",
+      "nameBR": "Sticker Maker: Criar Figurinha",
+      "url": "https://apps.apple.com/br/app/id1452023223",
+      "genres": {
+        "en": [
+          "Photo & Video",
+          "Graphics & Design"
+        ],
+        "pt": [
+          "Foto e vídeo",
+          "Artes gráficas e design"
+        ]
+      },
+      "releaseDate": "2019-02-10T20:10:59Z",
+      "updatedAt": "2026-09-30T05:07:04Z",
+      "version": "2.3.0",
+      "minimumOsVersion": "26.0",
+      "fileSizeBytes": 29104128,
+      "price": 0,
+      "languages": [
+        "AR",
+        "EN",
+        "HI",
+        "ID",
+        "PT",
+        "ES"
+      ],
+      "rating": {
+        "value": 4.59401,
+        "count": 367,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": true,
+      "description": {
+        "en": "Turn your photos into stickers in seconds and send them to WhatsApp, Telegram and iMessage.\n\nPick a photo and the background disappears on its own. Touch it up with the eraser and restore brush, add text and emoji, and choose a finish: white border, puffy, comic or shadow.\n\nWHAT'S INSIDE\n- Automatic cutout, with a tap to choose who stays when there are several people or pets\n- Animated stickers from Live Photos, videos and GIFs\n- Quick Sticker: make one sticker and send it right away\n- Meme captions, text with outlines and emoji\n- Emoji tags added for you, so friends find your stickers as they type\n- Paste photos and GIFs copied from other apps\n- Reorder, duplicate, move and edit your stickers anytime\n- Your packs in iMessage, and share photos to the app from Photos\n- Export a pack as a .zip or save stickers to Photos\n- Back up your packs to Files and restore them\n- Emoji and pack name suggestions on devices with Apple Intelligence\n- Works on iPhone and iPad, and with Shortcuts\n\nEverything is made on your device. No account needed.\n\nPlease only use images you own or have the right to use.\n\nSticker Maker is an independent app. It is not affiliated with, associated with, authorized by, or endorsed by WhatsApp LLC, Meta Platforms, Inc., or Telegram. WhatsApp is a registered trademark of WhatsApp LLC.",
+        "pt": "Transforme suas fotos em figurinhas em segundos e envie para o WhatsApp, o Telegram e o iMessage.\n\nEscolha uma foto e o fundo sai sozinho. Ajuste com a borracha e o pincel de restaurar, coloque texto e emojis e escolha um acabamento: borda branca, fofinha, quadrinho ou sombra.\n\nO QUE TEM NO APP\n- Recorte automático, com um toque para escolher quem fica quando há várias pessoas ou pets\n- Figurinhas animadas de Live Photos, vídeos e GIFs\n- Figurinha rápida: crie uma e envie na hora\n- Legendas de meme, texto com contorno e emojis\n- Emojis automáticos, para seus amigos acharem a figurinha enquanto digitam\n- Cole fotos e GIFs copiados de outros apps\n- Reordene, duplique, mova e edite suas figurinhas quando quiser\n- Seus pacotes no iMessage, e fotos compartilhadas direto do app Fotos\n- Exporte o pacote em .zip ou salve as figurinhas no Fotos\n- Backup dos pacotes no Arquivos, com restauração\n- Sugestões de emojis e de nomes de pacote em aparelhos com Apple Intelligence\n- Funciona no iPhone e no iPad, e com o app Atalhos\n\nTudo é feito no seu aparelho. Não precisa de conta.\n\nUse apenas imagens que são suas ou que você tem direito de usar.\n\nO Sticker Maker é um app independente, sem vínculo com WhatsApp LLC, Meta Platforms, Inc. ou Telegram, nem autorizado ou endossado por eles. WhatsApp é marca registrada da WhatsApp LLC."
+      },
+      "releaseNotes": "New: Quick Sticker! Make one sticker and send it in seconds, straight from the pack list.\n\n- Paste photos and GIFs, and turn any GIF into an animated sticker.\n- Edit your animated stickers after saving them.\n- Emoji are added for you, so friends find your stickers as they type.\n- Now on iPad, and in Arabic, Hindi and Indonesian.\n- Make a sticker from the Shortcuts app.",
+      "icon": "/apps/sticker-maker/icon.webp",
+      "tint": "#FDFDFD",
+      "screens": [
+        {
+          "src": "/apps/sticker-maker/screen-1.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/sticker-maker/screen-2.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/sticker-maker/screen-3.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/sticker-maker/screen-4.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/sticker-maker/screen-5.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/sticker-maker/screen-6.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/sticker-maker/screen-7.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/sticker-maker/screen-8.webp",
+          "width": 640,
+          "height": 1391
+        }
+      ],
+      "privacy": {
+        "notCollected": false,
+        "notProvided": false,
+        "tracking": [
+          {
+            "category": "IDENTIFIERS",
+            "dataTypes": []
+          }
+        ],
+        "linked": [],
+        "notLinked": []
+      }
+    },
+    {
+      "id": 1425516744,
+      "slug": "travel-budget",
+      "name": "Trip Budget: Travel Expenses",
+      "nameBR": "Despesas de Viagem: Orçamento",
+      "url": "https://apps.apple.com/br/app/id1425516744",
+      "genres": {
+        "en": [
+          "Travel",
+          "Finance"
+        ],
+        "pt": [
+          "Viagens",
+          "Finanças"
+        ]
+      },
+      "releaseDate": "2018-09-20T03:11:29Z",
+      "updatedAt": "2026-09-28T16:37:43Z",
+      "version": "2.0.0",
+      "minimumOsVersion": "17.0",
+      "fileSizeBytes": 7766016,
+      "price": 0,
+      "languages": [
+        "EN",
+        "PT"
+      ],
+      "rating": {
+        "value": 0,
+        "count": 0,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": true,
+      "description": {
+        "en": "Know exactly how much money is left on your trip. Add what you spend in seconds, in any currency, and see your balance update as you go.\n\nHOW IT WORKS\n• Create a trip, pick its currency and enter the money you're taking.\n• Add each expense in a couple of taps: amount, what it was, date and category.\n• Add money in too — an ATM withdrawal, a transfer, cash from a friend.\n• Your balance, total spent and money in are always at the top.\n• Expenses are grouped by day, so you see how every day of the trip went.\n\nMADE FOR TRAVELLING\n• Any currency: pounds, euros, dollars, riyals, dirhams, kroner and more.\n• Type amounts the way you're used to — 12.50 or 12,50 both work.\n• Categories for food, groceries, transport, lodging, shopping, entertainment, tours, health and fees.\n• Works offline. No account, no sign-up, no ads.\n• Your data stays on your iPhone or iPad.\n\nPREMIUM (one-time purchase, no subscription)\n• Unlimited trips — the free version includes one trip.\n• Photos: attach the receipt or a photo of what you bought.\n• Location: save where each expense happened and see it on a map.\n• Export to CSV: open your expenses in Excel, Numbers or Google Sheets, or send them by email.\n\nAlready bought Premium in an earlier version? Tap Restore purchase in Settings — it's free.\n\nQuestions or ideas? Tap Send feedback in Settings.",
+        "pt": "Saiba exatamente quanto dinheiro ainda sobra na sua viagem. Anote cada gasto em segundos, em qualquer moeda, e veja o saldo atualizado na hora.\n\nCOMO FUNCIONA\n• Crie uma viagem, escolha a moeda e informe quanto dinheiro você vai levar.\n• Registre cada gasto com poucos toques: valor, descrição, data e categoria.\n• Lance também as entradas: saque no caixa eletrônico, transferência, dinheiro emprestado.\n• Saldo, total gasto e entradas ficam sempre no topo.\n• Os gastos aparecem separados por dia, para você ver como foi cada dia da viagem.\n\nFEITO PARA QUEM VIAJA\n• Qualquer moeda: real, dólar, euro, libra, peso e muito mais.\n• Digite valores do seu jeito — 12,50 ou 12.50, os dois funcionam.\n• Categorias para comida, mercado, transporte, hospedagem, compras, lazer, passeios, saúde e taxas.\n• Funciona sem internet. Sem cadastro, sem login e sem anúncios.\n• Seus dados ficam no seu iPhone ou iPad.\n\nPREMIUM (compra única, sem assinatura)\n• Viagens ilimitadas — a versão grátis inclui uma viagem.\n• Fotos: anexe o recibo ou uma foto do que você comprou.\n• Localização: salve onde cada gasto aconteceu e veja no mapa.\n• Exportação CSV: abra seus gastos no Excel, Numbers ou Planilhas Google, ou envie por e-mail.\n\nJá comprou o Premium numa versão anterior? Toque em Restaurar compra nos Ajustes — é grátis.\n\nDúvidas ou sugestões? Toque em Enviar feedback nos Ajustes"
+      },
+      "releaseNotes": "Version 2.0 — rebuilt from the ground up.\n• A fresh design for iPhone and iPad, with dark mode.\n• Now in English and Portuguese.\n• Faster expense entry: type 12.50 or 12,50, pick a category, done.\n• Expenses grouped by day, with your balance, total spent and money in always visible.\n• Tap an expense to edit it; swipe to delete.\n• Your trips from the previous version are imported automatically.\n• Bought Premium before? Tap Restore purchase in Settings.",
+      "icon": "/apps/travel-budget/icon.webp",
+      "tint": "#C3E0C8",
+      "screens": [
+        {
+          "src": "/apps/travel-budget/screen-1.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/travel-budget/screen-2.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/travel-budget/screen-3.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/travel-budget/screen-4.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/travel-budget/screen-5.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/travel-budget/screen-6.webp",
+          "width": 640,
+          "height": 1391
+        }
+      ],
+      "privacy": {
+        "notCollected": false,
+        "notProvided": false,
+        "tracking": [],
+        "linked": [],
+        "notLinked": [
+          {
+            "purpose": "ANALYTICS",
+            "categories": [
+              {
+                "category": "DIAGNOSTICS",
+                "dataTypes": [
+                  "Crash Data",
+                  "Other Diagnostic Data"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 1547922378,
+      "slug": "price-action",
+      "name": "Price Action: Trade Planner",
+      "nameBR": "Price Action: Plano de Trade",
+      "url": "https://apps.apple.com/br/app/id1547922378",
+      "genres": {
+        "en": [
+          "Finance",
+          "Productivity"
+        ],
+        "pt": [
+          "Finanças",
+          "Produtividade"
+        ]
+      },
+      "releaseDate": "2021-01-29T08:00:00Z",
+      "updatedAt": "2026-09-26T12:43:19Z",
+      "version": "2.0.0",
+      "minimumOsVersion": "17.0",
+      "fileSizeBytes": 14606336,
+      "price": 0,
+      "languages": [
+        "EN",
+        "PT"
+      ],
+      "rating": {
+        "value": 0,
+        "count": 0,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": true,
+      "description": {
+        "en": "Plan your trades before you enter them, and learn from every result.\n\nPrice Action is a simple, private trade planner and journal. Write down the asset, entry, target and stop, and the app calculates your risk:reward, the percentage to each level and the position size that fits your risk. When the trade is closed, record the exit and see the result in R and in money.\n\nPLAN\n• Long or short trades with entry, target, stop and quantity\n• Automatic risk:reward and % to target and stop\n• Position size calculator: account size × risk % ÷ distance to the stop\n• Warnings when the target or stop is on the wrong side of the entry\n\nTRACK\n• Statuses: Waiting, Open, Won, Loss, Breakeven and Cancelled\n• Exit price, profit and loss, and result in R\n• Tags for setups and strategies\n• Attach a chart screenshot to each trade\n• Reminders to review a trade on a given date\n• Home Screen and Lock Screen widgets with your open trades\n\nLEARN\n• Win rate, average result, profit factor and total result\n• Equity curve in R and stats by tag\n\nPRIVATE BY DESIGN\n• No account, no sign-up: your trades stay on your device\n• Optional Face ID / passcode lock\n• Export everything to CSV whenever you want\n\nWorks with stocks, ETFs, crypto, forex, futures and options. Enter prices with a comma or a dot.\n\nFREE AND PREMIUM\nFree: up to 10 trade plans, with ads.\nPremium: unlimited trade plans, all statuses, filters and sorting, equity curve and stats by tag, chart screenshots, and no ads. Start with a 1-week free trial.\n\nPrice Action is a planning tool. It does not provide financial advice, real-time quotes or order execution.\n\n———\n\nPayment will be charged to your Apple Account at confirmation of purchase. The subscription renews automatically for the same period and price unless it is cancelled at least 24 hours before the end of the free trial or the current period. Your account will be charged for renewal within 24 hours before the end of the current period. You can manage or cancel your subscription in your Apple Account settings after purchase. Any unused portion of a free trial is forfeited when you purchase a subscription.\n\nTerms of Use: https://docs.google.com/document/d/1oPBAViX9vr6yOxlsY7fJVCUxvPSQ13UbzhVj8zEmh4I/edit?usp=sharing\nPrivacy Policy: https://docs.google.com/document/d/1ABATV-iK8_mFpZOchIgFbftB7yTy30qfYaJr0b5IczA/edit?usp=sharing",
+        "pt": "Planeje seus trades antes de entrar e aprenda com cada resultado.\n\nO Price Action é um planejador e diário de trades simples e privado. Anote o ativo, a entrada, o alvo e o stop, e o app calcula o risco:retorno, a distância percentual até cada nível e o tamanho de posição adequado ao seu risco. Ao fechar o trade, registre a saída e veja o resultado em R e em dinheiro.\n\nPLANEJE\n• Trades de compra ou venda com entrada, alvo, stop e quantidade\n• Risco:retorno e % até o alvo e o stop calculados automaticamente\n• Calculadora de posição: capital × risco % ÷ distância até o stop\n• Avisos quando o alvo ou o stop estão do lado errado da entrada\n\nACOMPANHE\n• Status: Aguardando, Aberto, Gain, Loss, Empate e Cancelado\n• Preço de saída, resultado financeiro e resultado em R\n• Tags para setups e estratégias\n• Print do gráfico anexado a cada trade\n• Lembretes para revisar um trade numa data\n• Widgets na Tela de Início e na Tela Bloqueada com seus trades abertos\n\nAPRENDA\n• Taxa de acerto, resultado médio, fator de lucro e resultado total\n• Curva de capital em R e estatísticas por tag\n\nPRIVADO DE VERDADE\n• Sem conta e sem cadastro: seus trades ficam no seu aparelho\n• Bloqueio opcional com Face ID ou código\n• Exporte tudo para CSV quando quiser\n\nFunciona com ações, FIIs, ETFs, cripto, forex, mini-índice, mini-dólar e opções. Digite preços com vírgula ou ponto.\n\nGRÁTIS E PREMIUM\nGrátis: até 10 planos de trade, com anúncios.\nPremium: planos ilimitados, todos os status, filtros e ordenação, curva de capital e estatísticas por tag, prints de gráfico e sem anúncios. Comece com 1 semana grátis.\n\nO Price Action é uma ferramenta de planejamento. Não oferece recomendação de investimento, cotações em tempo real nem execução de ordens.\n\n———\n\nO pagamento é cobrado na sua Conta Apple quando a compra é confirmada. A assinatura renova automaticamente pelo mesmo período e preço, a menos que seja cancelada pelo menos 24 horas antes do fim do teste grátis ou do período atual. A renovação é cobrada nas 24 horas anteriores ao fim do período atual. Você pode gerenciar ou cancelar a assinatura nos ajustes da sua Conta Apple após a compra. Qualquer parte não usada do teste grátis é perdida ao assinar.\n\nTermos de Uso: https://docs.google.com/document/d/1oPBAViX9vr6yOxlsY7fJVCUxvPSQ13UbzhVj8zEmh4I/edit?usp=sharing\nPolítica de Privacidade: https://docs.google.com/document/d/1ABATV-iK8_mFpZOchIgFbftB7yTy30qfYaJr0b5IczA/edit?usp=sharing"
+      },
+      "releaseNotes": "Price Action 2.0 is a complete rebuild.\n\n• Risk:reward, position size calculator, exit price, P&L and results in R\n• New Stats tab: win rate, profit factor, equity curve and stats by tag\n• Tags, chart screenshots and trade reminders\n• Widgets for your open trades\n• Face ID lock and CSV export\n• Prices with comma or dot, and full Portuguese (Brazil) support\n• Faster, more accessible design with Dark Mode and Dynamic Type\n\nYour existing trades are imported automatically.",
+      "icon": "/apps/price-action/icon.webp",
+      "tint": "#B5D2EA",
+      "screens": [
+        {
+          "src": "/apps/price-action/screen-1.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/price-action/screen-2.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/price-action/screen-3.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/price-action/screen-4.webp",
+          "width": 640,
+          "height": 1138
+        }
+      ],
+      "privacy": {
+        "notCollected": false,
+        "notProvided": false,
+        "tracking": [
+          {
+            "category": "IDENTIFIERS",
+            "dataTypes": []
+          }
+        ],
+        "linked": [],
+        "notLinked": []
+      }
+    },
+    {
+      "id": 1395675561,
+      "slug": "work-hour-manager",
+      "name": "Work Hour Manager: Pay Tracker",
+      "nameBR": "Controle de Horas e Ganhos",
+      "url": "https://apps.apple.com/br/app/id1395675561",
+      "genres": {
+        "en": [
+          "Business",
+          "Productivity"
+        ],
+        "pt": [
+          "Negócios",
+          "Produtividade"
+        ]
+      },
+      "releaseDate": "2018-10-16T07:54:49Z",
+      "updatedAt": "2026-09-29T04:15:25Z",
+      "version": "2.0.0",
+      "minimumOsVersion": "18.0",
+      "fileSizeBytes": 14030848,
+      "price": 0,
+      "languages": [
+        "EN",
+        "PT"
+      ],
+      "rating": {
+        "value": 0,
+        "count": 0,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": true,
+      "description": {
+        "en": "Know exactly how much you are earning, second by second.\n\nWork Hour Manager is the simplest way for freelancers, contractors and hourly workers to track time and pay. Tap Start when you begin, tap Stop when you finish, and watch your earnings grow in real time. No account, no setup.\n\nTRACK\n• One tap to clock in and out\n• Live earnings based on your hourly rate\n• Any currency, with each shift keeping the currency it was earned in\n• Add or edit shifts by hand, duplicate a shift or repeat yesterday's in one tap\n\nALWAYS AT HAND\n• Live Activity and Dynamic Island: your running shift on the Lock Screen\n• Home Screen and Lock Screen widgets: today, this week and this month\n• Siri, Shortcuts, Action button and Control Center: \"Start shift in Work Hour Manager\"\n\nUNDERSTAND\n• Reports by week, month and year with charts\n• Total hours and earnings per period\n\nWORK HOUR MANAGER PRO (one-time purchase, no subscription)\n• Full report history\n• Export to CSV and PDF for clients, invoices or your accountant\n\nPrivacy policy and terms: http://bit.ly/workhour-privacy-policy",
+        "pt": "Saiba exatamente quanto você está ganhando, segundo a segundo.\n\nO Controle de Horas é o jeito mais simples de freelancers, autônomos e quem trabalha por hora registrarem tempo e dinheiro. Toque em Iniciar ao começar, em Parar ao terminar, e veja seus ganhos crescerem em tempo real. Sem cadastro e sem configuração.\n\nREGISTRE\n• Um toque para registrar entrada e saída\n• Ganhos ao vivo com base no seu valor por hora\n• Qualquer moeda, e cada turno guarda a moeda em que foi ganho\n• Adicione ou edite turnos, duplique um turno ou repita os de ontem com um toque\n\nSEMPRE À MÃO\n• Live Activity e Dynamic Island: seu turno em andamento na tela bloqueada\n• Widgets na tela inicial e na tela bloqueada: hoje, esta semana e este mês\n• Siri, Atalhos, botão de Ação e Central de Controle: \"Iniciar turno no Controle de Horas\"\n\nENTENDA\n• Relatórios por semana, mês e ano, com gráficos\n• Total de horas e de ganhos por período\n\nCONTROLE DE HORAS PRO (compra única, sem assinatura)\n• Histórico completo de relatórios\n• Exportação em CSV e PDF para clientes, notas ou seu contador\n\nTermos de uso de política de privacidade: http://bit.ly/workhour-privacy-policy"
+      },
+      "releaseNotes": "A big update:\n• Live Activity and Dynamic Island for your running shift\n• Home and Lock Screen widgets\n• Siri, Shortcuts and Control Center to clock in and out\n• New Reports tab with charts\n• CSV and PDF export (Pro)\n• Duplicate shifts and repeat yesterday's shifts\n• Each shift keeps its own currency\n• New icon",
+      "icon": "/apps/work-hour-manager/icon.webp",
+      "tint": "#B5BABF",
+      "screens": [
+        {
+          "src": "/apps/work-hour-manager/screen-1.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/work-hour-manager/screen-2.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/work-hour-manager/screen-3.webp",
+          "width": 640,
+          "height": 1138
+        }
+      ],
+      "privacy": {
+        "notCollected": true,
+        "notProvided": false,
+        "tracking": [],
+        "linked": [],
+        "notLinked": []
+      }
+    },
+    {
+      "id": 6752260529,
+      "slug": "littletube",
+      "name": "LittleTube: Kids Video Player",
+      "nameBR": "LittleTube: Kids Video Player",
+      "url": "https://apps.apple.com/br/app/id6752260529",
+      "genres": {
+        "en": [
+          "Entertainment",
+          "Education"
+        ],
+        "pt": [
+          "Entreteni­mento",
+          "Educação"
+        ]
+      },
+      "releaseDate": "2025-09-23T07:00:00Z",
+      "updatedAt": "2026-09-24T19:39:59Z",
+      "version": "1.2.0",
+      "minimumOsVersion": "15.6",
+      "fileSizeBytes": 20115456,
+      "price": 0,
+      "languages": [
+        "EN"
+      ],
+      "rating": {
+        "value": 5,
+        "count": 2,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": true,
+      "description": {
+        "en": "LittleTube is a video player for kids that plays only the videos you choose.\n\nYou find a video on YouTube, tap Share, and send it to LittleTube. It lands in your child's list. Your child opens LittleTube and sees only what you added. There's no home feed, no Shorts and no algorithm deciding what comes next.\n\nBUILT FOR PARENTS WHO WANT TO STAY IN CHARGE\n• Only your picks: your child's list has only the videos you added\n• Your picks come next: when a video ends, LittleTube shows your other approved videos, not YouTube's suggestions\n• Links locked behind Face ID: tapping a link inside the player asks for a parent's Face ID or passcode before leaving the app. You can also block these links completely\n• Approve before it's added: you can require Face ID before any shared video joins the list\n• Lock settings and profiles with Face ID or your passcode\n\nADDING VIDEOS TAKES ONE TAP\n• Share any video from the YouTube app or Safari straight to LittleTube\n• Titles and descriptions come in automatically\n• Sort videos into groups like \"Bedtime\", \"Music\" or \"Learning\"\n• Search and sort your child's list\n\nLITTLETUBE PRO: FAMILY & CONTROLS\n• A profile for every child, each with their own videos\n• Daily watch time limits per profile (15 minutes to 2 hours). When time is up, the video stops and your child sees \"That's all for today!\". Need a few more minutes? Add 15 with Face ID\n• Unlimited videos and every safety feature above are free for everyone\n\nGOOD TO KNOW\nLittleTube plays videos with YouTube's official embedded player, so YouTube may still show ads during a video. LittleTube is not affiliated with or endorsed by YouTube or Google.\n\nBuilt by a dad, for families. Questions or ideas? Tap Settings → Send Feedback. We read every message.\n\nSUBSCRIPTION\nLittleTube Pro is an auto-renewing subscription. Payment is charged to your Apple ID at purchase confirmation. It renews automatically unless you cancel at least 24 hours before the end of the current period. You can manage or cancel it in your App Store account settings.\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nPrivacy Policy: https://bit.ly/peektube-privacy-policy\n\nVideos shown in screenshots: Caminandes, Big Buck Bunny and Spring © Blender Foundation (CC BY 4.0); Tour of the Moon © NASA.",
+        "pt": "LittleTube is a video player for kids that plays only the videos you choose.\n\nYou find a video on YouTube, tap Share, and send it to LittleTube. It lands in your child's list. Your child opens LittleTube and sees only what you added. There's no home feed, no Shorts and no algorithm deciding what comes next.\n\nBUILT FOR PARENTS WHO WANT TO STAY IN CHARGE\n• Only your picks: your child's list has only the videos you added\n• Your picks come next: when a video ends, LittleTube shows your other approved videos, not YouTube's suggestions\n• Links locked behind Face ID: tapping a link inside the player asks for a parent's Face ID or passcode before leaving the app. You can also block these links completely\n• Approve before it's added: you can require Face ID before any shared video joins the list\n• Lock settings and profiles with Face ID or your passcode\n\nADDING VIDEOS TAKES ONE TAP\n• Share any video from the YouTube app or Safari straight to LittleTube\n• Titles and descriptions come in automatically\n• Sort videos into groups like \"Bedtime\", \"Music\" or \"Learning\"\n• Search and sort your child's list\n\nLITTLETUBE PRO: FAMILY & CONTROLS\n• A profile for every child, each with their own videos\n• Daily watch time limits per profile (15 minutes to 2 hours). When time is up, the video stops and your child sees \"That's all for today!\". Need a few more minutes? Add 15 with Face ID\n• Unlimited videos and every safety feature above are free for everyone\n\nGOOD TO KNOW\nLittleTube plays videos with YouTube's official embedded player, so YouTube may still show ads during a video. LittleTube is not affiliated with or endorsed by YouTube or Google.\n\nBuilt by a dad, for families. Questions or ideas? Tap Settings → Send Feedback. We read every message.\n\nSUBSCRIPTION\nLittleTube Pro is an auto-renewing subscription. Payment is charged to your Apple ID at purchase confirmation. It renews automatically unless you cancel at least 24 hours before the end of the current period. You can manage or cancel it in your App Store account settings.\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nPrivacy Policy: https://bit.ly/peektube-privacy-policy\n\nVideos shown in screenshots: Caminandes, Big Buck Bunny and Spring © Blender Foundation (CC BY 4.0); Tour of the Moon © NASA."
+      },
+      "releaseNotes": "A calmer, safer way to watch — and a brand-new look!\n\n• What's next? Your picks. When a video ends, LittleTube now shows only the videos you approved — no more YouTube suggestions at the end.\n• Smoother player: videos no longer restart when you rotate your device, and the \"Other videos\" list keeps a steady order your kid can learn.\n• Clearer sharing: after sharing a video from YouTube, LittleTube tells you exactly what happens next — added, waiting for your approval, or waiting for space in your list.\n• No more lost or duplicate videos when sharing several at once.\n• Sharper thumbnails on iPhone and iPad.\n• Say hi to our new kangaroo icon! \n• Bug fixes and performance improvements.\n\nBuilt by a dad, for families. Questions or ideas? Tap Settings → Send Feedback - we read every message.",
+      "icon": "/apps/littletube/icon.webp",
+      "tint": "#E5F8EF",
+      "screens": [
+        {
+          "src": "/apps/littletube/screen-1.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/littletube/screen-2.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/littletube/screen-3.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/littletube/screen-4.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/littletube/screen-5.webp",
+          "width": 640,
+          "height": 1391
+        }
+      ],
+      "privacy": {
+        "notCollected": false,
+        "notProvided": false,
+        "tracking": [],
+        "linked": [],
+        "notLinked": [
+          {
+            "purpose": "ANALYTICS",
+            "categories": [
+              {
+                "category": "SEARCH_HISTORY",
+                "dataTypes": [
+                  "Search History"
+                ]
+              },
+              {
+                "category": "USAGE_DATA",
+                "dataTypes": [
+                  "Product Interaction"
+                ]
+              },
+              {
+                "category": "DIAGNOSTICS",
+                "dataTypes": [
+                  "Crash Data",
+                  "Performance Data"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 1515394611,
+      "slug": "stock-calc",
+      "name": "Stock Calc: Average Price",
+      "nameBR": "Stock Calc: Preço Médio",
+      "url": "https://apps.apple.com/br/app/id1515394611",
+      "genres": {
+        "en": [
+          "Finance",
+          "Business"
+        ],
+        "pt": [
+          "Finanças",
+          "Negócios"
+        ]
+      },
+      "releaseDate": "2020-06-10T07:00:00Z",
+      "updatedAt": "2026-09-26T12:55:09Z",
+      "version": "2.0.0",
+      "minimumOsVersion": "17.0",
+      "fileSizeBytes": 14224384,
+      "price": 0,
+      "languages": [
+        "EN",
+        "PT"
+      ],
+      "rating": {
+        "value": 3,
+        "count": 2,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": true,
+      "description": {
+        "en": "Saiba exatamente o preço médio de cada ação, FII, ETF e BDR da sua carteira.\n\nO Stock Calc registra suas compras e vendas e calcula o preço médio automaticamente — incluindo corretagem e emolumentos — para você sempre saber sua posição real.\n\nPREÇO MÉDIO DO JEITO CERTO\n• Preço médio ponderado por ativo, atualizado a cada compra\n• Custos da operação incluídos no preço médio\n• Vendas mantêm o preço médio e mostram o lucro ou prejuízo realizado\n• Cálculo decimal exato, sem surpresas de arredondamento\n\nSIMULE ANTES DE COMPRAR\n• \"Se eu comprar mais 50 a R$ 24, qual será meu preço médio?\"\n• Descubra quantas ações comprar para chegar ao preço médio desejado\n• Transforme a simulação em operação real com um toque\n\nPROVENTOS\n• Registre dividendos, JCP e outros proventos de cada ativo\n• Veja o total recebido e o percentual sobre o custo\n\nSUA CARTEIRA COMPLETA\n• Total investido por moeda (R$, US$, €…) — sem misturar\n• Gráfico de alocação para ver como seu dinheiro está dividido\n• Busque ativos de bolsas do mundo todo ou digite o código\n\nSEUS DADOS NO SEU APARELHO\n• Sem cadastro e sem login — a carteira fica no seu iPhone\n• Bloqueio com Face ID ou Touch ID\n• Backup e restauração, ou exporte para CSV e abra no Excel ou Numbers\n• Importe suas operações de uma planilha (aceita o formato do Excel em português)\n\nFEITO PARA O IPHONE\n• Atalhos e Siri: \"Registrar compra no Stock Calc\"\n• Modo escuro, texto ampliado e VoiceOver\n• Em português e inglês\n\nO Stock Calc é uma ferramenta de cálculo e registro. Não oferece recomendação de investimento.",
+        "pt": "Saiba exatamente o preço médio de cada ação, FII, ETF e BDR da sua carteira.\n\nO Stock Calc registra suas compras e vendas e calcula o preço médio automaticamente — incluindo corretagem e emolumentos — para você sempre saber sua posição real.\n\nPREÇO MÉDIO DO JEITO CERTO\n• Preço médio ponderado por ativo, atualizado a cada compra\n• Custos da operação incluídos no preço médio\n• Vendas mantêm o preço médio e mostram o lucro ou prejuízo realizado\n• Cálculo decimal exato, sem surpresas de arredondamento\n\nSIMULE ANTES DE COMPRAR\n• \"Se eu comprar mais 50 a R$ 24, qual será meu preço médio?\"\n• Descubra quantas ações comprar para chegar ao preço médio desejado\n• Transforme a simulação em operação real com um toque\n\nPROVENTOS\n• Registre dividendos, JCP e outros proventos de cada ativo\n• Veja o total recebido e o percentual sobre o custo\n\nSUA CARTEIRA COMPLETA\n• Total investido por moeda (R$, US$, €…) — sem misturar\n• Gráfico de alocação para ver como seu dinheiro está dividido\n• Busque ativos de bolsas do mundo todo ou digite o código\n\nSEUS DADOS NO SEU APARELHO\n• Sem cadastro e sem login — a carteira fica no seu iPhone\n• Bloqueio com Face ID ou Touch ID\n• Backup e restauração, ou exporte para CSV e abra no Excel ou Numbers\n• Importe suas operações de uma planilha (aceita o formato do Excel em português)\n\nFEITO PARA O IPHONE\n• Atalhos e Siri: \"Registrar compra no Stock Calc\"\n• Modo escuro, texto ampliado e VoiceOver\n• Em português e inglês\n\nO Stock Calc é uma ferramenta de cálculo e registro. Não oferece recomendação de investimento."
+      },
+      "releaseNotes": "O Stock Calc 2.0 foi totalmente refeito:\n• Novo visual, com resumo da carteira e listas mais claras\n• Custos incluídos no preço médio\n• Lucro e prejuízo realizados nas vendas\n• Simulador de compra e cálculo para atingir um preço médio\n• Proventos (dividendos, JCP) por ativo\n• Moeda por ativo e gráfico de alocação\n• Backup, importação/exportação CSV e bloqueio com Face ID\n• Atalhos e Siri\n• Tradução para português\n• Busca mais rápida e confiável, e muitas correções",
+      "icon": "/apps/stock-calc/icon.webp",
+      "tint": "#B5BAC3",
+      "screens": [
+        {
+          "src": "/apps/stock-calc/screen-1.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/stock-calc/screen-2.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/stock-calc/screen-3.webp",
+          "width": 640,
+          "height": 1138
+        }
+      ],
+      "privacy": {
+        "notCollected": false,
+        "notProvided": false,
+        "tracking": [
+          {
+            "category": "IDENTIFIERS",
+            "dataTypes": []
+          }
+        ],
+        "linked": [],
+        "notLinked": []
+      }
+    },
+    {
+      "id": 1454129851,
+      "slug": "buttonboard",
+      "name": "Buttonboard: Meme Soundboard",
+      "nameBR": "Buttonboard: Botões de Meme",
+      "url": "https://apps.apple.com/br/app/id1454129851",
+      "genres": {
+        "en": [
+          "Entertainment",
+          "Music"
+        ],
+        "pt": [
+          "Entreteni­mento",
+          "Música"
+        ]
+      },
+      "releaseDate": "2019-04-30T14:04:35Z",
+      "updatedAt": "2026-09-26T00:24:33Z",
+      "version": "2.0.0",
+      "minimumOsVersion": "17.0",
+      "fileSizeBytes": 12243968,
+      "price": 0,
+      "languages": [
+        "EN",
+        "PT"
+      ],
+      "rating": {
+        "value": 4.375,
+        "count": 8,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": true,
+      "description": {
+        "en": "Tap a button, hear the sound. Buttonboard is the fastest way to drop the perfect meme, reaction or sound effect into any moment.\n\nOVER 9,000 SOUNDS\nMemes, viral clips, games, movies, TV, anime, music, pranks and classic sound effects, organized into categories and shuffled every time you open one, so there is always something new to press.\n\nFIND ANY SOUND IN SECONDS\nSearch every category at once. Search ignores accents and capital letters, so you find what you're looking for even if you don't remember how it's spelled.\n\nYOUR OWN SOUNDBOARD\nTap the star on any button to save it to Favorites. Your go-to sounds stay one tap away, right at the top of the app.\n\nSEND SOUNDS TO YOUR FRIENDS\nTouch and hold any button to share the sound as an audio file through your favorite messaging app, email or AirDrop.\n\nMADE FOR IPHONE AND IPAD\n- Plays even with your phone on silent, without stopping the music from other apps\n- A new tap restarts the sound instantly, just like a real button\n- Bigger grid with more sounds on iPad\n- Light and dark mode\n\nButtonboard is free and supported by ads.",
+        "pt": "Aperte o botão e o som toca na hora. O Buttonboard é o jeito mais rápido de soltar o meme, a reação ou o efeito sonoro perfeito em qualquer momento.\n\nMAIS DE 9 MIL SONS\nMemes, virais, jogos, filmes, TV, animes, música, pegadinhas e efeitos sonoros clássicos, organizados por categoria e embaralhados sempre que você abre uma, para ter sempre algo novo para apertar.\n\nACHE QUALQUER SOM EM SEGUNDOS\nBusque em todas as categorias de uma vez. A busca ignora acentos e maiúsculas, então você encontra o som mesmo sem lembrar como se escreve.\n\nSEU PRÓPRIO SOUNDBOARD\nToque na estrela de qualquer botão para salvá-lo nos Favoritos. Os sons que você mais usa ficam a um toque, logo no topo do app.\n\nMANDE OS SONS PARA OS AMIGOS\nToque e segure qualquer botão para compartilhar o som como arquivo de áudio no seu app de mensagens favorito, por e-mail ou AirDrop.\n\nFEITO PARA IPHONE E IPAD\n- Toca mesmo com o iPhone no silencioso, sem parar a música de outros apps\n- Um novo toque reinicia o som na hora, como um botão de verdade\n- Grade maior, com mais sons, no iPad\n- Modo claro e escuro\n\nO Buttonboard é grátis e mantido por anúncios."
+      },
+      "releaseNotes": "Buttonboard has a whole new look.\n- Redesigned for the latest iOS, with colorful buttons that react to every tap\n- Over 9,000 sounds in categories with icons\n- Search across every category, ignoring accents\n- Touch and hold a button to favorite or share it\n- Denser grid on iPad",
+      "icon": "/apps/buttonboard/icon.webp",
+      "tint": "#C3BAE5",
+      "screens": [
+        {
+          "src": "/apps/buttonboard/screen-1.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/buttonboard/screen-2.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/buttonboard/screen-3.webp",
+          "width": 640,
+          "height": 1138
+        }
+      ],
+      "privacy": {
+        "notCollected": true,
+        "notProvided": false,
+        "tracking": [],
+        "linked": [],
+        "notLinked": []
+      }
+    },
+    {
+      "id": 6752722065,
+      "slug": "aeroexplorer",
+      "name": "AeroExplorer: Flyover Tours",
+      "nameBR": "AeroExplorer: Flyover Tours",
+      "url": "https://apps.apple.com/br/app/id6752722065",
+      "genres": {
+        "en": [
+          "Travel",
+          "Entertainment"
+        ],
+        "pt": [
+          "Viagens",
+          "Entreteni­mento"
+        ]
+      },
+      "releaseDate": "2025-10-03T07:00:00Z",
+      "updatedAt": "2026-09-25T11:06:35Z",
+      "version": "1.2.0",
+      "minimumOsVersion": "18.6",
+      "fileSizeBytes": 8224768,
+      "price": 0,
+      "languages": [
+        "AR",
+        "EN",
+        "FR",
+        "DE",
+        "IT",
+        "JA",
+        "RU"
+      ],
+      "rating": {
+        "value": 5,
+        "count": 1,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": true,
+      "description": {
+        "en": "Discover the world right from your iPhone or iPad with AeroExplorer, your window to beautiful, interactive maps. Fly over breathtaking landscapes, explore random locations, or find yourself on the map — all with a tap. Switch between light and dark modes, customize your map style, and enjoy a smooth, immersive way to explore the world wherever you go.\n\nFeatures:\n- Flyover mode: Experience stunning 3D views of major cities and landmarks\n- Random location: Instantly jump to a new, random spot on Earth\n- Dark & light mode: Choose the look that fits your style or environment\n- Map styles: Switch between standard, satellite, and hybrid maps\n- User location: See where you are and explore your surroundings\n\nAeroExplorer Terms and Privacy Policy\n- Privacy Policy: https://bit.ly/mapflyover-policy-privacy\n- Terms of Service (EULA): https://bit.ly/mapflyover-terms-of-use",
+        "pt": "Discover the world right from your iPhone or iPad with AeroExplorer, your window to beautiful, interactive maps. Fly over breathtaking landscapes, explore random locations, or find yourself on the map — all with a tap. Switch between light and dark modes, customize your map style, and enjoy a smooth, immersive way to explore the world wherever you go.\n\nFeatures:\n- Flyover mode: Experience stunning 3D views of major cities and landmarks\n- Random location: Instantly jump to a new, random spot on Earth\n- Dark & light mode: Choose the look that fits your style or environment\n- Map styles: Switch between standard, satellite, and hybrid maps\n- User location: See where you are and explore your surroundings\n\nAeroExplorer Terms and Privacy Policy\n- Privacy Policy: https://bit.ly/mapflyover-policy-privacy\n- Terms of Service (EULA): https://bit.ly/mapflyover-terms-of-use"
+      },
+      "releaseNotes": "The biggest update yet!\n\n• 21 cinematic tours, including new cities: Sydney, Lisbon, Berlin, Amsterdam, Venice, Chicago and more\n• Fly over any city: type a place and we'll build a tour of its landmarks on the fly\n• \"Which city is this?\": a new quiz where you guess the city from the air\n• Audio guide: each landmark is narrated as you fly over it\n• Landmark names and descriptions now in English, French, German, Italian, Japanese, Russian and Arabic\n• Continue where you left off, or play all tours back to back\n• Record a clip of your flight and share it\n• Night mode: the map goes dark when it's night in the city you're visiting\n• Siri shortcuts: \"Fly over Paris in Map Flyover\"\n\nEnjoy the view!",
+      "icon": "/apps/aeroexplorer/icon.webp",
+      "tint": "#BFDBF3",
+      "screens": [
+        {
+          "src": "/apps/aeroexplorer/screen-1.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/aeroexplorer/screen-2.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/aeroexplorer/screen-3.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/aeroexplorer/screen-4.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/aeroexplorer/screen-5.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/aeroexplorer/screen-6.webp",
+          "width": 640,
+          "height": 1391
+        }
+      ],
+      "privacy": {
+        "notCollected": false,
+        "notProvided": false,
+        "tracking": [],
+        "linked": [],
+        "notLinked": [
+          {
+            "purpose": "ANALYTICS",
+            "categories": [
+              {
+                "category": "USAGE_DATA",
+                "dataTypes": [
+                  "Product Interaction"
+                ]
+              },
+              {
+                "category": "DIAGNOSTICS",
+                "dataTypes": [
+                  "Crash Data",
+                  "Performance Data"
+                ]
+              }
+            ]
+          },
+          {
+            "purpose": "APP_FUNCTIONALITY",
+            "categories": [
+              {
+                "category": "LOCATION",
+                "dataTypes": [
+                  "Coarse Location"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 6772647088,
+      "slug": "speakscroll",
+      "name": "SpeakScroll: Teleprompter",
+      "nameBR": "SpeakScroll: Leitor de Roteiro",
+      "url": "https://apps.apple.com/br/app/id6772647088",
+      "genres": {
+        "en": [
+          "Photo & Video",
+          "Productivity"
+        ],
+        "pt": [
+          "Foto e vídeo",
+          "Produtividade"
+        ]
+      },
+      "releaseDate": "2026-06-01T07:00:00Z",
+      "updatedAt": "2026-09-25T22:29:50Z",
+      "version": "1.2.0",
+      "minimumOsVersion": "26.0",
+      "fileSizeBytes": 8357888,
+      "price": 0,
+      "languages": [
+        "EN",
+        "PT"
+      ],
+      "rating": {
+        "value": 0,
+        "count": 0,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": false,
+      "description": {
+        "en": "SpeakScroll turns your iPhone into a teleprompter and camera in one. Read your script while looking straight into the lens, and record polished takes without memorizing a word.\n\nBuilt for creators, founders, teachers, coaches and anyone who films talking-head video.\n\nREAD NATURALLY\n• Your script scrolls over the live camera, right where your eyes need to be\n• Drag the text box anywhere and resize it to match your eye line\n• Adjust scroll speed, text size, color and background\n• Pause and drag the text to pick your starting point\n• Mirror mode for beam-splitter teleprompter rigs\n\nVOICE SCROLL\n• Turn it on and the script follows you as you speak, with no speed to set\n• Speech recognition runs entirely on your iPhone; your voice never leaves it\n\nRECORD IN ONE TAP\n• 3-2-1 countdown, then recording and scrolling start together\n• Front or rear camera, saved straight to Photos\n• Watch the take right away in the app\n\nYOUR SCRIPT LIBRARY\n• Save, edit and switch between scripts\n• Paste from anywhere or import text, Markdown, RTF and PDF files\n• See word count and estimated reading time\n• Add cues like [pause] or [smile]; they're highlighted so you never read them aloud\n\nHANDS-FREE CONTROL\n• Keyboard and Bluetooth page-turner remotes: play, pause, move through the script and change speed\n• Siri and Shortcuts: \"Start SpeakScroll\", open your scripts or create a new one\n\nPRIVATE BY DESIGN\n• No account, no sign-up\n• Your scripts and your voice stay on your device\n\nAvailable in English and Brazilian Portuguese.",
+        "pt": "O SpeakScroll transforma seu iPhone em teleprompter e câmera ao mesmo tempo. Leia seu roteiro olhando direto para a lente e grave takes impecáveis sem decorar nenhuma palavra.\n\nFeito para criadores de conteúdo, empreendedores, professores, mentores e qualquer pessoa que grava vídeos falando para a câmera.\n\nLEIA COM NATURALIDADE\n• O roteiro rola sobre a imagem da câmera, bem onde seus olhos precisam estar\n• Arraste o quadro de texto para qualquer lugar e ajuste o tamanho à altura do seu olhar\n• Ajuste velocidade, tamanho do texto, cor e fundo\n• Pause e arraste o texto para escolher onde começar\n• Modo espelhado para teleprompters com vidro\n\nVOICE SCROLL\n• Ative e o roteiro acompanha você enquanto fala, sem precisar ajustar velocidade\n• O reconhecimento de fala acontece todo no seu iPhone; sua voz não sai do aparelho\n\nGRAVE COM UM TOQUE\n• Contagem 3-2-1, e a gravação e a rolagem começam juntas\n• Câmera frontal ou traseira, com o vídeo salvo direto no Fotos\n• Assista ao take na hora, dentro do app\n\nSUA BIBLIOTECA DE ROTEIROS\n• Salve, edite e troque de roteiro quando quiser\n• Cole de qualquer lugar ou importe arquivos de texto, Markdown, RTF e PDF\n• Veja a contagem de palavras e o tempo estimado de leitura\n• Adicione marcações como [pausa] ou [sorria]; elas ficam destacadas para você não ler em voz alta\n\nCONTROLE SEM AS MÃOS\n• Teclado e controles Bluetooth de passar página: reproduzir, pausar, navegar pelo roteiro e mudar a velocidade\n• Siri e Atalhos: \"Iniciar o SpeakScroll\", abrir seus roteiros ou criar um novo\n\nPRIVACIDADE EM PRIMEIRO LUGAR\n• Sem conta, sem cadastro\n• Seus roteiros e sua voz ficam no seu aparelho\n\nDisponível em português e inglês."
+      },
+      "releaseNotes": "A big update to help you record better takes, faster.\n\nNEW\n• Voice Scroll: the script follows your speech. On-device, so your voice never leaves your iPhone.\n• Siri & Shortcuts: start the teleprompter, open your scripts or create a new one by voice.\n• Keyboard and Bluetooth remote control.\n• Import Markdown, RTF and PDF files, in addition to plain text.\n• Cue markers like [pause] are highlighted in your script.\n• Word count and estimated reading time for every script.\n• Now in Brazilian Portuguese.\n• Refreshed controls with the new iOS design.\n\nIMPROVED\n• Smoother scrolling that uses less battery.\n• Landscape videos are now saved the right way up.\n• The microphone is only on while you record.\n• If a video can't be saved to Photos, it's kept in the Files app instead of being lost.\n• Better VoiceOver support.\n\nFIXED\n• Editing your current script no longer creates duplicate copies in your library.\n• Some text colors no longer reset to white.\n• Scrolling now stops at the end of the script. Press play to start again from the top.",
+      "icon": "/apps/speakscroll/icon.webp",
+      "tint": "#CDC8FD",
+      "screens": [
+        {
+          "src": "/apps/speakscroll/screen-1.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/speakscroll/screen-2.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/speakscroll/screen-3.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/speakscroll/screen-4.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/speakscroll/screen-5.webp",
+          "width": 640,
+          "height": 1391
+        }
+      ],
+      "privacy": {
+        "notCollected": false,
+        "notProvided": false,
+        "tracking": [],
+        "linked": [],
+        "notLinked": [
+          {
+            "purpose": "APP_FUNCTIONALITY",
+            "categories": [
+              {
+                "category": "DIAGNOSTICS",
+                "dataTypes": [
+                  "Crash Data"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 1484146441,
+      "slug": "editais",
+      "name": "Editais - Brazilian Contests",
+      "nameBR": "Radar de Concursos Públicos",
+      "url": "https://apps.apple.com/br/app/id1484146441",
+      "genres": {
+        "en": [
+          "News",
+          "Reference"
+        ],
+        "pt": [
+          "Notícias",
+          "Referência"
+        ]
+      },
+      "releaseDate": "2019-10-26T07:00:00Z",
+      "updatedAt": "2026-09-29T03:35:16Z",
+      "version": "2.2.0",
+      "minimumOsVersion": "17.0",
+      "fileSizeBytes": 11404288,
+      "price": 0,
+      "languages": [
+        "PT"
+      ],
+      "rating": {
+        "value": 5,
+        "count": 1,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": false,
+      "description": {
+        "en": "Find Brazilian public-sector exams (concursos públicos) and selection processes that are open for registration, and never miss a deadline.\n\nEvery day, Radar reads municipal official gazettes and the federal Diário Oficial da União (DOU) and gathers the published notices in a single list, sorted by registration deadline.\n\nFIND THE RIGHT EXAM\n• Search by agency, city or job title\n• Filter by state, level (municipal or federal), type and minimum salary\n• See what closes this week, what is open now and what opens soon\n• Sort by nearest deadline, highest salary, most openings or newest\n\nEVERYTHING ABOUT THE NOTICE\n• Registration period, salary and number of openings\n• Excerpt from the official gazette with a link to the notice and registration page\n• Share an exam with friends\n\nFOLLOW AND GET REMINDERS\n• Follow the exams you care about\n• Reminders 3 days and 1 day before registration closes, and on the day it opens\n• Create an alert by state and salary and hear about new exams\n\nFREE TO BROWSE\nThe list, search, filters and details are free. The free plan lets you follow up to 5 exams and set 1 new-exam alert, delivered as a daily digest.\n\nRADAR PREMIUM (monthly or yearly subscription)\n• Follow unlimited exams\n• Unlimited new-exam alerts, sent as soon as the app finds the notice\n• Full history of the exams you have opened\n\nThe app is in Brazilian Portuguese. Data is extracted automatically from official gazettes; always check the official notice. The app is not affiliated with any government agency or exam board.",
+        "pt": "Encontre concursos públicos e processos seletivos com inscrições abertas e não perca nenhum prazo.\n\nTodos os dias, o Radar lê os diários oficiais das prefeituras e o Diário Oficial da União (DOU) e reúne os editais publicados numa lista só, organizada pelo prazo de inscrição.\n\nENCONTRE O CONCURSO CERTO\n• Busque por órgão, cidade ou cargo\n• Filtre por estado, esfera (municipal ou federal), tipo e salário mínimo\n• Veja primeiro o que encerra esta semana, o que está com inscrições abertas e o que abre em breve\n• Ordene por prazo mais próximo, maior salário, mais vagas ou mais recentes\n\nTUDO SOBRE O EDITAL\n• Período de inscrição, salário e número de vagas\n• Trecho do diário oficial com link para o edital e a inscrição\n• Compartilhe um concurso com quem também está estudando\n\nACOMPANHE E RECEBA LEMBRETES\n• Acompanhe os concursos que interessam a você\n• Lembrete 3 dias e 1 dia antes do fim das inscrições, e no dia em que elas abrem\n• Crie um alerta por estado e salário e saiba quando aparecer um concurso novo\n\nGRÁTIS PARA CONSULTAR\nLista, busca, filtros e detalhes são grátis. No plano grátis você acompanha até 5 concursos e tem 1 alerta de novos concursos, com resumo diário.\n\nRADAR PREMIUM (assinatura mensal ou anual)\n• Acompanhe quantos concursos quiser\n• Alertas de novos concursos ilimitados, avisados assim que o app encontra o edital\n• Histórico completo dos concursos que você já abriu\n\nOs dados são extraídos automaticamente dos diários oficiais. Confira sempre o edital. O app não tem vínculo com órgãos públicos nem com bancas organizadoras."
+      },
+      "releaseNotes": "Radar has been rebuilt from scratch: a fresh design and exams updated every day from official gazettes.\n\n• Search by agency, city or job title and filter by state, salary and deadline\n• Following (Acompanhando): your saved exams are kept, now with a countdown to the deadline\n• Deadline reminders and new-exam alerts\n• Radar Premium (optional): follow exams and create alerts without limits",
+      "icon": "/apps/editais/icon.webp",
+      "tint": "#BAD7D7",
+      "screens": [
+        {
+          "src": "/apps/editais/screen-1.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/editais/screen-2.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/editais/screen-3.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/editais/screen-4.webp",
+          "width": 640,
+          "height": 1138
+        }
+      ],
+      "privacy": {
+        "notCollected": true,
+        "notProvided": false,
+        "tracking": [],
+        "linked": [],
+        "notLinked": []
+      }
+    },
+    {
+      "id": 6759080666,
+      "slug": "offchat-ai",
+      "name": "OffChat: Offline Travel AI",
+      "nameBR": "OffChat: IA de Viagem Offline",
+      "url": "https://apps.apple.com/br/app/id6759080666",
+      "genres": {
+        "en": [
+          "Travel",
+          "Productivity"
+        ],
+        "pt": [
+          "Viagens",
+          "Produtividade"
+        ]
+      },
+      "releaseDate": "2026-02-19T08:00:00Z",
+      "updatedAt": "2026-09-26T13:12:37Z",
+      "version": "1.1.0",
+      "minimumOsVersion": "26.0",
+      "fileSizeBytes": 21417984,
+      "price": 0,
+      "languages": [
+        "EN",
+        "PT"
+      ],
+      "rating": {
+        "value": 0,
+        "count": 0,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": true,
+      "description": {
+        "en": "No Wi‑Fi on the plane? No roaming abroad? OffChat is an AI travel assistant that keeps working when the internet doesn't.\n\nPrepare while you're online, then use everything offline: ask questions, check your flight and hotel details, convert prices and show key phrases to locals.\n\nGET READY BEFORE YOU FLY\n• A \"Ready to fly\" checklist shows what is saved on your iPhone and what still needs internet.\n• The assistant runs on your device: Apple Intelligence when available, or OffChat's own offline model (a one-time 1.1 GB download on Wi‑Fi).\n\nAN ASSISTANT THAT KNOWS YOUR TRIP\n• Save your destination, dates, flights, accommodation and notes.\n• Share a booking confirmation from Mail or Safari straight into your trip.\n• Ask \"Summarize my trip plan\" or \"What should I pack?\" and get answers based on what you saved.\n\nPLAN ONLINE, USE IT OFFLINE\n• When you're connected, the assistant finds real places with Apple Maps — names, addresses and coordinates — for your itinerary.\n• Save the answer to your trip: plans and places stay on your iPhone for when you're offline.\n\nTRAVEL TOOLS THAT WORK OFFLINE\n• Currency converter with the latest European Central Bank reference rates saved on your device.\n• Translation with Apple's on-device translation (download the language before you go).\n• Essential phrases for restaurants, taxis, hotels and emergencies, saved in your destination's language and shown in large text.\n\nQUICK ACCESS\n• Widget with your readiness and trip countdown.\n• Siri and Shortcuts: \"Ask OffChat\", \"Convert currency with OffChat\", \"Is OffChat ready to fly?\"\n\nPRIVATE BY DESIGN\n• Offline, answers are generated on your iPhone or iPad. Your chats, trips and phrases are stored only on your device.\n• Online mode (you can turn it off) searches places with Apple Maps and, on iOS 27, can use Apple's Private Cloud Compute.\n• Optional anonymous usage statistics never include what you type.\n\nGOOD TO KNOW\n• Requires iOS 26 or later.\n• The assistant can't check live information such as flight status, weather or prices. For visas and entry rules, confirm with official sources.\n• Exchange rates are reference rates; card and exchange-office rates will differ.",
+        "pt": "Sem Wi‑Fi no avião? Sem roaming no exterior? O OffChat é um assistente de viagem com IA que continua funcionando quando a internet não funciona.\n\nPrepare tudo enquanto está online e use offline: faça perguntas, consulte os dados do seu voo e hotel, converta preços e mostre frases essenciais para quem estiver à sua frente.\n\nPREPARE-SE ANTES DE EMBARCAR\n• Um checklist \"Pronto para voar\" mostra o que já está salvo no seu iPhone e o que ainda precisa de internet.\n• O assistente roda no seu aparelho: Apple Intelligence quando disponível, ou o modelo offline do OffChat (download único de 1,1 GB pelo Wi‑Fi).\n\nUM ASSISTENTE QUE CONHECE A SUA VIAGEM\n• Salve destino, datas, voos, hospedagem e anotações.\n• Compartilhe uma confirmação de reserva do Mail ou do Safari direto para a viagem.\n• Pergunte \"Resuma o plano da minha viagem\" ou \"O que devo levar na mala?\" e receba respostas com base no que você salvou.\n\nPLANEJE ONLINE, USE OFFLINE\n• Quando há conexão, o assistente encontra lugares reais com o Apple Maps — nomes, endereços e coordenadas — para o seu roteiro.\n• Salve a resposta na viagem: planos e lugares ficam no seu iPhone para quando você estiver offline.\n\nFERRAMENTAS DE VIAGEM QUE FUNCIONAM OFFLINE\n• Conversor de moedas com as últimas taxas de referência do Banco Central Europeu salvas no aparelho.\n• Tradução com a tradução no aparelho da Apple (baixe o idioma antes de viajar).\n• Frases essenciais para restaurantes, táxis, hotéis e emergências, salvas no idioma do destino e exibidas em letras grandes.\n\nACESSO RÁPIDO\n• Widget com o status de preparo e a contagem regressiva da viagem.\n• Siri e Atalhos: \"Perguntar ao OffChat\", \"Converter moeda com o OffChat\", \"O OffChat está pronto para voar?\"\n\nPRIVADO POR NATUREZA\n• Offline, as respostas são geradas no seu iPhone ou iPad. Suas conversas, viagens e frases ficam salvas só no seu aparelho.\n• O modo online (que você pode desativar) busca lugares no Apple Maps e, no iOS 27, pode usar o Private Cloud Compute da Apple.\n• As estatísticas de uso anônimas são opcionais e nunca incluem o que você digita.\n\nBOM SABER\n• Requer iOS 26 ou posterior.\n• O assistente não consulta informações em tempo real, como status de voo, clima ou preços. Para vistos e regras de entrada, confirme em fontes oficiais.\n• As cotações são taxas de referência; as taxas do cartão e das casas de câmbio serão diferentes."
+      },
+      "releaseNotes": "A new OffChat, built for travel:\n• \"Ready to fly\" checklist to prepare everything before losing connection\n• Trip details the assistant uses to answer offline\n• Offline currency converter, translation and essential phrases\n• Chat history, Stop button and clearer error messages\n• Widget, Siri and Shortcuts, and share-to-trip from Mail and Safari\n• Better offline model for devices without Apple Intelligence\n• Portuguese (Brazil) support and a new icon",
+      "icon": "/apps/offchat-ai/icon.webp",
+      "tint": "#BFBFD2",
+      "screens": [
+        {
+          "src": "/apps/offchat-ai/screen-1.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/offchat-ai/screen-2.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/offchat-ai/screen-3.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/offchat-ai/screen-4.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/offchat-ai/screen-5.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/offchat-ai/screen-6.webp",
+          "width": 640,
+          "height": 1391
+        }
+      ],
+      "privacy": {
+        "notCollected": false,
+        "notProvided": false,
+        "tracking": [],
+        "linked": [],
+        "notLinked": [
+          {
+            "purpose": "ANALYTICS",
+            "categories": [
+              {
+                "category": "USAGE_DATA",
+                "dataTypes": [
+                  "Product Interaction"
+                ]
+              },
+              {
+                "category": "DIAGNOSTICS",
+                "dataTypes": [
+                  "Crash Data"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 6751415745,
+      "slug": "unsaid",
+      "name": "Unsaid: Party Word Game",
+      "nameBR": "Unsaid: Jogo de Palavras",
+      "url": "https://apps.apple.com/br/app/id6751415745",
+      "genres": {
+        "en": [
+          "Games",
+          "Family",
+          "Word",
+          "Entertainment"
+        ],
+        "pt": [
+          "Jogos",
+          "Família",
+          "Palavras",
+          "Entreteni­mento"
+        ]
+      },
+      "releaseDate": "2026-09-30T07:00:00Z",
+      "updatedAt": "2026-09-30T11:21:26Z",
+      "version": "1.0.0",
+      "minimumOsVersion": "26.0",
+      "fileSizeBytes": 12855296,
+      "price": 0,
+      "languages": [
+        "EN",
+        "FR",
+        "DE",
+        "IT",
+        "PT",
+        "ES"
+      ],
+      "rating": {
+        "value": 0,
+        "count": 0,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": true,
+      "description": {
+        "en": "Describe the word. Dodge the forbidden ones.\n\nSplit into teams, pass the phone and get your team to guess the word on the card — without saying any of the forbidden words. The other team is watching: slip up and you lose a point!\n\nMADE FOR PLAYING TOGETHER\n\n• 2 to 4 teams, with automatic rotation of who explains\n• A \"pass the phone\" screen between turns so nobody peeks\n• Auto-pause when a call comes in\n• Scores, party stats and an MVP for every game\n\nGAME MODES\n\n• Classic — 60-second turns, first to 30 points\n• Quick Match — 3 fast rounds of 45 seconds\n• Party — streaks earn combo bonus points\n• Sudden Death — say a forbidden word and your turn is over\n• No Timer — relaxed play, perfect with kids\n• Custom — set every rule yourself\n\nTONS OF WORDS, SIX LANGUAGES\n\n• 6,600 original cards in English, Brazilian Portuguese, Spanish, French, German and Italian\n• Decks for everyday words, food, kids & family, movies & TV, music, internet & memes, sports, travel, jobs, office life and parties\n• Four difficulty levels\n• Build your own decks and share them with friends\n\nNO STRINGS ATTACHED\n\n• Works completely offline\n• No account, no ads, no tracking\n• Free to play. Plus is a one-time purchase (no subscription) that unlocks every deck and unlimited custom decks, with Family Sharing\n\nPerfect for parties, family gatherings, road trips and game night.",
+        "pt": "Explique a palavra. Fuja das proibidas.\n\nDivida a galera em times, passe o celular e descreva a palavra da carta para o seu time adivinhar — sem usar nenhuma das palavras proibidas. O outro time fica de olho: escorregou, perdeu ponto!\n\nFEITO PARA JOGAR JUNTO\n\n• De 2 a 4 times, com rodízio automático de quem explica\n• Tela \"passe o celular\" entre os turnos, para ninguém espiar\n• Pausa automática se tocar o telefone\n• Placar, estatísticas da partida e o craque da rodada\n\nMODOS DE JOGO\n\n• Clássico — turnos de 60s, quem chegar a 30 pontos vence\n• Partida Rápida — 3 rodadas de 45s\n• Festa — combos dão pontos extras\n• Morte Súbita — falou palavra proibida, acabou o turno\n• Sem Tempo — perfeito com crianças\n• Personalizado — você define todas as regras\n\nMUITAS PALAVRAS, VÁRIOS IDIOMAS\n\n• 6.600 cartas originais em português do Brasil, inglês, espanhol, francês, alemão e italiano\n• Decks de clássico, comida, crianças e família, filmes e séries, música, internet e memes, esportes, viagens, profissões, escritório e festa\n• Quatro níveis de dificuldade\n• Crie seus próprios decks e compartilhe com os amigos\n\nSEM PEGADINHAS\n\n• Funciona totalmente offline\n• Sem conta, sem anúncios, sem rastreamento\n• Grátis para jogar; o Plus é uma compra única (sem assinatura) com todos os decks e decks próprios ilimitados, compatível com o Compartilhamento Familiar\n\nIdeal para festas, reuniões de família, churrasco, viagens e aquela noite de jogos com os amigos."
+      },
+      "releaseNotes": "",
+      "icon": "/apps/unsaid/icon.webp",
+      "tint": "#FDFDFD",
+      "screens": [
+        {
+          "src": "/apps/unsaid/screen-1.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/unsaid/screen-2.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/unsaid/screen-3.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/unsaid/screen-4.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/unsaid/screen-5.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/unsaid/screen-6.webp",
+          "width": 640,
+          "height": 1391
+        }
+      ],
+      "privacy": {
+        "notCollected": true,
+        "notProvided": false,
+        "tracking": [],
+        "linked": [],
+        "notLinked": []
+      }
+    },
+    {
+      "id": 6772645489,
+      "slug": "gallery-optimizer",
+      "name": "Photo Cleanup - Free Up Space",
+      "nameBR": "Photo Cleanup - Limpar Fotos",
+      "url": "https://apps.apple.com/br/app/id6772645489",
+      "genres": {
+        "en": [
+          "Photo & Video",
+          "Utilities"
+        ],
+        "pt": [
+          "Foto e vídeo",
+          "Utilidades"
+        ]
+      },
+      "releaseDate": "2026-06-08T07:00:00Z",
+      "updatedAt": "2026-09-26T01:24:16Z",
+      "version": "1.1.0",
+      "minimumOsVersion": "26.5",
+      "fileSizeBytes": 6523904,
+      "price": 0,
+      "languages": [
+        "EN",
+        "PT"
+      ],
+      "rating": {
+        "value": 0,
+        "count": 0,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": true,
+      "description": {
+        "en": "Your iPhone is full of photos you don't need. Photo Cleanup finds them in seconds — and helps you delete them without fear.\nDuplicates from sharing the same photo across apps. Burst sequences where you only kept the best one. Screenshots and screen recordings from last year. Blurry shots you forgot to delete. Videos taking up gigabytes.\nPhoto Cleanup scans your library on-device and shows you exactly what's worth cleaning — grouped, sorted by size, and pre-selected so you can free up space in one tap instead of swiping through thousands of photos.\nWHAT PHOTO CLEANUP FINDS\n\nDuplicate photos saved multiple times\nSimilar shots and burst sequences\nBlurry or out-of-focus photos\nScreenshots and screen recordings cluttering your library\nLarge videos eating gigabytes\n\nHOW IT WORKS\n\nOpen the app and grant photo access\nScan your library — see exactly how much space is recoverable\nReview what we found, deselect anything you want to keep\nTap delete. Photos move to Recently Deleted and can be restored for 30 days\n\nEVERYTHING HAPPENS ON YOUR IPHONE\nPhoto Cleanup never uploads your photos. There's no account, no cloud, no server, and the app makes no network connections of its own. All scanning, detection and analysis runs on your device. Performance reports stay on your iPhone and are only shared if you export them.\nBuilt by an independent iOS developer who got tired of janky cleanup apps. No tracking SDKs. No ads. No weekly subscriptions.\n\nPRICING\nScanning and reviewing are always free, and you can clean up to 1 GB for free. Photo Cleanup Pro unlocks unlimited cleanup — pay once for lifetime access, or choose a yearly plan. No trials that convert on their own.\n\nTerms of Use: https://docs.google.com/document/d/1RATD0zT7HRz3WiscNsU4FPnvOYC5pqSd_QgPwB_CZIU/edit?usp=sharing\nPrivacy Policy: https://docs.google.com/document/d/1qb_PawI2oKZnZ6FcHNxFsfIFrcc-onQkVyyewdvizsM/edit?usp=sharing",
+        "pt": "Seu iPhone está cheio de fotos que você não precisa. O Photo Cleanup encontra todas em segundos — e ajuda você a apagá-las sem medo.\nDuplicadas de tanto compartilhar a mesma foto entre apps. Sequências burst em que você só queria a melhor. Capturas e gravações de tela do ano passado. Fotos borradas que você esqueceu de apagar. Vídeos ocupando gigabytes.\nO Photo Cleanup analisa sua biblioteca no próprio aparelho e mostra exatamente o que vale a pena limpar — agrupado, ordenado por tamanho e pré-selecionado para você liberar espaço com um toque, em vez de passar por milhares de fotos.\nO QUE O PHOTO CLEANUP ENCONTRA\n\nFotos duplicadas salvas várias vezes\nFotos parecidas e sequências burst\nFotos borradas ou fora de foco\nCapturas e gravações de tela acumuladas\nVídeos grandes ocupando gigabytes\n\nCOMO FUNCIONA\n\nAbra o app e permita o acesso às fotos\nAnalise sua biblioteca — veja quanto espaço dá para recuperar\nRevise o que encontramos e desmarque o que quiser manter\nToque em apagar. As fotos vão para Apagados e podem ser restauradas por 30 dias\n\nTUDO ACONTECE NO SEU IPHONE\nO Photo Cleanup nunca envia suas fotos. Não há conta, nuvem ou servidor, e o app não faz nenhuma conexão de rede própria. Toda a análise e detecção roda no seu aparelho. Os relatórios de desempenho ficam no seu iPhone e só são compartilhados se você exportá-los.\nFeito por um desenvolvedor iOS independente, cansado de apps de limpeza ruins. Sem SDKs de rastreamento. Sem anúncios. Sem assinaturas semanais.\n\nPREÇOS\nAnalisar e revisar é sempre grátis, e você pode limpar até 1 GB sem pagar. O Photo Cleanup Pro libera limpeza ilimitada — pague uma vez para acesso vitalício ou escolha o plano anual. Sem testes que viram cobrança sozinhos.\n\nTermos de Uso: https://docs.google.com/document/d/1RATD0zT7HRz3WiscNsU4FPnvOYC5pqSd_QgPwB_CZIU/edit?usp=sharing\nPolítica de Privacidade: https://docs.google.com/document/d/1qb_PawI2oKZnZ6FcHNxFsfIFrcc-onQkVyyewdvizsM/edit?usp=sharing"
+      },
+      "releaseNotes": "Gallery Optimizer is now Photo Cleanup — same app, faster and smarter.\n\n• Much faster, smoother scans: analysis now runs entirely in the background\n• Blurry photo detection rebuilt and far more accurate\n• New: Screen recordings category\n• Fixed: large-video size setting now works, cancelling a scan no longer gets stuck\n• Deleting no longer rescans your whole library\n• Now in Brazilian Portuguese, with better VoiceOver and larger text support\n• Photo Cleanup Pro: 1 GB of cleanup free, then unlimited with a one-time or yearly purchase\n• New app icon",
+      "icon": "/apps/gallery-optimizer/icon.webp",
+      "tint": "#B5E0D2",
+      "screens": [
+        {
+          "src": "/apps/gallery-optimizer/screen-1.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/gallery-optimizer/screen-2.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/gallery-optimizer/screen-3.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/gallery-optimizer/screen-4.webp",
+          "width": 640,
+          "height": 1391
+        }
+      ],
+      "privacy": {
+        "notCollected": false,
+        "notProvided": false,
+        "tracking": [],
+        "linked": [],
+        "notLinked": [
+          {
+            "purpose": "ANALYTICS",
+            "categories": [
+              {
+                "category": "DIAGNOSTICS",
+                "dataTypes": [
+                  "Crash Data"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

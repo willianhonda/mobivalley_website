@@ -3,9 +3,13 @@ import { Contours } from "@/components/Contours";
 import { CopyEmail } from "@/components/CopyEmail";
 import { Logo } from "@/components/Logo";
 import { Accent } from "@/components/Section";
+import { getDictionary } from "@/lib/dictionary";
+import type { Locale } from "@/lib/i18n";
 import { mailto } from "@/lib/site";
 
-export function ContactCta() {
+export function ContactCta({ locale }: { locale: Locale }) {
+  const d = getDictionary(locale);
+  const t = d.cta;
   return (
     <section
       id="contato"
@@ -24,22 +28,21 @@ export function ContactCta() {
           id="contato-title"
           className="text-balance mt-10 text-[2.6rem] leading-[1.02] font-semibold tracking-[-0.045em] sm:text-6xl lg:text-7xl"
         >
-          Tem uma ideia?{" "}
+          {t.title}{" "}
           <span className="block">
             <Accent>
-              Vamos <span className="whitespace-nowrap">transformá-la</span> em produto.
+              {t.accentBefore}
+              <span className="whitespace-nowrap">{t.accentNowrap}</span>
+              {t.accentAfter}
             </Accent>
           </span>
         </h2>
-        <p className="mx-auto mt-7 max-w-xl text-lg leading-relaxed text-pretty text-fog">
-          Conte o que você quer construir. A Mobivalley ajuda da estratégia e do desenho do produto ao
-          desenvolvimento, à publicação e às próximas versões.
-        </p>
+        <p className="mx-auto mt-7 max-w-xl text-lg leading-relaxed text-pretty text-fog">{t.lead}</p>
         <div className="mt-11 flex flex-col items-center gap-4">
-          <Button href={mailto()} size="lg">
-            Fale com a Mobivalley
+          <Button href={mailto(d.meta.mailSubject)} size="lg">
+            {t.button}
           </Button>
-          <CopyEmail />
+          <CopyEmail t={{ copy: t.copy, copied: t.copied }} />
         </div>
       </div>
     </section>

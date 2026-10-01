@@ -70,3 +70,14 @@ export function SectionHeader({
 export function Accent({ children }: { children: ReactNode }) {
   return <em className="font-serif font-normal tracking-[-0.01em] italic">{children}</em>;
 }
+
+/** Renders a dictionary title of the form { before, accent, after }. */
+export function Titled({ t }: { t: { before: string; accent: string; after: string } }) {
+  return (
+    <>
+      {t.before}
+      <Accent>{t.accent}</Accent>
+      {t.after}
+    </>
+  );
+}

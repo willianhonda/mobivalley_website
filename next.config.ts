@@ -7,6 +7,8 @@ const nextConfig: NextConfig = {
   // Images are pre-optimized to WebP by scripts/, so no runtime optimizer is needed.
   images: { unoptimized: true },
   poweredByHeader: false,
+  // Two root layouts (Portuguese and English) need a global 404 page.
+  experimental: { globalNotFound: true },
 };
 
 export default nextConfig;

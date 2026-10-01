@@ -1,27 +1,9 @@
-import { Accent, Section, SectionHeader } from "@/components/Section";
+import { Section, SectionHeader, Titled } from "@/components/Section";
+import { getFeatured } from "@/lib/apps";
+import { getDictionary } from "@/lib/dictionary";
+import type { Locale } from "@/lib/i18n";
 
-const steps = [
-  {
-    title: "Descoberta",
-    text: "Entendemos o problema, o objetivo do negócio e quem vai usar o produto. Antes de qualquer tela, definimos o que precisa dar certo.",
-  },
-  {
-    title: "Estratégia",
-    text: "Definimos escopo, arquitetura e prioridades. O resultado é um plano enxuto, com um MVP que chega cedo às mãos dos usuários.",
-  },
-  {
-    title: "Desenvolvimento",
-    text: "Design e código andam juntos, em ciclos curtos, com versões testáveis desde as primeiras semanas.",
-  },
-  {
-    title: "Lançamento",
-    text: "Preparamos a publicação: página na loja, capturas de tela, revisão da Apple, assinaturas e monitoramento.",
-  },
-  {
-    title: "Evolução",
-    text: "Medimos, lemos as avaliações e melhoramos. Foi assim que o Place Guesser chegou à versão 1.62.",
-  },
-];
+
 
 // Where each step sits on the valley curve (percent of the curve box).
 const points = [
@@ -48,20 +30,19 @@ function curve(pts: { x: number; y: number }[]) {
   return d;
 }
 
-export function Process() {
+export function Process({ locale }: { locale: Locale }) {
+  const t = getDictionary(locale).process;
+  const version = getFeatured(locale).store.version;
+  const steps = t.steps.map((s) => ({ ...s, text: s.text.replace("{version}", version) }));
   return (
     <Section id="processo" labelledBy="processo-title" className="overflow-hidden">
       <div aria-hidden className="grid-lines absolute inset-0 -z-10 [mask-image:radial-gradient(ellipse_at_center,black,transparent_70%)]" />
 
       <SectionHeader
         id="processo-title"
-        eyebrow="Como trabalhamos"
-        title={
-          <>
-            Um caminho claro, <Accent>da ideia ao produto</Accent>.
-          </>
-        }
-        lead="Todo produto atravessa um vale entre a ideia e o lançamento. Nosso processo existe para cruzá-lo com método, entregas frequentes e decisões baseadas em evidências."
+        eyebrow={t.eyebrow}
+        title={<Titled t={t.title} />}
+        lead={t.lead}
       />
 
       {/* desktop: the five steps laid out along the valley */}

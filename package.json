@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "brand": "node scripts/build-brand.mjs",
-    "apps:assets": "node scripts/fetch-app-assets.mjs"
+    "apps:sync": "node scripts/sync-apps.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.48.0",

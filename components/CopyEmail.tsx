@@ -5,13 +5,13 @@ import { Check, Copy } from "lucide-react";
 import { site } from "@/lib/site";
 
 /** Shows the contact e-mail with a one-click copy, for people without a mail client. */
-export function CopyEmail() {
+export function CopyEmail({ t }: { t: { copy: string; copied: string } }) {
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     if (!copied) return;
-    const t = setTimeout(() => setCopied(false), 2200);
-    return () => clearTimeout(t);
+    const timer = setTimeout(() => setCopied(false), 2200);
+    return () => clearTimeout(timer);
   }, [copied]);
 
   async function copy() {
@@ -37,9 +37,9 @@ export function CopyEmail() {
           <Copy aria-hidden className="size-3.5" />
         )}
       </span>
-      <span className="sr-only">{copied ? "" : "Copiar e-mail"}</span>
+      <span className="sr-only">{copied ? "" : t.copy}</span>
       <span aria-live="polite" className="sr-only">
-        {copied ? "E-mail copiado" : ""}
+        {copied ? t.copied : ""}
       </span>
     </button>
   );
