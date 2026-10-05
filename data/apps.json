@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-01T06:13:00.126Z",
+  "syncedAt": "2026-10-05T18:13:25.866Z",
   "developerUrl": "https://apps.apple.com/br/developer/mobivalley/id1701006912",
   "apps": [
     {
@@ -23,10 +23,10 @@
         ]
       },
       "releaseDate": "2023-04-15T07:00:00Z",
-      "updatedAt": "2026-09-23T11:42:24Z",
-      "version": "1.62.0",
+      "updatedAt": "2026-10-04T19:06:46Z",
+      "version": "1.64.0",
       "minimumOsVersion": "18.6",
-      "fileSizeBytes": 87268352,
+      "fileSizeBytes": 90048512,
       "price": 0,
       "languages": [
         "AR",
@@ -40,8 +40,8 @@
         "ES"
       ],
       "rating": {
-        "value": 4.66622,
-        "count": 752,
+        "value": 4.66446,
+        "count": 754,
         "store": "us"
       },
       "gameCenter": true,
@@ -50,7 +50,7 @@
         "en": "Drop into a street somewhere in the world, look around, and guess where you are on the map. The closer your guess, the more points you score.\n\nPlace Guesser is a geography game played through real street-level imagery from Apple Look Around and Google Street View.\n\nHOW YOU PLAY\n• Play now: five rounds around the world, three minutes each, one tap from the home screen.\n• Daily Challenge: the same mystery places for everyone, every day, with a global leaderboard. Keep your streak alive.\n• Country Streak: how many countries can you name in a row before you miss?\n• Guess The Spot: a close-up that zooms out with every wrong answer. Fewer clues, more points.\n• Infinite Mode: keep going as long as you like.\n• Custom games: pick the timer, the number of rounds and how you're allowed to move.\n\nPLAY WITH FRIENDS\n• Real-time multiplayer: play the same places at the same time.\n• Async challenges: send a challenge and let friends play whenever they like.\n• Game Center leaderboards, achievements and friends boards.\n\nTRACK YOUR PROGRESS\n• A Passport of every country you've visited, with bronze, silver and gold medals.\n• Day streaks with streak freezes, so one busy day doesn't cost you everything.\n• Stats, personal bests and shareable result cards.\n\nMORE WAYS TO PLAY\n• Home screen widgets.\n• Apple Watch and Apple TV apps.\n\nPLACE GUESSER PRO\n• Choose a country and play only there.\n• Worldwide Pro: the full location pool, including Street View locations.\n• No Move and NMPZ rules (no move, no pan, no zoom).\n• The Daily Challenge archive: replay the last 30 days.\n• Longer timers, extra streak freezes and streak repair.\n\nPro is an auto-renewing subscription. Payment is charged to your Apple Account at confirmation. It renews automatically unless you cancel at least 24 hours before the end of the current period. Manage or cancel in your App Store account settings.\n\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
         "pt": "O jogo mostra uma rua em algum lugar do mundo, olhe em volta e adivinhe no mapa onde você está. Quanto mais perto, mais pontos.\n\nPlace Guesser é um jogo de geografia com imagens reais de rua do Apple Look Around e do Google Street View.\n\nCOMO JOGAR\n• Jogar agora: cinco rodadas pelo mundo, três minutos cada, a um toque da tela inicial.\n• Desafio Diário: os mesmos lugares misteriosos para todo mundo, todo dia, com ranking global. Mantenha sua sequência viva.\n• Country Streak: quantos países seguidos você acerta antes de errar?\n• Guess The Spot: uma imagem de perto que vai abrindo a cada erro. Menos pistas, mais pontos.\n• Modo Infinito: jogue quanto quiser.\n• Partidas personalizadas: escolha o tempo, o número de rodadas e como você pode se mover.\n\nJOGUE COM AMIGOS\n• Multiplayer em tempo real: os mesmos lugares, ao mesmo tempo.\n• Desafios assíncronos: mande um desafio e seus amigos jogam quando puderem.\n• Rankings, conquistas e placar de amigos no Game Center.\n\nACOMPANHE SEU PROGRESSO\n• Um Passaporte com todos os países que você visitou, com medalhas de bronze, prata e ouro.\n• Sequência de dias com proteção, para um dia corrido não custar tudo.\n• Estatísticas, recordes pessoais e cards de resultado para compartilhar.\n\nMAIS JEITOS DE JOGAR\n• Widgets na tela inicial.\n• Apps para Apple Watch e Apple TV.\n\nPLACE GUESSER PRO\n• Escolha um país e jogue só nele.\n• Worldwide Pro: todos os locais do jogo, incluindo locais com Street View.\n• Regras No Move e NMPZ (sem andar, sem girar, sem zoom).\n• Arquivo do Desafio Diário: jogue de novo os últimos 30 dias.\n• Tempos maiores, mais proteções de sequência e recuperação de sequência.\n\nO Pro é uma assinatura com renovação automática. O pagamento é cobrado na sua Conta Apple ao confirmar. A assinatura renova automaticamente, a menos que seja cancelada pelo menos 24 horas antes do fim do período atual. Gerencie ou cancele nos ajustes da sua conta da App Store.\n\nTermos de Uso: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
       },
-      "releaseNotes": "What's new in Place Guesser\n\n• More variety: fixed a bug that could repeat the same country within a single game.\n• New rules: No Move and NMPZ (no move, no pan, no zoom) for players who want a real challenge.\n• Daily Challenge archive: missed a day? Replay the last 30 challenges.\n• Streak freezes: a missed day no longer wipes out your streak. You can repair a recently lost streak, too.\n• Panorama-first layout: the street view fills the screen, and you open the map when you're ready to guess.\n• Country medals in your Passport: bronze, silver and gold for every country you play.\n• Share your results, compare with friends in Game Center, and unlock new achievements.\n• Country Streak now scores correct guesses reliably, plus other fixes and improvements.",
+      "releaseNotes": "What's new in Place Guesser\n\nNew: Maps! 63 themed maps to explore: stadiums, capitals, airports, castles and 15 world cities.\n• Play 2 maps free every day.\n• See the name of each place after the round, and play again from the final score.\n• Apple Watch: now in your language, with haptics and Double Tap.\n• A cleaner Home screen and a loading indicator for street view.\n• Fixed a crash when closing full-screen view.",
       "icon": "/apps/place-guesser/icon.webp",
       "tint": "#FDF8DB",
       "screens": [
@@ -227,6 +227,81 @@
       }
     },
     {
+      "id": 1547922378,
+      "slug": "price-action",
+      "name": "Price Action: Trade Planner",
+      "nameBR": "Price Action: Plano de Trade",
+      "url": "https://apps.apple.com/br/app/id1547922378",
+      "genres": {
+        "en": [
+          "Finance",
+          "Productivity"
+        ],
+        "pt": [
+          "Finanças",
+          "Produtividade"
+        ]
+      },
+      "releaseDate": "2021-01-29T08:00:00Z",
+      "updatedAt": "2026-09-26T12:43:19Z",
+      "version": "2.0.0",
+      "minimumOsVersion": "17.0",
+      "fileSizeBytes": 14606336,
+      "price": 0,
+      "languages": [
+        "EN",
+        "PT"
+      ],
+      "rating": {
+        "value": 0,
+        "count": 0,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": true,
+      "description": {
+        "en": "Plan your trades before you enter them, and learn from every result.\n\nPrice Action is a simple, private trade planner and journal. Write down the asset, entry, target and stop, and the app calculates your risk:reward, the percentage to each level and the position size that fits your risk. When the trade is closed, record the exit and see the result in R and in money.\n\nPLAN\n• Long or short trades with entry, target, stop and quantity\n• Automatic risk:reward and % to target and stop\n• Position size calculator: account size × risk % ÷ distance to the stop\n• Warnings when the target or stop is on the wrong side of the entry\n\nTRACK\n• Statuses: Waiting, Open, Won, Loss, Breakeven and Cancelled\n• Exit price, profit and loss, and result in R\n• Tags for setups and strategies\n• Attach a chart screenshot to each trade\n• Reminders to review a trade on a given date\n• Home Screen and Lock Screen widgets with your open trades\n\nLEARN\n• Win rate, average result, profit factor and total result\n• Equity curve in R and stats by tag\n\nPRIVATE BY DESIGN\n• No account, no sign-up: your trades stay on your device\n• Optional Face ID / passcode lock\n• Export everything to CSV whenever you want\n\nWorks with stocks, ETFs, crypto, forex, futures and options. Enter prices with a comma or a dot.\n\nFREE AND PREMIUM\nFree: up to 10 trade plans, with ads.\nPremium: unlimited trade plans, all statuses, filters and sorting, equity curve and stats by tag, chart screenshots, and no ads. Start with a 1-week free trial.\n\nPrice Action is a planning tool. It does not provide financial advice, real-time quotes or order execution.\n\n———\n\nPayment will be charged to your Apple Account at confirmation of purchase. The subscription renews automatically for the same period and price unless it is cancelled at least 24 hours before the end of the free trial or the current period. Your account will be charged for renewal within 24 hours before the end of the current period. You can manage or cancel your subscription in your Apple Account settings after purchase. Any unused portion of a free trial is forfeited when you purchase a subscription.\n\nTerms of Use: https://docs.google.com/document/d/1oPBAViX9vr6yOxlsY7fJVCUxvPSQ13UbzhVj8zEmh4I/edit?usp=sharing\nPrivacy Policy: https://docs.google.com/document/d/1ABATV-iK8_mFpZOchIgFbftB7yTy30qfYaJr0b5IczA/edit?usp=sharing",
+        "pt": "Planeje seus trades antes de entrar e aprenda com cada resultado.\n\nO Price Action é um planejador e diário de trades simples e privado. Anote o ativo, a entrada, o alvo e o stop, e o app calcula o risco:retorno, a distância percentual até cada nível e o tamanho de posição adequado ao seu risco. Ao fechar o trade, registre a saída e veja o resultado em R e em dinheiro.\n\nPLANEJE\n• Trades de compra ou venda com entrada, alvo, stop e quantidade\n• Risco:retorno e % até o alvo e o stop calculados automaticamente\n• Calculadora de posição: capital × risco % ÷ distância até o stop\n• Avisos quando o alvo ou o stop estão do lado errado da entrada\n\nACOMPANHE\n• Status: Aguardando, Aberto, Gain, Loss, Empate e Cancelado\n• Preço de saída, resultado financeiro e resultado em R\n• Tags para setups e estratégias\n• Print do gráfico anexado a cada trade\n• Lembretes para revisar um trade numa data\n• Widgets na Tela de Início e na Tela Bloqueada com seus trades abertos\n\nAPRENDA\n• Taxa de acerto, resultado médio, fator de lucro e resultado total\n• Curva de capital em R e estatísticas por tag\n\nPRIVADO DE VERDADE\n• Sem conta e sem cadastro: seus trades ficam no seu aparelho\n• Bloqueio opcional com Face ID ou código\n• Exporte tudo para CSV quando quiser\n\nFunciona com ações, FIIs, ETFs, cripto, forex, mini-índice, mini-dólar e opções. Digite preços com vírgula ou ponto.\n\nGRÁTIS E PREMIUM\nGrátis: até 10 planos de trade, com anúncios.\nPremium: planos ilimitados, todos os status, filtros e ordenação, curva de capital e estatísticas por tag, prints de gráfico e sem anúncios. Comece com 1 semana grátis.\n\nO Price Action é uma ferramenta de planejamento. Não oferece recomendação de investimento, cotações em tempo real nem execução de ordens.\n\n———\n\nO pagamento é cobrado na sua Conta Apple quando a compra é confirmada. A assinatura renova automaticamente pelo mesmo período e preço, a menos que seja cancelada pelo menos 24 horas antes do fim do teste grátis ou do período atual. A renovação é cobrada nas 24 horas anteriores ao fim do período atual. Você pode gerenciar ou cancelar a assinatura nos ajustes da sua Conta Apple após a compra. Qualquer parte não usada do teste grátis é perdida ao assinar.\n\nTermos de Uso: https://docs.google.com/document/d/1oPBAViX9vr6yOxlsY7fJVCUxvPSQ13UbzhVj8zEmh4I/edit?usp=sharing\nPolítica de Privacidade: https://docs.google.com/document/d/1ABATV-iK8_mFpZOchIgFbftB7yTy30qfYaJr0b5IczA/edit?usp=sharing"
+      },
+      "releaseNotes": "Price Action 2.0 is a complete rebuild.\n\n• Risk:reward, position size calculator, exit price, P&L and results in R\n• New Stats tab: win rate, profit factor, equity curve and stats by tag\n• Tags, chart screenshots and trade reminders\n• Widgets for your open trades\n• Face ID lock and CSV export\n• Prices with comma or dot, and full Portuguese (Brazil) support\n• Faster, more accessible design with Dark Mode and Dynamic Type\n\nYour existing trades are imported automatically.",
+      "icon": "/apps/price-action/icon.webp",
+      "tint": "#B5D2EA",
+      "screens": [
+        {
+          "src": "/apps/price-action/screen-1.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/price-action/screen-2.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/price-action/screen-3.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/price-action/screen-4.webp",
+          "width": 640,
+          "height": 1138
+        }
+      ],
+      "privacy": {
+        "notCollected": false,
+        "notProvided": false,
+        "tracking": [
+          {
+            "category": "IDENTIFIERS",
+            "dataTypes": []
+          }
+        ],
+        "linked": [],
+        "notLinked": []
+      }
+    },
+    {
       "id": 1425516744,
       "slug": "travel-budget",
       "name": "Trip Budget: Travel Expenses",
@@ -320,81 +395,6 @@
       }
     },
     {
-      "id": 1547922378,
-      "slug": "price-action",
-      "name": "Price Action: Trade Planner",
-      "nameBR": "Price Action: Plano de Trade",
-      "url": "https://apps.apple.com/br/app/id1547922378",
-      "genres": {
-        "en": [
-          "Finance",
-          "Productivity"
-        ],
-        "pt": [
-          "Finanças",
-          "Produtividade"
-        ]
-      },
-      "releaseDate": "2021-01-29T08:00:00Z",
-      "updatedAt": "2026-09-26T12:43:19Z",
-      "version": "2.0.0",
-      "minimumOsVersion": "17.0",
-      "fileSizeBytes": 14606336,
-      "price": 0,
-      "languages": [
-        "EN",
-        "PT"
-      ],
-      "rating": {
-        "value": 0,
-        "count": 0,
-        "store": "us"
-      },
-      "gameCenter": false,
-      "universal": true,
-      "description": {
-        "en": "Plan your trades before you enter them, and learn from every result.\n\nPrice Action is a simple, private trade planner and journal. Write down the asset, entry, target and stop, and the app calculates your risk:reward, the percentage to each level and the position size that fits your risk. When the trade is closed, record the exit and see the result in R and in money.\n\nPLAN\n• Long or short trades with entry, target, stop and quantity\n• Automatic risk:reward and % to target and stop\n• Position size calculator: account size × risk % ÷ distance to the stop\n• Warnings when the target or stop is on the wrong side of the entry\n\nTRACK\n• Statuses: Waiting, Open, Won, Loss, Breakeven and Cancelled\n• Exit price, profit and loss, and result in R\n• Tags for setups and strategies\n• Attach a chart screenshot to each trade\n• Reminders to review a trade on a given date\n• Home Screen and Lock Screen widgets with your open trades\n\nLEARN\n• Win rate, average result, profit factor and total result\n• Equity curve in R and stats by tag\n\nPRIVATE BY DESIGN\n• No account, no sign-up: your trades stay on your device\n• Optional Face ID / passcode lock\n• Export everything to CSV whenever you want\n\nWorks with stocks, ETFs, crypto, forex, futures and options. Enter prices with a comma or a dot.\n\nFREE AND PREMIUM\nFree: up to 10 trade plans, with ads.\nPremium: unlimited trade plans, all statuses, filters and sorting, equity curve and stats by tag, chart screenshots, and no ads. Start with a 1-week free trial.\n\nPrice Action is a planning tool. It does not provide financial advice, real-time quotes or order execution.\n\n———\n\nPayment will be charged to your Apple Account at confirmation of purchase. The subscription renews automatically for the same period and price unless it is cancelled at least 24 hours before the end of the free trial or the current period. Your account will be charged for renewal within 24 hours before the end of the current period. You can manage or cancel your subscription in your Apple Account settings after purchase. Any unused portion of a free trial is forfeited when you purchase a subscription.\n\nTerms of Use: https://docs.google.com/document/d/1oPBAViX9vr6yOxlsY7fJVCUxvPSQ13UbzhVj8zEmh4I/edit?usp=sharing\nPrivacy Policy: https://docs.google.com/document/d/1ABATV-iK8_mFpZOchIgFbftB7yTy30qfYaJr0b5IczA/edit?usp=sharing",
-        "pt": "Planeje seus trades antes de entrar e aprenda com cada resultado.\n\nO Price Action é um planejador e diário de trades simples e privado. Anote o ativo, a entrada, o alvo e o stop, e o app calcula o risco:retorno, a distância percentual até cada nível e o tamanho de posição adequado ao seu risco. Ao fechar o trade, registre a saída e veja o resultado em R e em dinheiro.\n\nPLANEJE\n• Trades de compra ou venda com entrada, alvo, stop e quantidade\n• Risco:retorno e % até o alvo e o stop calculados automaticamente\n• Calculadora de posição: capital × risco % ÷ distância até o stop\n• Avisos quando o alvo ou o stop estão do lado errado da entrada\n\nACOMPANHE\n• Status: Aguardando, Aberto, Gain, Loss, Empate e Cancelado\n• Preço de saída, resultado financeiro e resultado em R\n• Tags para setups e estratégias\n• Print do gráfico anexado a cada trade\n• Lembretes para revisar um trade numa data\n• Widgets na Tela de Início e na Tela Bloqueada com seus trades abertos\n\nAPRENDA\n• Taxa de acerto, resultado médio, fator de lucro e resultado total\n• Curva de capital em R e estatísticas por tag\n\nPRIVADO DE VERDADE\n• Sem conta e sem cadastro: seus trades ficam no seu aparelho\n• Bloqueio opcional com Face ID ou código\n• Exporte tudo para CSV quando quiser\n\nFunciona com ações, FIIs, ETFs, cripto, forex, mini-índice, mini-dólar e opções. Digite preços com vírgula ou ponto.\n\nGRÁTIS E PREMIUM\nGrátis: até 10 planos de trade, com anúncios.\nPremium: planos ilimitados, todos os status, filtros e ordenação, curva de capital e estatísticas por tag, prints de gráfico e sem anúncios. Comece com 1 semana grátis.\n\nO Price Action é uma ferramenta de planejamento. Não oferece recomendação de investimento, cotações em tempo real nem execução de ordens.\n\n———\n\nO pagamento é cobrado na sua Conta Apple quando a compra é confirmada. A assinatura renova automaticamente pelo mesmo período e preço, a menos que seja cancelada pelo menos 24 horas antes do fim do teste grátis ou do período atual. A renovação é cobrada nas 24 horas anteriores ao fim do período atual. Você pode gerenciar ou cancelar a assinatura nos ajustes da sua Conta Apple após a compra. Qualquer parte não usada do teste grátis é perdida ao assinar.\n\nTermos de Uso: https://docs.google.com/document/d/1oPBAViX9vr6yOxlsY7fJVCUxvPSQ13UbzhVj8zEmh4I/edit?usp=sharing\nPolítica de Privacidade: https://docs.google.com/document/d/1ABATV-iK8_mFpZOchIgFbftB7yTy30qfYaJr0b5IczA/edit?usp=sharing"
-      },
-      "releaseNotes": "Price Action 2.0 is a complete rebuild.\n\n• Risk:reward, position size calculator, exit price, P&L and results in R\n• New Stats tab: win rate, profit factor, equity curve and stats by tag\n• Tags, chart screenshots and trade reminders\n• Widgets for your open trades\n• Face ID lock and CSV export\n• Prices with comma or dot, and full Portuguese (Brazil) support\n• Faster, more accessible design with Dark Mode and Dynamic Type\n\nYour existing trades are imported automatically.",
-      "icon": "/apps/price-action/icon.webp",
-      "tint": "#B5D2EA",
-      "screens": [
-        {
-          "src": "/apps/price-action/screen-1.webp",
-          "width": 640,
-          "height": 1138
-        },
-        {
-          "src": "/apps/price-action/screen-2.webp",
-          "width": 640,
-          "height": 1138
-        },
-        {
-          "src": "/apps/price-action/screen-3.webp",
-          "width": 640,
-          "height": 1138
-        },
-        {
-          "src": "/apps/price-action/screen-4.webp",
-          "width": 640,
-          "height": 1138
-        }
-      ],
-      "privacy": {
-        "notCollected": false,
-        "notProvided": false,
-        "tracking": [
-          {
-            "category": "IDENTIFIERS",
-            "dataTypes": []
-          }
-        ],
-        "linked": [],
-        "notLinked": []
-      }
-    },
-    {
       "id": 1395675561,
       "slug": "work-hour-manager",
       "name": "Work Hour Manager: Pay Tracker",
@@ -457,105 +457,6 @@
         "tracking": [],
         "linked": [],
         "notLinked": []
-      }
-    },
-    {
-      "id": 6752260529,
-      "slug": "littletube",
-      "name": "LittleTube: Kids Video Player",
-      "nameBR": "LittleTube: Kids Video Player",
-      "url": "https://apps.apple.com/br/app/id6752260529",
-      "genres": {
-        "en": [
-          "Entertainment",
-          "Education"
-        ],
-        "pt": [
-          "Entreteni­mento",
-          "Educação"
-        ]
-      },
-      "releaseDate": "2025-09-23T07:00:00Z",
-      "updatedAt": "2026-09-24T19:39:59Z",
-      "version": "1.2.0",
-      "minimumOsVersion": "15.6",
-      "fileSizeBytes": 20115456,
-      "price": 0,
-      "languages": [
-        "EN"
-      ],
-      "rating": {
-        "value": 5,
-        "count": 2,
-        "store": "us"
-      },
-      "gameCenter": false,
-      "universal": true,
-      "description": {
-        "en": "LittleTube is a video player for kids that plays only the videos you choose.\n\nYou find a video on YouTube, tap Share, and send it to LittleTube. It lands in your child's list. Your child opens LittleTube and sees only what you added. There's no home feed, no Shorts and no algorithm deciding what comes next.\n\nBUILT FOR PARENTS WHO WANT TO STAY IN CHARGE\n• Only your picks: your child's list has only the videos you added\n• Your picks come next: when a video ends, LittleTube shows your other approved videos, not YouTube's suggestions\n• Links locked behind Face ID: tapping a link inside the player asks for a parent's Face ID or passcode before leaving the app. You can also block these links completely\n• Approve before it's added: you can require Face ID before any shared video joins the list\n• Lock settings and profiles with Face ID or your passcode\n\nADDING VIDEOS TAKES ONE TAP\n• Share any video from the YouTube app or Safari straight to LittleTube\n• Titles and descriptions come in automatically\n• Sort videos into groups like \"Bedtime\", \"Music\" or \"Learning\"\n• Search and sort your child's list\n\nLITTLETUBE PRO: FAMILY & CONTROLS\n• A profile for every child, each with their own videos\n• Daily watch time limits per profile (15 minutes to 2 hours). When time is up, the video stops and your child sees \"That's all for today!\". Need a few more minutes? Add 15 with Face ID\n• Unlimited videos and every safety feature above are free for everyone\n\nGOOD TO KNOW\nLittleTube plays videos with YouTube's official embedded player, so YouTube may still show ads during a video. LittleTube is not affiliated with or endorsed by YouTube or Google.\n\nBuilt by a dad, for families. Questions or ideas? Tap Settings → Send Feedback. We read every message.\n\nSUBSCRIPTION\nLittleTube Pro is an auto-renewing subscription. Payment is charged to your Apple ID at purchase confirmation. It renews automatically unless you cancel at least 24 hours before the end of the current period. You can manage or cancel it in your App Store account settings.\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nPrivacy Policy: https://bit.ly/peektube-privacy-policy\n\nVideos shown in screenshots: Caminandes, Big Buck Bunny and Spring © Blender Foundation (CC BY 4.0); Tour of the Moon © NASA.",
-        "pt": "LittleTube is a video player for kids that plays only the videos you choose.\n\nYou find a video on YouTube, tap Share, and send it to LittleTube. It lands in your child's list. Your child opens LittleTube and sees only what you added. There's no home feed, no Shorts and no algorithm deciding what comes next.\n\nBUILT FOR PARENTS WHO WANT TO STAY IN CHARGE\n• Only your picks: your child's list has only the videos you added\n• Your picks come next: when a video ends, LittleTube shows your other approved videos, not YouTube's suggestions\n• Links locked behind Face ID: tapping a link inside the player asks for a parent's Face ID or passcode before leaving the app. You can also block these links completely\n• Approve before it's added: you can require Face ID before any shared video joins the list\n• Lock settings and profiles with Face ID or your passcode\n\nADDING VIDEOS TAKES ONE TAP\n• Share any video from the YouTube app or Safari straight to LittleTube\n• Titles and descriptions come in automatically\n• Sort videos into groups like \"Bedtime\", \"Music\" or \"Learning\"\n• Search and sort your child's list\n\nLITTLETUBE PRO: FAMILY & CONTROLS\n• A profile for every child, each with their own videos\n• Daily watch time limits per profile (15 minutes to 2 hours). When time is up, the video stops and your child sees \"That's all for today!\". Need a few more minutes? Add 15 with Face ID\n• Unlimited videos and every safety feature above are free for everyone\n\nGOOD TO KNOW\nLittleTube plays videos with YouTube's official embedded player, so YouTube may still show ads during a video. LittleTube is not affiliated with or endorsed by YouTube or Google.\n\nBuilt by a dad, for families. Questions or ideas? Tap Settings → Send Feedback. We read every message.\n\nSUBSCRIPTION\nLittleTube Pro is an auto-renewing subscription. Payment is charged to your Apple ID at purchase confirmation. It renews automatically unless you cancel at least 24 hours before the end of the current period. You can manage or cancel it in your App Store account settings.\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nPrivacy Policy: https://bit.ly/peektube-privacy-policy\n\nVideos shown in screenshots: Caminandes, Big Buck Bunny and Spring © Blender Foundation (CC BY 4.0); Tour of the Moon © NASA."
-      },
-      "releaseNotes": "A calmer, safer way to watch — and a brand-new look!\n\n• What's next? Your picks. When a video ends, LittleTube now shows only the videos you approved — no more YouTube suggestions at the end.\n• Smoother player: videos no longer restart when you rotate your device, and the \"Other videos\" list keeps a steady order your kid can learn.\n• Clearer sharing: after sharing a video from YouTube, LittleTube tells you exactly what happens next — added, waiting for your approval, or waiting for space in your list.\n• No more lost or duplicate videos when sharing several at once.\n• Sharper thumbnails on iPhone and iPad.\n• Say hi to our new kangaroo icon! \n• Bug fixes and performance improvements.\n\nBuilt by a dad, for families. Questions or ideas? Tap Settings → Send Feedback - we read every message.",
-      "icon": "/apps/littletube/icon.webp",
-      "tint": "#E5F8EF",
-      "screens": [
-        {
-          "src": "/apps/littletube/screen-1.webp",
-          "width": 640,
-          "height": 1391
-        },
-        {
-          "src": "/apps/littletube/screen-2.webp",
-          "width": 640,
-          "height": 1391
-        },
-        {
-          "src": "/apps/littletube/screen-3.webp",
-          "width": 640,
-          "height": 1391
-        },
-        {
-          "src": "/apps/littletube/screen-4.webp",
-          "width": 640,
-          "height": 1391
-        },
-        {
-          "src": "/apps/littletube/screen-5.webp",
-          "width": 640,
-          "height": 1391
-        }
-      ],
-      "privacy": {
-        "notCollected": false,
-        "notProvided": false,
-        "tracking": [],
-        "linked": [],
-        "notLinked": [
-          {
-            "purpose": "ANALYTICS",
-            "categories": [
-              {
-                "category": "SEARCH_HISTORY",
-                "dataTypes": [
-                  "Search History"
-                ]
-              },
-              {
-                "category": "USAGE_DATA",
-                "dataTypes": [
-                  "Product Interaction"
-                ]
-              },
-              {
-                "category": "DIAGNOSTICS",
-                "dataTypes": [
-                  "Crash Data",
-                  "Performance Data"
-                ]
-              }
-            ]
-          }
-        ]
       }
     },
     {
@@ -626,6 +527,106 @@
         ],
         "linked": [],
         "notLinked": []
+      }
+    },
+    {
+      "id": 6752260529,
+      "slug": "littletube",
+      "name": "LittleTube: Kids Video Player",
+      "nameBR": "LittleTube: Kids Video Player",
+      "url": "https://apps.apple.com/br/app/id6752260529",
+      "genres": {
+        "en": [
+          "Entertainment",
+          "Education"
+        ],
+        "pt": [
+          "Entreteni­mento",
+          "Educação"
+        ]
+      },
+      "releaseDate": "2025-09-23T07:00:00Z",
+      "updatedAt": "2026-10-03T19:10:53Z",
+      "version": "1.3.0",
+      "minimumOsVersion": "15.6",
+      "fileSizeBytes": 20765696,
+      "price": 0,
+      "languages": [
+        "EN",
+        "PT"
+      ],
+      "rating": {
+        "value": 5,
+        "count": 2,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": true,
+      "description": {
+        "en": "LittleTube is a video player for kids that plays only the videos you choose.\n\nYou find a video on YouTube, tap Share, and send it to LittleTube. It lands in your child's list. Your child opens LittleTube and sees only what you added. There's no home feed, no Shorts and no algorithm deciding what comes next.\n\nBUILT FOR PARENTS WHO WANT TO STAY IN CHARGE\n• Only your picks: your child's list has only the videos you added\n• Your picks come next: when a video ends, LittleTube shows your other approved videos, not YouTube's suggestions\n• Links locked behind Face ID: tapping a link inside the player asks for a parent's Face ID or passcode before leaving the app. You can also block these links completely\n• Approve before it's added: you can require Face ID before any shared video joins the list\n• Lock settings and profiles with Face ID or your passcode\n\nADDING VIDEOS TAKES ONE TAP\n• Share any video from the YouTube app or Safari straight to LittleTube\n• Titles and descriptions come in automatically\n• Sort videos into groups like \"Bedtime\", \"Music\" or \"Learning\"\n• Search and sort your child's list\n\nLITTLETUBE PRO: FAMILY & CONTROLS\n• A profile for every child, each with their own videos\n• Daily watch time limits per profile (15 minutes to 2 hours). When time is up, the video stops and your child sees \"That's all for today!\". Need a few more minutes? Add 15 with Face ID\n• Unlimited videos and every safety feature above are free for everyone\n\nGOOD TO KNOW\nLittleTube plays videos with YouTube's official embedded player, so YouTube may still show ads during a video. LittleTube is not affiliated with or endorsed by YouTube or Google.\n\nBuilt by a dad, for families. Questions or ideas? Tap Settings → Send Feedback. We read every message.\n\nSUBSCRIPTION\nLittleTube Pro is an auto-renewing subscription. Payment is charged to your Apple ID at purchase confirmation. It renews automatically unless you cancel at least 24 hours before the end of the current period. You can manage or cancel it in your App Store account settings.\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nPrivacy Policy: https://bit.ly/peektube-privacy-policy\n\nVideos shown in screenshots: Caminandes, Big Buck Bunny and Spring © Blender Foundation (CC BY 4.0); Tour of the Moon © NASA.",
+        "pt": "LittleTube is a video player for kids that plays only the videos you choose.\n\nYou find a video on YouTube, tap Share, and send it to LittleTube. It lands in your child's list. Your child opens LittleTube and sees only what you added. There's no home feed, no Shorts and no algorithm deciding what comes next.\n\nBUILT FOR PARENTS WHO WANT TO STAY IN CHARGE\n• Only your picks: your child's list has only the videos you added\n• Your picks come next: when a video ends, LittleTube shows your other approved videos, not YouTube's suggestions\n• Links locked behind Face ID: tapping a link inside the player asks for a parent's Face ID or passcode before leaving the app. You can also block these links completely\n• Approve before it's added: you can require Face ID before any shared video joins the list\n• Lock settings and profiles with Face ID or your passcode\n\nADDING VIDEOS TAKES ONE TAP\n• Share any video from the YouTube app or Safari straight to LittleTube\n• Titles and descriptions come in automatically\n• Sort videos into groups like \"Bedtime\", \"Music\" or \"Learning\"\n• Search and sort your child's list\n\nLITTLETUBE PRO: FAMILY & CONTROLS\n• A profile for every child, each with their own videos\n• Daily watch time limits per profile (15 minutes to 2 hours). When time is up, the video stops and your child sees \"That's all for today!\". Need a few more minutes? Add 15 with Face ID\n• Unlimited videos and every safety feature above are free for everyone\n\nGOOD TO KNOW\nLittleTube plays videos with YouTube's official embedded player, so YouTube may still show ads during a video. LittleTube is not affiliated with or endorsed by YouTube or Google.\n\nBuilt by a dad, for families. Questions or ideas? Tap Settings → Send Feedback. We read every message.\n\nSUBSCRIPTION\nLittleTube Pro is an auto-renewing subscription. Payment is charged to your Apple ID at purchase confirmation. It renews automatically unless you cancel at least 24 hours before the end of the current period. You can manage or cancel it in your App Store account settings.\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nPrivacy Policy: https://bit.ly/peektube-privacy-policy\n\nVideos shown in screenshots: Caminandes, Big Buck Bunny and Spring © Blender Foundation (CC BY 4.0); Tour of the Moon © NASA."
+      },
+      "releaseNotes": "New: organize videos into folders (2 free, unlimited with Pro) and follow a whole YouTube channel or playlist (Pro).\n\n• Add faster: paste many links at once, or search YouTube in the app (Pro)\n• A suggestion you didn't approve stops until a grown-up says yes\n• Landscape videos fill the screen, with no black bands\n• Now in Brazilian Portuguese\n• Delete with Undo, plus iPad and VoiceOver fixes\nTexto promocional (134/170): Only the YouTube videos you pick for your kids. New: folders, whole channels and playlists you approve, and adding many links at once.",
+      "icon": "/apps/littletube/icon.webp",
+      "tint": "#E5F8EF",
+      "screens": [
+        {
+          "src": "/apps/littletube/screen-1.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/littletube/screen-2.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/littletube/screen-3.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/littletube/screen-4.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/littletube/screen-5.webp",
+          "width": 640,
+          "height": 1391
+        }
+      ],
+      "privacy": {
+        "notCollected": false,
+        "notProvided": false,
+        "tracking": [],
+        "linked": [],
+        "notLinked": [
+          {
+            "purpose": "ANALYTICS",
+            "categories": [
+              {
+                "category": "SEARCH_HISTORY",
+                "dataTypes": [
+                  "Search History"
+                ]
+              },
+              {
+                "category": "USAGE_DATA",
+                "dataTypes": [
+                  "Product Interaction"
+                ]
+              },
+              {
+                "category": "DIAGNOSTICS",
+                "dataTypes": [
+                  "Crash Data",
+                  "Performance Data"
+                ]
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -912,10 +913,10 @@
         ]
       },
       "releaseDate": "2019-10-26T07:00:00Z",
-      "updatedAt": "2026-09-29T03:35:16Z",
-      "version": "2.2.0",
+      "updatedAt": "2026-10-03T19:21:27Z",
+      "version": "2.2.1",
       "minimumOsVersion": "17.0",
-      "fileSizeBytes": 11404288,
+      "fileSizeBytes": 11457536,
       "price": 0,
       "languages": [
         "PT"
@@ -931,7 +932,7 @@
         "en": "Find Brazilian public-sector exams (concursos públicos) and selection processes that are open for registration, and never miss a deadline.\n\nEvery day, Radar reads municipal official gazettes and the federal Diário Oficial da União (DOU) and gathers the published notices in a single list, sorted by registration deadline.\n\nFIND THE RIGHT EXAM\n• Search by agency, city or job title\n• Filter by state, level (municipal or federal), type and minimum salary\n• See what closes this week, what is open now and what opens soon\n• Sort by nearest deadline, highest salary, most openings or newest\n\nEVERYTHING ABOUT THE NOTICE\n• Registration period, salary and number of openings\n• Excerpt from the official gazette with a link to the notice and registration page\n• Share an exam with friends\n\nFOLLOW AND GET REMINDERS\n• Follow the exams you care about\n• Reminders 3 days and 1 day before registration closes, and on the day it opens\n• Create an alert by state and salary and hear about new exams\n\nFREE TO BROWSE\nThe list, search, filters and details are free. The free plan lets you follow up to 5 exams and set 1 new-exam alert, delivered as a daily digest.\n\nRADAR PREMIUM (monthly or yearly subscription)\n• Follow unlimited exams\n• Unlimited new-exam alerts, sent as soon as the app finds the notice\n• Full history of the exams you have opened\n\nThe app is in Brazilian Portuguese. Data is extracted automatically from official gazettes; always check the official notice. The app is not affiliated with any government agency or exam board.",
         "pt": "Encontre concursos públicos e processos seletivos com inscrições abertas e não perca nenhum prazo.\n\nTodos os dias, o Radar lê os diários oficiais das prefeituras e o Diário Oficial da União (DOU) e reúne os editais publicados numa lista só, organizada pelo prazo de inscrição.\n\nENCONTRE O CONCURSO CERTO\n• Busque por órgão, cidade ou cargo\n• Filtre por estado, esfera (municipal ou federal), tipo e salário mínimo\n• Veja primeiro o que encerra esta semana, o que está com inscrições abertas e o que abre em breve\n• Ordene por prazo mais próximo, maior salário, mais vagas ou mais recentes\n\nTUDO SOBRE O EDITAL\n• Período de inscrição, salário e número de vagas\n• Trecho do diário oficial com link para o edital e a inscrição\n• Compartilhe um concurso com quem também está estudando\n\nACOMPANHE E RECEBA LEMBRETES\n• Acompanhe os concursos que interessam a você\n• Lembrete 3 dias e 1 dia antes do fim das inscrições, e no dia em que elas abrem\n• Crie um alerta por estado e salário e saiba quando aparecer um concurso novo\n\nGRÁTIS PARA CONSULTAR\nLista, busca, filtros e detalhes são grátis. No plano grátis você acompanha até 5 concursos e tem 1 alerta de novos concursos, com resumo diário.\n\nRADAR PREMIUM (assinatura mensal ou anual)\n• Acompanhe quantos concursos quiser\n• Alertas de novos concursos ilimitados, avisados assim que o app encontra o edital\n• Histórico completo dos concursos que você já abriu\n\nOs dados são extraídos automaticamente dos diários oficiais. Confira sempre o edital. O app não tem vínculo com órgãos públicos nem com bancas organizadoras."
       },
-      "releaseNotes": "Radar has been rebuilt from scratch: a fresh design and exams updated every day from official gazettes.\n\n• Search by agency, city or job title and filter by state, salary and deadline\n• Following (Acompanhando): your saved exams are kept, now with a countdown to the deadline\n• Deadline reminders and new-exam alerts\n• Radar Premium (optional): follow exams and create alerts without limits",
+      "releaseNotes": "Deadline reminders are clearer: you can now see whether an alert will actually reach you.\n\n• Follow an exam and turn on its deadline alert in one tap\n• Before iOS asks, we explain what we'll notify you about\n• Notifications off? The app tells you and opens Settings\n• The official link button says what it opens: notice, board, agency or gazette\n• With larger text, card labels no longer run off the screen",
       "icon": "/apps/editais/icon.webp",
       "tint": "#BAD7D7",
       "screens": [
@@ -1167,10 +1168,10 @@
         ]
       },
       "releaseDate": "2026-06-08T07:00:00Z",
-      "updatedAt": "2026-09-26T01:24:16Z",
-      "version": "1.1.0",
+      "updatedAt": "2026-10-05T15:47:33Z",
+      "version": "1.3.0",
       "minimumOsVersion": "26.5",
-      "fileSizeBytes": 6523904,
+      "fileSizeBytes": 9829376,
       "price": 0,
       "languages": [
         "EN",
@@ -1184,10 +1185,10 @@
       "gameCenter": false,
       "universal": true,
       "description": {
-        "en": "Your iPhone is full of photos you don't need. Photo Cleanup finds them in seconds — and helps you delete them without fear.\nDuplicates from sharing the same photo across apps. Burst sequences where you only kept the best one. Screenshots and screen recordings from last year. Blurry shots you forgot to delete. Videos taking up gigabytes.\nPhoto Cleanup scans your library on-device and shows you exactly what's worth cleaning — grouped, sorted by size, and pre-selected so you can free up space in one tap instead of swiping through thousands of photos.\nWHAT PHOTO CLEANUP FINDS\n\nDuplicate photos saved multiple times\nSimilar shots and burst sequences\nBlurry or out-of-focus photos\nScreenshots and screen recordings cluttering your library\nLarge videos eating gigabytes\n\nHOW IT WORKS\n\nOpen the app and grant photo access\nScan your library — see exactly how much space is recoverable\nReview what we found, deselect anything you want to keep\nTap delete. Photos move to Recently Deleted and can be restored for 30 days\n\nEVERYTHING HAPPENS ON YOUR IPHONE\nPhoto Cleanup never uploads your photos. There's no account, no cloud, no server, and the app makes no network connections of its own. All scanning, detection and analysis runs on your device. Performance reports stay on your iPhone and are only shared if you export them.\nBuilt by an independent iOS developer who got tired of janky cleanup apps. No tracking SDKs. No ads. No weekly subscriptions.\n\nPRICING\nScanning and reviewing are always free, and you can clean up to 1 GB for free. Photo Cleanup Pro unlocks unlimited cleanup — pay once for lifetime access, or choose a yearly plan. No trials that convert on their own.\n\nTerms of Use: https://docs.google.com/document/d/1RATD0zT7HRz3WiscNsU4FPnvOYC5pqSd_QgPwB_CZIU/edit?usp=sharing\nPrivacy Policy: https://docs.google.com/document/d/1qb_PawI2oKZnZ6FcHNxFsfIFrcc-onQkVyyewdvizsM/edit?usp=sharing",
-        "pt": "Seu iPhone está cheio de fotos que você não precisa. O Photo Cleanup encontra todas em segundos — e ajuda você a apagá-las sem medo.\nDuplicadas de tanto compartilhar a mesma foto entre apps. Sequências burst em que você só queria a melhor. Capturas e gravações de tela do ano passado. Fotos borradas que você esqueceu de apagar. Vídeos ocupando gigabytes.\nO Photo Cleanup analisa sua biblioteca no próprio aparelho e mostra exatamente o que vale a pena limpar — agrupado, ordenado por tamanho e pré-selecionado para você liberar espaço com um toque, em vez de passar por milhares de fotos.\nO QUE O PHOTO CLEANUP ENCONTRA\n\nFotos duplicadas salvas várias vezes\nFotos parecidas e sequências burst\nFotos borradas ou fora de foco\nCapturas e gravações de tela acumuladas\nVídeos grandes ocupando gigabytes\n\nCOMO FUNCIONA\n\nAbra o app e permita o acesso às fotos\nAnalise sua biblioteca — veja quanto espaço dá para recuperar\nRevise o que encontramos e desmarque o que quiser manter\nToque em apagar. As fotos vão para Apagados e podem ser restauradas por 30 dias\n\nTUDO ACONTECE NO SEU IPHONE\nO Photo Cleanup nunca envia suas fotos. Não há conta, nuvem ou servidor, e o app não faz nenhuma conexão de rede própria. Toda a análise e detecção roda no seu aparelho. Os relatórios de desempenho ficam no seu iPhone e só são compartilhados se você exportá-los.\nFeito por um desenvolvedor iOS independente, cansado de apps de limpeza ruins. Sem SDKs de rastreamento. Sem anúncios. Sem assinaturas semanais.\n\nPREÇOS\nAnalisar e revisar é sempre grátis, e você pode limpar até 1 GB sem pagar. O Photo Cleanup Pro libera limpeza ilimitada — pague uma vez para acesso vitalício ou escolha o plano anual. Sem testes que viram cobrança sozinhos.\n\nTermos de Uso: https://docs.google.com/document/d/1RATD0zT7HRz3WiscNsU4FPnvOYC5pqSd_QgPwB_CZIU/edit?usp=sharing\nPolítica de Privacidade: https://docs.google.com/document/d/1qb_PawI2oKZnZ6FcHNxFsfIFrcc-onQkVyyewdvizsM/edit?usp=sharing"
+        "en": "Free up space on your iPhone without weekly subscriptions, ads or tracking. Photo Cleanup finds the photos and videos you don't need in seconds, and helps you delete them without fear.\n\nDuplicates from sharing the same photo across apps. Burst sequences where you only wanted the best one. Screenshots and screen recordings from last year. Blurry shots you forgot about. Videos taking up gigabytes.\n\nPhoto Cleanup scans your library on your device and shows you exactly what's worth cleaning: grouped, sorted by size and pre-selected, so you can free up space in a few taps instead of scrolling through thousands of photos.\n\nWHAT PHOTO CLEANUP FINDS\n• Duplicate photos saved more than once\n• Similar shots and burst sequences, with the best one kept for you\n• Blurry or out-of-focus photos\n• Screenshots and screen recordings\n• Large videos taking up gigabytes\n\nYOU'RE ALWAYS IN CONTROL\n• Pick which photo to keep in any group: just touch and hold it\n• Swipe through your library month by month: left to delete, right to keep, with undo\n• Compress large videos into a smaller copy instead of deleting them, keeping their date and location\n• Nothing is deleted until you confirm. Deleted items go to Recently Deleted and can be restored for 30 days\n\nYOUR PHOTOS NEVER LEAVE YOUR IPHONE\nAll scanning and detection runs on your device. Photo Cleanup never uploads your photos or videos, and there's no account or cloud. To fix bugs and improve the app, it sends anonymous crash reports and usage statistics that never include your photos. No ads and no tracking.\n\nPRICING\nScanning and reviewing are always free, and you can clean up to 1 GB for free. Photo Cleanup Pro unlocks unlimited cleanup: pay once for lifetime access or choose the yearly plan. No weekly subscriptions and no trials that turn into charges on their own.\n\nWorks on iPhone and iPad.\n\nBuilt by an independent iOS developer who got tired of janky cleanup apps.\n\nTerms of Use: https://docs.google.com/document/d/1RATD0zT7HRz3WiscNsU4FPnvOYC5pqSd_QgPwB_CZIU/edit?usp=sharing\nPrivacy Policy: https://docs.google.com/document/d/1qb_PawI2oKZnZ6FcHNxFsfIFrcc-onQkVyyewdvizsM/edit?usp=sharing",
+        "pt": "Libere espaço no seu iPhone sem assinatura semanal, sem anúncios e sem rastreamento. O Photo Cleanup encontra em segundos as fotos e vídeos de que você não precisa, e ajuda você a apagá-los sem medo.\n\nDuplicadas de tanto compartilhar a mesma foto entre apps. Sequências burst em que você só queria a melhor. Capturas e gravações de tela do ano passado. Fotos borradas esquecidas. Vídeos ocupando gigabytes.\n\nO Photo Cleanup analisa sua biblioteca no próprio aparelho e mostra exatamente o que vale a pena limpar: agrupado, ordenado por tamanho e pré-selecionado, para você liberar espaço em poucos toques em vez de passar por milhares de fotos.\n\nO QUE O PHOTO CLEANUP ENCONTRA\n• Fotos duplicadas salvas mais de uma vez\n• Fotos parecidas e sequências burst, mantendo a melhor para você\n• Fotos borradas ou fora de foco\n• Capturas e gravações de tela\n• Vídeos grandes ocupando gigabytes\n\nVOCÊ SEMPRE NO CONTROLE\n• Escolha qual foto manter em cada grupo: é só tocar e segurar\n• Revise sua biblioteca mês a mês com swipe: esquerda para apagar, direita para manter, com desfazer\n• Comprima vídeos grandes em uma cópia menor em vez de apagá-los, mantendo data e localização\n• Nada é apagado até você confirmar. Os itens vão para Apagados e podem ser restaurados por 30 dias\n\nSUAS FOTOS NUNCA SAEM DO SEU IPHONE\nToda a análise e detecção roda no seu aparelho. O Photo Cleanup nunca envia suas fotos ou vídeos, e não há conta nem nuvem. Para corrigir erros e melhorar o app, ele envia relatórios anônimos de falhas e estatísticas de uso, que nunca incluem suas fotos. Sem anúncios e sem rastreamento.\n\nPREÇOS\nAnalisar e revisar é sempre grátis, e você pode limpar até 1 GB sem pagar. O Photo Cleanup Pro libera limpeza ilimitada: pague uma vez para acesso vitalício ou escolha o plano anual. Sem assinatura semanal e sem testes que viram cobrança sozinhos.\n\nFunciona no iPhone e no iPad.\n\nFeito por um desenvolvedor iOS independente, cansado de apps de limpeza ruins.\n\nTermos de Uso: https://docs.google.com/document/d/1RATD0zT7HRz3WiscNsU4FPnvOYC5pqSd_QgPwB_CZIU/edit?usp=sharing\nPolítica de Privacidade: https://docs.google.com/document/d/1qb_PawI2oKZnZ6FcHNxFsfIFrcc-onQkVyyewdvizsM/edit?usp=sharing"
       },
-      "releaseNotes": "Gallery Optimizer is now Photo Cleanup — same app, faster and smarter.\n\n• Much faster, smoother scans: analysis now runs entirely in the background\n• Blurry photo detection rebuilt and far more accurate\n• New: Screen recordings category\n• Fixed: large-video size setting now works, cancelling a scan no longer gets stuck\n• Deleting no longer rescans your whole library\n• Now in Brazilian Portuguese, with better VoiceOver and larger text support\n• Photo Cleanup Pro: 1 GB of cleanup free, then unlimited with a one-time or yearly purchase\n• New app icon",
+      "releaseNotes": "New: Live Photos. Convert them to still photos to free the space their motion takes, keeping the date, location and your edits. The originals go to Recently Deleted.\n\n• Scanning very large libraries is more reliable\n• Fixed Pro sometimes staying locked right after a purchase\n• The price on the upgrade screen is no longer covered",
       "icon": "/apps/gallery-optimizer/icon.webp",
       "tint": "#B5E0D2",
       "screens": [
