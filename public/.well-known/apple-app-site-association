@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["5X3J3QGYN2.com.honda.ConcursosPublicos"],
+        "components": [
+          { "/": "/concurso/*", "comment": "Concurso compartilhado pelo Radar de Concursos (?id=)" }
+        ]
+      }
+    ]
+  }
+}
