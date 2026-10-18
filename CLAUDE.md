@@ -37,3 +37,4 @@ There is no test suite.
 - `next.config.ts` uses `output: "export"`, `trailingSlash: true`, and `images.unoptimized`. Images are pre-optimized WebP served through `next/image`. Server features (redirects, headers, API routes, server actions) are not available.
 - Use `next/link` with `prefetch={false}` for internal links in the header and footer, so the static site doesn't prefetch page payloads.
 - `next dev` may rewrite the managed block in `AGENTS.md`. Leave it in place.
+- public/resources/aeroexplorer/ is the AeroExplorer tour CDN (tours.json + *.zip.enc); renaming or removing files breaks the app.
