@@ -6,8 +6,20 @@
 
 import type { Locale } from "@/lib/i18n";
 
-export type Purchases = "subscription" | "one-time" | "none" | "unknown";
-export type ThirdParty = "apple-maps" | "google-street-view" | "game-center" | "youtube" | "ads" | "whatsapp";
+/** "subscription-and-one-time": auto-renewable subscriptions plus a one-time purchase of the same features. */
+export type Purchases = "subscription" | "one-time" | "subscription-and-one-time" | "none" | "unknown";
+export type ThirdParty =
+  | "apple-maps"
+  /** Apple Maps through MapKit only (no Look Around). */
+  | "apple-mapkit"
+  | "google-street-view"
+  | "game-center"
+  | "youtube"
+  | "ads"
+  | "whatsapp"
+  | "firebase"
+  | "icloud"
+  | "apple-speech";
 export type Permission = "camera" | "microphone" | "photos" | "location" | "faceid";
 
 type Copy = {
@@ -27,6 +39,12 @@ export type CuratedApp = {
   legal: {
     purchases: Purchases;
     purchaseName?: string;
+    /** Name of the one-time purchase when the app also sells subscriptions. */
+    oneTimeName?: string;
+    /** Date (YYYY-MM-DD) of the app's last legal review, when newer than LEGAL_UPDATED. */
+    updated?: string;
+    /** The app shows no ads and does not track (stated in its listing or code). */
+    noAds?: boolean;
     thirdParties: ThirdParty[];
     permissions: Permission[];
     /** The app's core processing happens on the device (stated in its listing). */
@@ -101,26 +119,35 @@ export const curated: Record<string, CuratedApp> = {
     copy: {
       pt: {
         summary:
-          "Mapas interativos com Flyover em 3D: sobrevoe cidades e marcos, salte para um ponto aleatório do planeta e alterne entre os estilos padrão, satélite e híbrido.",
+          "Tours aéreos narrados em 3D pelas grandes cidades do mundo, com o guia de áudio em 7 idiomas. Sobrevoe os marcos no iPhone, no iPad ou na Apple TV, simule um voo entre dois aeroportos e colecione cada marco no seu Passaporte.",
         features: [
-          "Flyover em 3D de grandes cidades e marcos",
-          "Salto para um lugar aleatório do planeta",
-          "Mapas padrão, satélite e híbrido, no modo claro ou escuro",
-          "Sua localização no mapa para explorar os arredores",
+          "Tours de Flyover em 3D com narração em 7 idiomas",
+          "Apple TV com o modo Ambiente, que toca os tours em sequência",
+          "Fly my route: voos simulados de aeroporto a aeroporto, com os marcos à sua esquerda e à sua direita",
+          "Passaporte de marcos, assento na cabine ou na janela e sobrevoo de qualquer cidade",
         ],
       },
       en: {
         summary:
-          "Interactive maps with 3D Flyover: soar over cities and landmarks, jump to a random spot on Earth and switch between standard, satellite and hybrid styles.",
+          "Narrated 3D aerial tours of the world's great cities, with an audio guide in 7 languages. Fly over landmarks on iPhone, iPad or Apple TV, simulate a flight between two airports and collect every landmark in your Passport.",
         features: [
-          "3D Flyover of major cities and landmarks",
-          "Jump to a random place on the planet",
-          "Standard, satellite and hybrid maps, in light or dark mode",
-          "Your location on the map to explore your surroundings",
+          "3D Flyover tours with narration in 7 languages",
+          "Apple TV with Ambient mode, which plays tours back to back",
+          "Fly my route: simulated airport-to-airport flights, with landmarks on your left and right",
+          "A Passport of landmarks, cockpit or window seats, and Fly over any city",
         ],
       },
     },
-    legal: { purchases: "one-time", thirdParties: ["apple-maps"], permissions: ["location"] },
+    legal: {
+      purchases: "subscription-and-one-time",
+      purchaseName: "Premium",
+      oneTimeName: "Premium lifetime",
+      thirdParties: ["apple-mapkit", "apple-speech", "icloud", "firebase"],
+      permissions: ["location"],
+      noAccount: true,
+      noAds: true,
+      updated: "2026-10-18",
+    },
   },
   "sticker-maker": {
     name: { pt: "Sticker Maker", en: "Sticker Maker" },

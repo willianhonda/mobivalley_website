@@ -20,7 +20,7 @@ export function AppLegalView({ locale, slug, kind }: { locale: Locale; slug: str
       doc={doc}
       eyebrow={app.name}
       icon={app.icon}
-      updated={t.legalPage.updated(formatDate(locale, LEGAL_UPDATED))}
+      updated={t.legalPage.updated(formatDate(locale, app.legal.updated ?? LEGAL_UPDATED))}
       footer={
         <p className="border-t border-ink/10 pt-8 text-sm">
           {t.legalPage.seeAlso}:{" "}

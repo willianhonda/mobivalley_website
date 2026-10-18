@@ -21,6 +21,7 @@ const GOOGLE_MAPS_TERMS = "https://maps.google.com/help/terms_maps/";
 const WHATSAPP_PRIVACY = "https://www.whatsapp.com/legal/privacy-policy";
 const GITHUB_PRIVACY = "https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement";
 const GOOGLE_ANALYTICS_PRIVACY = "https://business.safety.google/privacy/";
+const FIREBASE_PRIVACY = "https://firebase.google.com/support/privacy";
 
 // --- App Store privacy label vocabulary -------------------------------------
 
@@ -140,23 +141,39 @@ const permissionText: Record<Locale, Record<Permission, string>> = {
 const thirdPartyText: Record<Locale, Record<ThirdParty, string>> = {
   pt: {
     "apple-maps": `Apple Maps e Look Around, da Apple, para mapas e imagens. Consulte a [Política de Privacidade da Apple](${APPLE_PRIVACY}).`,
+    "apple-mapkit": `Apple Maps (MapKit), da Apple, para os mapas, as imagens de satélite e as vistas em 3D. Consulte a [Política de Privacidade da Apple](${APPLE_PRIVACY}).`,
     "google-street-view": `Google Street View, do Google, para imagens de rua. Consulte os [Termos do Google Maps](${GOOGLE_MAPS_TERMS}) e a [Política de Privacidade do Google](${GOOGLE_PRIVACY}).`,
     "game-center": `Game Center, da Apple, para rankings, conquistas e partidas com amigos. O que aparece para outros jogadores depende das suas configurações do Game Center.`,
     youtube: `Serviços de API do YouTube, para reproduzir os vídeos que você adiciona. Ao usar o app você concorda com os [Termos de Serviço do YouTube](${YOUTUBE_TERMS}), e o Google trata dados conforme a [Política de Privacidade do Google](${GOOGLE_PRIVACY}).`,
     ads: "Parceiros de publicidade, que exibem anúncios no app e podem receber o identificador do dispositivo e dados de interação com anúncios para exibi-los e medi-los, conforme as políticas de cada parceiro.",
     whatsapp: `WhatsApp e outros apps de mensagem, quando você decide exportar ou compartilhar suas figurinhas. A partir daí vale a política do app de destino, como a [Política de Privacidade do WhatsApp](${WHATSAPP_PRIVACY}).`,
+    firebase: `Firebase Analytics e Firebase Crashlytics, do Google, para estatísticas de uso e relatórios de falhas que nos ajudam a melhorar o app e corrigir erros. Esses dados não são associados à sua identidade nem usados para publicidade. Consulte [Privacidade e segurança no Firebase](${FIREBASE_PRIVACY}) e a [Política de Privacidade do Google](${GOOGLE_PRIVACY}).`,
+    icloud: `iCloud, da Apple, para sincronizar dados do app entre os seus aparelhos conectados ao mesmo ID Apple. Esses dados ficam na sua conta do iCloud e não passam por servidores da Mobivalley. Consulte a [Política de Privacidade da Apple](${APPLE_PRIVACY}).`,
+    "apple-speech": "Síntese de voz da Apple, que gera a narração no próprio aparelho. O texto narrado não é enviado para servidores da Mobivalley.",
   },
   en: {
     "apple-maps": `Apple Maps and Look Around, by Apple, for maps and imagery. See [Apple's Privacy Policy](${APPLE_PRIVACY}).`,
+    "apple-mapkit": `Apple Maps (MapKit), by Apple, for maps, satellite imagery and 3D views. See [Apple's Privacy Policy](${APPLE_PRIVACY}).`,
     "google-street-view": `Google Street View, by Google, for street-level imagery. See the [Google Maps Terms](${GOOGLE_MAPS_TERMS}) and [Google's Privacy Policy](${GOOGLE_PRIVACY}).`,
     "game-center": "Game Center, by Apple, for leaderboards, achievements and playing with friends. What other players see depends on your Game Center settings.",
     youtube: `YouTube API Services, to play the videos you add. By using the app you agree to the [YouTube Terms of Service](${YOUTUBE_TERMS}), and Google handles data under [Google's Privacy Policy](${GOOGLE_PRIVACY}).`,
     ads: "Advertising partners, which show ads in the app and may receive the device identifier and ad interaction data to serve and measure ads, under each partner's own policies.",
     whatsapp: `WhatsApp and other messaging apps, when you choose to export or share your stickers. From then on, the destination app's policy applies, such as [WhatsApp's Privacy Policy](${WHATSAPP_PRIVACY}).`,
+    firebase: `Firebase Analytics and Firebase Crashlytics, by Google, for usage statistics and crash reports that help us improve the app and fix bugs. This data is not linked to your identity or used for advertising. See [Privacy and Security in Firebase](${FIREBASE_PRIVACY}) and [Google's Privacy Policy](${GOOGLE_PRIVACY}).`,
+    icloud: `iCloud, by Apple, to sync app data between your devices signed in to the same Apple ID. This data stays in your iCloud account and does not pass through Mobivalley servers. See [Apple's Privacy Policy](${APPLE_PRIVACY}).`,
+    "apple-speech": "Apple's speech synthesis, which generates the narration on the device itself. The narrated text is not sent to Mobivalley servers.",
   },
 };
 
 // --- App privacy policy ---------------------------------------------------------
+
+/** What the app syncs through iCloud, per slug (shown with the "icloud" third party). */
+const icloudData: Record<string, Record<Locale, string>> = {
+  aeroexplorer: {
+    pt: "No AeroExplorer, o Passaporte, os lugares salvos e as buscas recentes são sincronizados pelo armazenamento chave-valor do iCloud entre o iPhone, o iPad e a Apple TV.",
+    en: "In AeroExplorer, your Passport, saved places and recent searches sync through iCloud key-value storage between your iPhone, iPad and Apple TV.",
+  },
+};
 
 export function appPrivacy(locale: Locale, app: App, email: string): LegalDoc {
   const L = app.legal;
@@ -182,6 +199,8 @@ export function appPrivacy(locale: Locale, app: App, email: string): LegalDoc {
         : "We don't collect data that identifies you. The data collected is anonymous and not linked to your identity.",
     );
   if (L.noAccount) summary.push(pt ? "O app funciona sem conta ou login." : "The app works without an account or login.");
+  if (L.noAds)
+    summary.push(pt ? "O app não exibe anúncios e não rastreia você." : "The app shows no ads and does not track you.");
   if (L.onDevice)
     summary.push(
       pt
@@ -249,7 +268,9 @@ export function appPrivacy(locale: Locale, app: App, email: string): LegalDoc {
       ],
     });
 
-  const parties = L.thirdParties.map((t) => thirdPartyText[locale][t]);
+  const parties = L.thirdParties.map((t) =>
+    t === "icloud" && icloudData[app.slug] ? `${thirdPartyText[locale][t]} ${icloudData[app.slug][locale]}` : thirdPartyText[locale][t],
+  );
   parties.push(
     pt
       ? `Apple, que distribui o app pela App Store e processa compras. Consulte a [Política de Privacidade da Apple](${APPLE_PRIVACY}).`
@@ -371,7 +392,7 @@ export function appTerms(locale: Locale, app: App, email: string, privacyHref: s
     ],
   });
 
-  const external = L.thirdParties.filter((t) => ["apple-maps", "google-street-view", "youtube", "game-center"].includes(t));
+  const external = L.thirdParties.filter((t) => ["apple-maps", "apple-mapkit", "google-street-view", "youtube", "game-center"].includes(t));
   if (external.length)
     sections.push({
       title: pt ? "Serviços e conteúdo de terceiros" : "Third-party services and content",
@@ -433,6 +454,35 @@ export function appTerms(locale: Locale, app: App, email: string, privacyHref: s
               "Prices and features may change, with notice where the law requires it.",
             ],
       },
+    );
+  } else if (L.purchases === "subscription-and-one-time") {
+    const name = L.purchaseName ?? "Premium";
+    const oneTime = L.oneTimeName ?? (pt ? "compra única" : "one-time purchase");
+    purchaseBlocks.push(
+      pt
+        ? `Os recursos do ${name} podem ser liberados de duas formas, ambas vendidas pela App Store: por uma assinatura com renovação automática (mensal ou anual), que inclui todos os recursos do ${name}, ou por uma compra única (${oneTime}), que libera os mesmos recursos sem renovação.`
+        : `${name} features can be unlocked in two ways, both sold through the App Store: an auto-renewable subscription (monthly or yearly), which includes every ${name} feature, or a one-time purchase (${oneTime}), which unlocks the same features with no renewal.`,
+      pt ? "Sobre as assinaturas:" : "About subscriptions:",
+      {
+        list: pt
+          ? [
+              "O pagamento é cobrado na sua conta do ID Apple quando a compra é confirmada.",
+              "A assinatura renova automaticamente pelo mesmo período e preço, a menos que seja cancelada pelo menos 24 horas antes do fim do período atual. A cobrança da renovação é feita nas 24 horas anteriores ao fim do período.",
+              "Se houver um período de teste gratuito, a cobrança começa ao fim do teste, a menos que você cancele pelo menos 24 horas antes. Ao assinar durante o teste, a parte não usada dele é perdida.",
+              "Você pode gerenciar ou cancelar a assinatura nos ajustes do seu ID Apple, em Ajustes > [seu nome] > Assinaturas. O cancelamento vale a partir do fim do período já pago.",
+              "Preços e recursos podem mudar, com aviso quando a lei exigir.",
+            ]
+          : [
+              "Payment is charged to your Apple ID account when you confirm the purchase.",
+              "The subscription renews automatically for the same period and price unless canceled at least 24 hours before the end of the current period. Your account is charged for renewal within the 24 hours before the period ends.",
+              "If a free trial is offered, billing starts when the trial ends unless you cancel at least 24 hours before. Any unused part of a trial is forfeited when you subscribe.",
+              "You can manage or cancel the subscription in your Apple ID settings, under Settings > [your name] > Subscriptions. Cancellation takes effect at the end of the period already paid.",
+              "Prices and features may change, with notice where the law requires it.",
+            ],
+      },
+      pt
+        ? `A compra única (${oneTime}) é cobrada uma vez e não renova. Compras e assinaturas ficam disponíveis nos aparelhos conectados ao mesmo ID Apple e podem ser restauradas pela opção Restaurar compras, nos ajustes do app.`
+        : `The one-time purchase (${oneTime}) is charged once and does not renew. Purchases and subscriptions are available on devices signed in to the same Apple ID and can be restored with the Restore purchases option in the app's settings.`,
     );
   } else if (L.purchases === "one-time") {
     purchaseBlocks.push(

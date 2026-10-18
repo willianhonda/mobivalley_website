@@ -12,7 +12,7 @@ import { mailto, site } from "@/lib/site";
 function faqFor(app: App, t: ReturnType<typeof getDictionary>["appPage"]["support"]["faq"]) {
   const items = [];
   if (app.legal.purchases !== "none") items.push(t.restore);
-  if (app.legal.purchases === "subscription" || app.legal.purchases === "unknown") items.push(t.cancel);
+  if (["subscription", "subscription-and-one-time", "unknown"].includes(app.legal.purchases)) items.push(t.cancel);
   if (app.legal.purchases !== "none") items.push(t.refund);
   items.push(t.bug, t.data);
   return items;
