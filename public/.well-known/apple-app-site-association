@@ -6,6 +6,13 @@
         "components": [
           { "/": "/concurso/*", "comment": "Concurso compartilhado pelo Radar de Concursos (?id=)" }
         ]
+      },
+      {
+        "appIDs": ["5X3J3QGYN2.com.mobivalley.MapFlyover"],
+        "components": [
+          { "/": "/flyover/*", "comment": "Tour compartilhado pelo AeroExplorer (?id=)" },
+          { "/": "/en/flyover/*", "comment": "Shared AeroExplorer tour, English page (?id=)" }
+        ]
       }
     ]
   }
