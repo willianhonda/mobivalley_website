@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-12T18:52:05.555Z",
+  "syncedAt": "2026-10-19T16:22:35.919Z",
   "developerUrl": "https://apps.apple.com/br/developer/mobivalley/id1701006912",
   "apps": [
     {
@@ -23,10 +23,10 @@
         ]
       },
       "releaseDate": "2023-04-15T07:00:00Z",
-      "updatedAt": "2026-10-09T15:57:28Z",
-      "version": "1.65.0",
+      "updatedAt": "2026-10-19T00:33:17Z",
+      "version": "1.66.0",
       "minimumOsVersion": "18.6",
-      "fileSizeBytes": 90431488,
+      "fileSizeBytes": 92753920,
       "price": 0,
       "languages": [
         "AR",
@@ -40,8 +40,8 @@
         "ES"
       ],
       "rating": {
-        "value": 4.66711,
-        "count": 760,
+        "value": 4.66317,
+        "count": 763,
         "store": "us"
       },
       "gameCenter": true,
@@ -50,7 +50,7 @@
         "en": "Play as many rounds as you like, free and with no ads. Pro adds countries, rules and more.\n\nDrop into a street somewhere in the world, look around, and guess where you are on the map. The closer your guess, the more points you score.\n\nPlace Guesser is a geography game played through real street-level imagery from Apple Look Around and Google Street View.\n\nHOW YOU PLAY\n• Play now: five rounds around the world, three minutes each, one tap from the home screen.\n• NEW Maps: 63 themed maps, from NFL stadiums, castles and lighthouses to 15 world cities. 2 free maps every day.\n• Daily Challenge: the same mystery places for everyone, every day, with a global leaderboard. Keep your streak alive.\n• Country Streak: how many countries can you name in a row before you miss?\n• Guess The Spot: a close-up that zooms out with every wrong answer. Fewer clues, more points.\n• Infinite Mode: keep going as long as you like.\n• Custom games: pick the timer, the number of rounds and how you're allowed to move.\n\nPLAY WITH FRIENDS\n• Real-time multiplayer: play the same places at the same time.\n• Async challenges: send a challenge and let friends play whenever they like.\n• Game Center leaderboards, achievements and friends boards.\n\nTRACK YOUR PROGRESS\n• A Passport of every country you've visited, with bronze, silver and gold medals.\n• Day streaks with streak freezes, so one busy day doesn't cost you everything.\n• Stats, personal bests and shareable result cards.\n\nMORE WAYS TO PLAY\n• Home screen widgets.\n• Apple Watch and Apple TV apps.\n\nPLACE GUESSER PRO\n• Unlimited Maps.\n• Choose a country and play only there.\n• Worldwide Pro: the full location pool, including Street View locations.\n• No Move and NMPZ rules (no move, no pan, no zoom).\n• The Daily Challenge archive: replay the last 30 days.\n• Longer timers, extra streak freezes and streak repair.\n\nPro is an auto-renewing subscription. Payment is charged to your Apple Account at confirmation. It renews automatically unless you cancel at least 24 hours before the end of the current period. Manage or cancel in your App Store account settings.\n\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
         "pt": "Jogue quantas rodadas quiser, de graça e sem anúncios. O Pro adiciona países, regras e mais.\n\nO jogo mostra uma rua em algum lugar do mundo: olhe em volta e adivinhe no mapa onde você está. Quanto mais perto, mais pontos.\n\nPlace Guesser é um jogo de geografia com imagens reais de rua do Apple Look Around e do Google Street View.\n\nCOMO JOGAR\n• Jogar agora: cinco rodadas pelo mundo, três minutos cada, a um toque da tela inicial.\n• NOVO Mapas: 63 mapas temáticos, de estádios da NFL, castelos e faróis a 15 cidades do mundo. 2 mapas grátis todo dia.\n• Desafio diário: os mesmos lugares misteriosos para todo mundo, todo dia, com ranking global. Mantenha sua sequência viva.\n• Sequência de países: quantos países seguidos você acerta antes de errar?\n• Adivinhe o Local: uma imagem de perto que vai abrindo a cada erro. Menos pistas, mais pontos.\n• Modo Infinito: jogue quanto quiser.\n• Partidas personalizadas: escolha o tempo, o número de rodadas e como você pode se mover.\n\nJOGUE COM AMIGOS\n• Multijogador em tempo real: os mesmos lugares, ao mesmo tempo.\n• Desafios assíncronos: mande um desafio e seus amigos jogam quando puderem.\n• Rankings, conquistas e placar de amigos no Game Center.\n\nACOMPANHE SEU PROGRESSO\n• Um Passaporte com todos os países que você visitou, com medalhas de bronze, prata e ouro.\n• Sequência de dias com proteção, para um dia corrido não custar tudo.\n• Estatísticas, recordes pessoais e cards de resultado para compartilhar.\n\nMAIS JEITOS DE JOGAR\n• Widgets na tela inicial.\n• Apps para Apple Watch e Apple TV.\n\nPLACE GUESSER PRO\n• Mapas ilimitados.\n• Escolha um país e jogue só nele.\n• Pro Mundial: todos os locais do jogo, incluindo locais com Street View.\n• Regras Sem Mover e NMPZ (sem andar, sem girar, sem zoom).\n• Arquivo do Desafio diário: jogue de novo os últimos 30 dias.\n• Tempos maiores, mais proteções de sequência e recuperação de sequência.\n\nO Pro é uma assinatura com renovação automática. O pagamento é cobrado na sua Conta Apple ao confirmar. A assinatura renova automaticamente, a menos que seja cancelada pelo menos 24 horas antes do fim do período atual. Gerencie ou cancele nos ajustes da sua conta da App Store.\n\nTermos de Uso: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
       },
-      "releaseNotes": "What's new in Place Guesser\n\nNew: Pass the Phone! One phone, everyone plays. Take turns guessing where in the world the map is.\n• Four games: Pass the Phone, Knockout, Family Team and Solo Map Quiz.\n• Pick an animal for each player and chase the family record.\n• Relaxed difficulty, great for kids and first timers.\n• Find it in Modes.",
+      "releaseNotes": "What's new in Place Guesser\n\n• Every round now scores out of 5,000, like the Daily Challenge and multiplayer. Your records and country medals were converted, so you keep everything you earned.\n• Results come alive: the points count up with sound and haptics, and the best guesses sparkle. Sound effects, Home music and haptics each have a switch in Settings.\n• Thailand is on the map: new Apple Look Around places in Bangkok, Chiang Mai, Phuket, Ayutthaya and more, free to play.\n• Cleaner screens: a simpler Home, a clearer round result and a lighter game screen.\n• Easier to read and tap: layouts adapt to large text, controls are bigger and better labelled for VoiceOver.\n• Clearer Pro prices: every plan shows its billing period.\n• Fixes and improvements.",
       "icon": "/apps/place-guesser/icon.webp",
       "tint": "#FDF8DB",
       "screens": [
@@ -144,10 +144,10 @@
         ]
       },
       "releaseDate": "2019-02-10T20:10:59Z",
-      "updatedAt": "2026-10-09T20:08:45Z",
-      "version": "2.5.0",
+      "updatedAt": "2026-10-17T23:17:48Z",
+      "version": "2.6.0",
       "minimumOsVersion": "26.0",
-      "fileSizeBytes": 30138368,
+      "fileSizeBytes": 31125504,
       "price": 0,
       "languages": [
         "AR",
@@ -158,8 +158,8 @@
         "ES"
       ],
       "rating": {
-        "value": 4.59401,
-        "count": 367,
+        "value": 4.5929,
+        "count": 366,
         "store": "us"
       },
       "gameCenter": false,
@@ -168,7 +168,7 @@
         "en": "Turn your photos into stickers in seconds and send them to WhatsApp, Telegram and iMessage.\n\nPick a photo and the background disappears on its own. Touch it up with the eraser and restore brush, add text and emoji, and choose a finish: white border, puffy, comic or shadow.\n\nWHAT'S INSIDE\n- Automatic cutout, with a tap to choose who stays when there are several people or pets\n- Animated stickers from Live Photos, videos and GIFs\n- Quick Sticker: make one sticker and send it right away\n- Meme captions, text with outlines and emoji\n- Emoji tags added for you, so friends find your stickers as they type\n- Paste photos and GIFs copied from other apps\n- Reorder, duplicate, move and edit your stickers anytime\n- Your packs in iMessage, and share photos to the app from Photos\n- Export a pack as a .zip or save stickers to Photos\n- Back up your packs to Files and restore them\n- Emoji and pack name suggestions on devices with Apple Intelligence\n- Works on iPhone and iPad, and with Shortcuts\n\nEverything is made on your device. No account needed.\n\nPlease only use images you own or have the right to use.\n\nSticker Maker is an independent app. It is not affiliated with, associated with, authorized by, or endorsed by WhatsApp LLC, Meta Platforms, Inc., or Telegram. WhatsApp is a registered trademark of WhatsApp LLC.\n\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
         "pt": "Transforme suas fotos em figurinhas em segundos e envie para o WhatsApp, o Telegram e o iMessage.\n\nEscolha uma foto e o fundo sai sozinho. Ajuste com a borracha e o pincel de restaurar, coloque texto e emojis e escolha um acabamento: borda branca, fofinha, quadrinho ou sombra.\n\nO QUE TEM NO APP\n- Recorte automático, com um toque para escolher quem fica quando há várias pessoas ou pets\n- Figurinhas animadas de Live Photos, vídeos e GIFs\n- Figurinha rápida: crie uma e envie na hora\n- Legendas de meme, texto com contorno e emojis\n- Emojis automáticos, para seus amigos acharem a figurinha enquanto digitam\n- Cole fotos e GIFs copiados de outros apps\n- Reordene, duplique, mova e edite suas figurinhas quando quiser\n- Seus pacotes no iMessage, e fotos compartilhadas direto do app Fotos\n- Exporte o pacote em .zip ou salve as figurinhas no Fotos\n- Backup dos pacotes no Arquivos, com restauração\n- Sugestões de emojis e de nomes de pacote em aparelhos com Apple Intelligence\n- Funciona no iPhone e no iPad, e com o app Atalhos\n\nTudo é feito no seu aparelho. Não precisa de conta.\n\nUse apenas imagens que são suas ou que você tem direito de usar.\n\nO Sticker Maker é um app independente, sem vínculo com WhatsApp LLC, Meta Platforms, Inc. ou Telegram, nem autorizado ou endossado por eles. WhatsApp é marca registrada da WhatsApp LLC.\n\nTermos de Uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
       },
-      "releaseNotes": "New: Quick Sticker now has every option from the Create menu.\n\n- Make a quick sticker from a link, Search GIFs, Text or Drawing, an animated clip or Image Playground.\n- Reordering stickers in a pack is saved again.\n- Links typed without https:// open again.",
+      "releaseNotes": "New: the Advanced mode of animated stickers. In Decorate, add text, emoji, photos and videos, and choose when each one shows and how it moves.\n\n- Mirror stickers, clips and layers with one tap.\n- Keep or remove the background of the photos and videos you add.\n- Crop and Rotate your video, then move, zoom and turn it.\n- Videos up to 5 minutes, with a progress bar while they open.\n- Copied an image? Open the app to turn it into a sticker.",
       "icon": "/apps/sticker-maker/icon.webp",
       "tint": "#FDFDFD",
       "screens": [
@@ -590,10 +590,10 @@
         ]
       },
       "releaseDate": "2025-09-23T07:00:00Z",
-      "updatedAt": "2026-10-12T15:10:22Z",
-      "version": "1.4.0",
+      "updatedAt": "2026-10-18T21:00:51Z",
+      "version": "1.6.0",
       "minimumOsVersion": "15.6",
-      "fileSizeBytes": 21009408,
+      "fileSizeBytes": 21423104,
       "price": 0,
       "languages": [
         "EN",
@@ -610,9 +610,9 @@
         "en": "LittleTube is a video player for kids that plays only the videos you choose.\n\nYou find a video on YouTube, tap Share, and send it to LittleTube. It lands in your child's list. Your child opens LittleTube and sees only what you added. There's no home feed, no Shorts and no algorithm deciding what comes next.\n\nBUILT FOR PARENTS WHO WANT TO STAY IN CHARGE\n• Only your picks: your child's list has only the videos you added\n• Your picks come next: when a video ends, LittleTube shows your other approved videos, not YouTube's suggestions\n• Links locked behind Face ID: tapping a link inside the player asks for a parent's Face ID or passcode before leaving the app. You can also block these links completely\n• Approve before it's added: you can require Face ID before any shared video joins the list\n• Lock settings and profiles with Face ID or your passcode\n\nADDING VIDEOS TAKES ONE TAP\n• Share any video from the YouTube app or Safari straight to LittleTube\n• Titles and descriptions come in automatically\n• Sort videos into groups like \"Bedtime\", \"Music\" or \"Learning\"\n• Search and sort your child's list\n\nLITTLETUBE PRO: FAMILY & CONTROLS\n• A profile for every child, each with their own videos\n• Daily watch time limits per profile (15 minutes to 2 hours). When time is up, the video stops and your child sees \"That's all for today!\". Need a few more minutes? Add 15 with Face ID\n• Unlimited videos and every safety feature above are free for everyone\n\nGOOD TO KNOW\nLittleTube plays videos with YouTube's official embedded player, so YouTube may still show ads during a video. LittleTube is not affiliated with or endorsed by YouTube or Google.\n\nBuilt by a dad, for families. Questions or ideas? Tap Settings → Send Feedback. We read every message.\n\nSUBSCRIPTION\nLittleTube Pro is an auto-renewing subscription. Payment is charged to your Apple ID at purchase confirmation. It renews automatically unless you cancel at least 24 hours before the end of the current period. You can manage or cancel it in your App Store account settings.\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nPrivacy Policy: https://bit.ly/peektube-privacy-policy\n\nVideos shown in screenshots: Caminandes, Big Buck Bunny and Spring © Blender Foundation (CC BY 4.0); Tour of the Moon © NASA.",
         "pt": "LittleTube is a video player for kids that plays only the videos you choose.\n\nYou find a video on YouTube, tap Share, and send it to LittleTube. It lands in your child's list. Your child opens LittleTube and sees only what you added. There's no home feed, no Shorts and no algorithm deciding what comes next.\n\nBUILT FOR PARENTS WHO WANT TO STAY IN CHARGE\n• Only your picks: your child's list has only the videos you added\n• Your picks come next: when a video ends, LittleTube shows your other approved videos, not YouTube's suggestions\n• Links locked behind Face ID: tapping a link inside the player asks for a parent's Face ID or passcode before leaving the app. You can also block these links completely\n• Approve before it's added: you can require Face ID before any shared video joins the list\n• Lock settings and profiles with Face ID or your passcode\n\nADDING VIDEOS TAKES ONE TAP\n• Share any video from the YouTube app or Safari straight to LittleTube\n• Titles and descriptions come in automatically\n• Sort videos into groups like \"Bedtime\", \"Music\" or \"Learning\"\n• Search and sort your child's list\n\nLITTLETUBE PRO: FAMILY & CONTROLS\n• A profile for every child, each with their own videos\n• Daily watch time limits per profile (15 minutes to 2 hours). When time is up, the video stops and your child sees \"That's all for today!\". Need a few more minutes? Add 15 with Face ID\n• Unlimited videos and every safety feature above are free for everyone\n\nGOOD TO KNOW\nLittleTube plays videos with YouTube's official embedded player, so YouTube may still show ads during a video. LittleTube is not affiliated with or endorsed by YouTube or Google.\n\nBuilt by a dad, for families. Questions or ideas? Tap Settings → Send Feedback. We read every message.\n\nSUBSCRIPTION\nLittleTube Pro is an auto-renewing subscription. Payment is charged to your Apple ID at purchase confirmation. It renews automatically unless you cancel at least 24 hours before the end of the current period. You can manage or cancel it in your App Store account settings.\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nPrivacy Policy: https://bit.ly/peektube-privacy-policy\n\nVideos shown in screenshots: Caminandes, Big Buck Bunny and Spring © Blender Foundation (CC BY 4.0); Tour of the Moon © NASA."
       },
-      "releaseNotes": "New: browse YouTube right inside LittleTube and add videos with one tap. If your kid taps a video that isn't approved, a grown-up can let it play once or add it to the list.\n\n• Play All and Shuffle\n• Watch History, plus a weekly summary (Pro)\n• Set the daily time limit in any 5-minute step, and let the current video finish (Pro)\n• Optional full screen when a video starts\n• Reorder your videos, and a quick intro for new users",
+      "releaseNotes": "New: start with a channel. Pick a trusted channel for your child's age and the list fills itself, then stays fresh as new videos arrive.\n\n• Starter channels for ages 2–5 and 6–9, right in setup\n• New videos show a \"New\" badge and come first\n• One channel folder is free; follow more with Pro\n• New kangaroo mascot and a fresher app icon",
       "icon": "/apps/littletube/icon.webp",
-      "tint": "#E5F8EF",
+      "tint": "#F8E0CD",
       "screens": [
         {
           "src": "/apps/littletube/screen-1.webp",
@@ -870,10 +870,10 @@
         ]
       },
       "releaseDate": "2026-06-01T07:00:00Z",
-      "updatedAt": "2026-09-25T22:29:50Z",
-      "version": "1.2.0",
+      "updatedAt": "2026-10-19T13:17:33Z",
+      "version": "1.4.0",
       "minimumOsVersion": "26.0",
-      "fileSizeBytes": 8357888,
+      "fileSizeBytes": 10809344,
       "price": 0,
       "languages": [
         "EN",
@@ -885,12 +885,12 @@
         "store": "us"
       },
       "gameCenter": false,
-      "universal": false,
+      "universal": true,
       "description": {
-        "en": "SpeakScroll turns your iPhone into a teleprompter and camera in one. Read your script while looking straight into the lens, and record polished takes without memorizing a word.\n\nBuilt for creators, founders, teachers, coaches and anyone who films talking-head video.\n\nREAD NATURALLY\n• Your script scrolls over the live camera, right where your eyes need to be\n• Drag the text box anywhere and resize it to match your eye line\n• Adjust scroll speed, text size, color and background\n• Pause and drag the text to pick your starting point\n• Mirror mode for beam-splitter teleprompter rigs\n\nVOICE SCROLL\n• Turn it on and the script follows you as you speak, with no speed to set\n• Speech recognition runs entirely on your iPhone; your voice never leaves it\n\nRECORD IN ONE TAP\n• 3-2-1 countdown, then recording and scrolling start together\n• Front or rear camera, saved straight to Photos\n• Watch the take right away in the app\n\nYOUR SCRIPT LIBRARY\n• Save, edit and switch between scripts\n• Paste from anywhere or import text, Markdown, RTF and PDF files\n• See word count and estimated reading time\n• Add cues like [pause] or [smile]; they're highlighted so you never read them aloud\n\nHANDS-FREE CONTROL\n• Keyboard and Bluetooth page-turner remotes: play, pause, move through the script and change speed\n• Siri and Shortcuts: \"Start SpeakScroll\", open your scripts or create a new one\n\nPRIVATE BY DESIGN\n• No account, no sign-up\n• Your scripts and your voice stay on your device\n\nAvailable in English and Brazilian Portuguese.",
-        "pt": "O SpeakScroll transforma seu iPhone em teleprompter e câmera ao mesmo tempo. Leia seu roteiro olhando direto para a lente e grave takes impecáveis sem decorar nenhuma palavra.\n\nFeito para criadores de conteúdo, empreendedores, professores, mentores e qualquer pessoa que grava vídeos falando para a câmera.\n\nLEIA COM NATURALIDADE\n• O roteiro rola sobre a imagem da câmera, bem onde seus olhos precisam estar\n• Arraste o quadro de texto para qualquer lugar e ajuste o tamanho à altura do seu olhar\n• Ajuste velocidade, tamanho do texto, cor e fundo\n• Pause e arraste o texto para escolher onde começar\n• Modo espelhado para teleprompters com vidro\n\nVOICE SCROLL\n• Ative e o roteiro acompanha você enquanto fala, sem precisar ajustar velocidade\n• O reconhecimento de fala acontece todo no seu iPhone; sua voz não sai do aparelho\n\nGRAVE COM UM TOQUE\n• Contagem 3-2-1, e a gravação e a rolagem começam juntas\n• Câmera frontal ou traseira, com o vídeo salvo direto no Fotos\n• Assista ao take na hora, dentro do app\n\nSUA BIBLIOTECA DE ROTEIROS\n• Salve, edite e troque de roteiro quando quiser\n• Cole de qualquer lugar ou importe arquivos de texto, Markdown, RTF e PDF\n• Veja a contagem de palavras e o tempo estimado de leitura\n• Adicione marcações como [pausa] ou [sorria]; elas ficam destacadas para você não ler em voz alta\n\nCONTROLE SEM AS MÃOS\n• Teclado e controles Bluetooth de passar página: reproduzir, pausar, navegar pelo roteiro e mudar a velocidade\n• Siri e Atalhos: \"Iniciar o SpeakScroll\", abrir seus roteiros ou criar um novo\n\nPRIVACIDADE EM PRIMEIRO LUGAR\n• Sem conta, sem cadastro\n• Seus roteiros e sua voz ficam no seu aparelho\n\nDisponível em português e inglês."
+        "en": "From script to finished video, on your iPhone or iPad.\n\nSpeakScroll places your script over the camera and follows your pace with Voice Scroll. Record, combine takes and finish your video in the built-in editor.\n\nRECORD WITH CONFIDENCE\n• Adjust scroll speed, text size, color and mirroring.\n• Use the front or rear camera, exposure controls and framing guides.\n• Choose external microphones and monitor audio levels.\n• Organize scripts and import text, Markdown, RTF or PDF.\n\nEDIT AND CAPTION\n• Split, trim, delete and reorder clips.\n• Cut footage by selecting words in the transcript.\n• Burn Classic captions into your video.\n• Choose 9:16, 1:1, 4:5 or 16:9 and adjust framing.\n• Save to Photos or share your video without a watermark.\n\nSPEAKSCROLL PRO\nAdd noise removal and voice enhancement, Magic Cut, background removal, animated caption styles, caption translation, music, a brand kit, Auto Shorts, an AI script assistant and 4K/60 export.\n\nReading, recording, saving, Voice Scroll, the library, basic editing and Classic captions stay free.\n\nNO ACCOUNT REQUIRED\nRecording and reading work offline. Script and media processing happens on your device. Speech recognition and translation may require an initial language-model download. The script assistant and Auto Shorts require Apple Intelligence and a supported device and language.\n\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "pt": "Do roteiro ao vídeo pronto, no seu iPhone ou iPad.\n\nO SpeakScroll coloca seu roteiro sobre a câmera e acompanha seu ritmo com o Voice Scroll. Grave, reúna vários takes e finalize o vídeo no editor integrado.\n\nGRAVE COM CONFIANÇA\n• Ajuste velocidade, tamanho, cor e espelhamento do texto.\n• Use a câmera frontal ou traseira, exposição e guias de enquadramento.\n• Escolha microfones externos e acompanhe o nível do áudio.\n• Organize seus roteiros e importe texto, Markdown, RTF ou PDF.\n\nEDITE E LEGENDE\n• Divida, apare, apague e reorganize clipes.\n• Corte trechos pelas palavras da transcrição.\n• Adicione legendas clássicas ao vídeo.\n• Escolha 9:16, 1:1, 4:5 ou 16:9 e ajuste o enquadramento.\n• Salve em Fotos ou compartilhe seu vídeo sem marca d'água.\n\nSPEAKSCROLL PRO\nAdicione redução de ruído e realce de voz, Corte Mágico, remoção de fundo, estilos de legenda animados, tradução de legendas, música, kit de marca, Auto Shorts, assistente de roteiro com IA e exportação 4K/60.\n\nLer, gravar, salvar, Voice Scroll, biblioteca, edição básica e legendas clássicas continuam grátis.\n\nSEM CONTA\nGravar e ler funcionam sem internet. O processamento de roteiro e mídia acontece no aparelho. Reconhecimento de fala e tradução podem exigir um download inicial dos modelos de idioma. O assistente de roteiro e Auto Shorts dependem de Apple Intelligence, aparelho e idioma compatíveis.\n\nTermos de Uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
       },
-      "releaseNotes": "A big update to help you record better takes, faster.\n\nNEW\n• Voice Scroll: the script follows your speech. On-device, so your voice never leaves your iPhone.\n• Siri & Shortcuts: start the teleprompter, open your scripts or create a new one by voice.\n• Keyboard and Bluetooth remote control.\n• Import Markdown, RTF and PDF files, in addition to plain text.\n• Cue markers like [pause] are highlighted in your script.\n• Word count and estimated reading time for every script.\n• Now in Brazilian Portuguese.\n• Refreshed controls with the new iOS design.\n\nIMPROVED\n• Smoother scrolling that uses less battery.\n• Landscape videos are now saved the right way up.\n• The microphone is only on while you record.\n• If a video can't be saved to Photos, it's kept in the Files app instead of being lost.\n• Better VoiceOver support.\n\nFIXED\n• Editing your current script no longer creates duplicate copies in your library.\n• Some text colors no longer reset to white.\n• Scrolling now stops at the end of the script. Press play to start again from the top.",
+      "releaseNotes": "Your script, your look: pick the prompter font, now with a high-legibility option.\n\n• New Font setting: Rounded, Serif, Monospaced or High legibility\n• Find your scripts in Spotlight and open them straight in the prompter\n• Pro trial reminder: we notify you 2 days before it ends\n• Clearer promise: no watermark, no account, recording works offline",
       "icon": "/apps/speakscroll/icon.webp",
       "tint": "#CDC8FD",
       "screens": [
@@ -916,6 +916,21 @@
         },
         {
           "src": "/apps/speakscroll/screen-5.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/speakscroll/screen-6.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/speakscroll/screen-7.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/speakscroll/screen-8.webp",
           "width": 640,
           "height": 1391
         }
@@ -957,10 +972,10 @@
         ]
       },
       "releaseDate": "2019-10-26T07:00:00Z",
-      "updatedAt": "2026-10-11T18:09:27Z",
-      "version": "2.4.0",
+      "updatedAt": "2026-10-19T06:59:44Z",
+      "version": "2.6.0",
       "minimumOsVersion": "17.0",
-      "fileSizeBytes": 12387328,
+      "fileSizeBytes": 11922432,
       "price": 0,
       "languages": [
         "PT"
@@ -976,7 +991,7 @@
         "en": "Find Brazilian public-sector exams (concursos públicos) and selection processes that are open for registration, and never miss a deadline.\n\nEvery day, Radar reads municipal official gazettes and the federal Diário Oficial da União (DOU) and gathers the published notices in a single list, sorted by registration deadline.\n\nFIND THE RIGHT EXAM\n• On first launch, pick your states and education level: your list and your first alert are ready\n• Search by agency, city, job title or exam board\n• Filter by state, education level, level of government (municipal or federal), type and minimum salary; filters are remembered\n• See what closes this week, what is open now and what opens soon\n• Sort by nearest deadline, highest salary, most openings or newest\n\nEVERYTHING ABOUT THE NOTICE\n• Registration period, salary, openings and, when the gazette lists them, exam board, positions and education level\n• Excerpt from the official gazette with a link to the notice and registration page\n• A heads-up when the notice is amended\n• Share an exam with friends\n\nFOLLOW AND GET REMINDERS\n• Follow the exams you care about\n• Reminders 3 days and 1 day before registration closes, and on the day it opens\n• Mark \"I registered\", add the exam date and get reminders 7 days and 1 day before\n• Add the deadline or the exam day to your iPhone Calendar\n• Widget with registrations closing soon\n• Create an alert by state, education level, salary and keywords and hear about new exams\n• Your exams and alerts sync across your devices with iCloud\n\nNO ADS, NO SURPRISES\n• No ads, on any plan\n• Notifications only about the exams you follow and the alerts you create\n• The subscription is billed by Apple: cancel anytime in Settings, no calls or emails\n• A light app that opens fast and shows the last list even offline\n\nFREE TO BROWSE\nThe list, search, filters (including education level) and details are free. The free plan lets you follow up to 5 exams and set 1 new-exam alert, delivered as a daily digest. Exam-day reminders and amendment alerts are free too.\n\nRADAR PREMIUM (monthly or yearly subscription)\n• Follow unlimited exams\n• Unlimited new-exam alerts, sent as soon as the app finds the notice\n• Choose how early (7, 3 or 1 day) and at what time reminders arrive\n• Filter and alerts by job area: health, education, IT, legal and more\n• Full history of the exams you have opened\n\nThe app is in Brazilian Portuguese. Data is extracted automatically from official gazettes; always check the official notice. The app is not affiliated with any government agency or exam board.",
         "pt": "Encontre concursos públicos e processos seletivos com inscrições abertas e não perca nenhum prazo.\n\nTodos os dias, o Radar lê os diários oficiais das prefeituras e o Diário Oficial da União (DOU) e reúne os editais publicados numa lista só, organizada pelo prazo de inscrição.\n\nENCONTRE O CONCURSO CERTO\n• Na primeira abertura, escolha seus estados e sua escolaridade: a lista e o seu primeiro alerta já vêm prontos\n• Busque por órgão, cidade, cargo ou banca\n• Filtre por estado, escolaridade, esfera (municipal ou federal), tipo e salário mínimo; os filtros ficam salvos\n• Veja primeiro o que encerra esta semana, o que está com inscrições abertas e o que abre em breve\n• Ordene por prazo mais próximo, maior salário, mais vagas ou mais recentes\n\nTUDO SOBRE O EDITAL\n• Período de inscrição, salário, vagas e, quando o diário cita, banca, cargos e escolaridade\n• Trecho do diário oficial com link para o edital e a inscrição\n• Aviso quando o edital é retificado\n• Compartilhe um concurso com quem também está estudando\n\nACOMPANHE E RECEBA LEMBRETES\n• Acompanhe os concursos que interessam a você\n• Lembrete 3 dias e 1 dia antes do fim das inscrições, e no dia em que elas abrem\n• Marque \"Já me inscrevi\", informe a data da prova e receba lembrete 7 dias e 1 dia antes\n• Coloque o prazo ou a prova no Calendário do iPhone\n• Widget com as inscrições que estão terminando\n• Crie um alerta por estado, escolaridade, salário e palavras-chave e saiba quando aparecer um concurso novo\n• Seus concursos e alertas sincronizam pelo iCloud entre os seus aparelhos\n\nSEM ANÚNCIOS E SEM SURPRESA\n• Nenhum anúncio, em nenhum plano\n• Avisos só dos concursos que você acompanha e dos alertas que você criou\n• A assinatura é feita pela Apple: você cancela quando quiser em Ajustes, sem ligar nem mandar e-mail\n• App leve, que abre rápido e funciona com a última lista mesmo sem internet\n\nGRÁTIS PARA CONSULTAR\nLista, busca, filtros (inclusive escolaridade) e detalhes são grátis. No plano grátis você acompanha até 5 concursos e tem 1 alerta de novos concursos, com resumo diário. O lembrete da prova e o aviso de retificação também são grátis.\n\nRADAR PREMIUM (assinatura mensal ou anual)\n• Acompanhe quantos concursos quiser\n• Alertas de novos concursos ilimitados, avisados assim que o app encontra o edital\n• Escolha a antecedência (7, 3 ou 1 dia) e o horário dos lembretes\n• Filtro e alertas por área do cargo: saúde, educação, TI, jurídica e mais\n• Histórico completo dos concursos que você já abriu\n\nOs dados são extraídos automaticamente dos diários oficiais. Confira sempre o edital. O app não tem vínculo com órgãos públicos nem com bancas organizadoras."
       },
-      "releaseNotes": "Radar now runs on iPad and starts out set up for you.\n\n• On first launch, pick your states and education level: your list and first alert are ready\n• On iPad, the list and the exam side by side\n• Share an exam with an image and a link\n• Education level filter is now free, and filters are remembered\n• \"Restore Purchases\" now shows the result",
+      "releaseNotes": "Nationwide exams in any state, and a summary every Monday.\n\n• Nationwide exams now show up whatever state you pick\n• \"Resumo da semana\": every Monday, the new exams in your states\n• \"Avise-me do edital\" on upcoming exams: know when the notice is out\n• Alerts by level (federal, state, municipal) and by exam board\n• \"Próximos prazos\" Siri shortcut and a Lock Screen widget",
       "icon": "/apps/radar-de-concursos-publicos/icon.webp",
       "tint": "#BAD7D7",
       "screens": [
@@ -1048,7 +1063,7 @@
       },
       "releaseNotes": "A new OffChat, built for travel:\n• \"Ready to fly\" checklist to prepare everything before losing connection\n• Trip details the assistant uses to answer offline\n• Offline currency converter, translation and essential phrases\n• Chat history, Stop button and clearer error messages\n• Widget, Siri and Shortcuts, and share-to-trip from Mail and Safari\n• Better offline model for devices without Apple Intelligence\n• Portuguese (Brazil) support and a new icon",
       "icon": "/apps/offchat-ai/icon.webp",
-      "tint": "#BFBFD2",
+      "tint": "#BABAC8",
       "screens": [
         {
           "src": "/apps/offchat-ai/screen-1.webp",
