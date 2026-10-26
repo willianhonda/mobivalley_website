@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-19T16:22:35.919Z",
+  "syncedAt": "2026-10-26T16:02:57.453Z",
   "developerUrl": "https://apps.apple.com/br/developer/mobivalley/id1701006912",
   "apps": [
     {
@@ -23,10 +23,10 @@
         ]
       },
       "releaseDate": "2023-04-15T07:00:00Z",
-      "updatedAt": "2026-10-19T00:33:17Z",
-      "version": "1.66.0",
+      "updatedAt": "2026-10-20T22:35:26Z",
+      "version": "1.66.1",
       "minimumOsVersion": "18.6",
-      "fileSizeBytes": 92753920,
+      "fileSizeBytes": 92770304,
       "price": 0,
       "languages": [
         "AR",
@@ -50,7 +50,7 @@
         "en": "Play as many rounds as you like, free and with no ads. Pro adds countries, rules and more.\n\nDrop into a street somewhere in the world, look around, and guess where you are on the map. The closer your guess, the more points you score.\n\nPlace Guesser is a geography game played through real street-level imagery from Apple Look Around and Google Street View.\n\nHOW YOU PLAY\n• Play now: five rounds around the world, three minutes each, one tap from the home screen.\n• NEW Maps: 63 themed maps, from NFL stadiums, castles and lighthouses to 15 world cities. 2 free maps every day.\n• Daily Challenge: the same mystery places for everyone, every day, with a global leaderboard. Keep your streak alive.\n• Country Streak: how many countries can you name in a row before you miss?\n• Guess The Spot: a close-up that zooms out with every wrong answer. Fewer clues, more points.\n• Infinite Mode: keep going as long as you like.\n• Custom games: pick the timer, the number of rounds and how you're allowed to move.\n\nPLAY WITH FRIENDS\n• Real-time multiplayer: play the same places at the same time.\n• Async challenges: send a challenge and let friends play whenever they like.\n• Game Center leaderboards, achievements and friends boards.\n\nTRACK YOUR PROGRESS\n• A Passport of every country you've visited, with bronze, silver and gold medals.\n• Day streaks with streak freezes, so one busy day doesn't cost you everything.\n• Stats, personal bests and shareable result cards.\n\nMORE WAYS TO PLAY\n• Home screen widgets.\n• Apple Watch and Apple TV apps.\n\nPLACE GUESSER PRO\n• Unlimited Maps.\n• Choose a country and play only there.\n• Worldwide Pro: the full location pool, including Street View locations.\n• No Move and NMPZ rules (no move, no pan, no zoom).\n• The Daily Challenge archive: replay the last 30 days.\n• Longer timers, extra streak freezes and streak repair.\n\nPro is an auto-renewing subscription. Payment is charged to your Apple Account at confirmation. It renews automatically unless you cancel at least 24 hours before the end of the current period. Manage or cancel in your App Store account settings.\n\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
         "pt": "Jogue quantas rodadas quiser, de graça e sem anúncios. O Pro adiciona países, regras e mais.\n\nO jogo mostra uma rua em algum lugar do mundo: olhe em volta e adivinhe no mapa onde você está. Quanto mais perto, mais pontos.\n\nPlace Guesser é um jogo de geografia com imagens reais de rua do Apple Look Around e do Google Street View.\n\nCOMO JOGAR\n• Jogar agora: cinco rodadas pelo mundo, três minutos cada, a um toque da tela inicial.\n• NOVO Mapas: 63 mapas temáticos, de estádios da NFL, castelos e faróis a 15 cidades do mundo. 2 mapas grátis todo dia.\n• Desafio diário: os mesmos lugares misteriosos para todo mundo, todo dia, com ranking global. Mantenha sua sequência viva.\n• Sequência de países: quantos países seguidos você acerta antes de errar?\n• Adivinhe o Local: uma imagem de perto que vai abrindo a cada erro. Menos pistas, mais pontos.\n• Modo Infinito: jogue quanto quiser.\n• Partidas personalizadas: escolha o tempo, o número de rodadas e como você pode se mover.\n\nJOGUE COM AMIGOS\n• Multijogador em tempo real: os mesmos lugares, ao mesmo tempo.\n• Desafios assíncronos: mande um desafio e seus amigos jogam quando puderem.\n• Rankings, conquistas e placar de amigos no Game Center.\n\nACOMPANHE SEU PROGRESSO\n• Um Passaporte com todos os países que você visitou, com medalhas de bronze, prata e ouro.\n• Sequência de dias com proteção, para um dia corrido não custar tudo.\n• Estatísticas, recordes pessoais e cards de resultado para compartilhar.\n\nMAIS JEITOS DE JOGAR\n• Widgets na tela inicial.\n• Apps para Apple Watch e Apple TV.\n\nPLACE GUESSER PRO\n• Mapas ilimitados.\n• Escolha um país e jogue só nele.\n• Pro Mundial: todos os locais do jogo, incluindo locais com Street View.\n• Regras Sem Mover e NMPZ (sem andar, sem girar, sem zoom).\n• Arquivo do Desafio diário: jogue de novo os últimos 30 dias.\n• Tempos maiores, mais proteções de sequência e recuperação de sequência.\n\nO Pro é uma assinatura com renovação automática. O pagamento é cobrado na sua Conta Apple ao confirmar. A assinatura renova automaticamente, a menos que seja cancelada pelo menos 24 horas antes do fim do período atual. Gerencie ou cancele nos ajustes da sua conta da App Store.\n\nTermos de Uso: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
       },
-      "releaseNotes": "What's new in Place Guesser\n\n• Every round now scores out of 5,000, like the Daily Challenge and multiplayer. Your records and country medals were converted, so you keep everything you earned.\n• Results come alive: the points count up with sound and haptics, and the best guesses sparkle. Sound effects, Home music and haptics each have a switch in Settings.\n• Thailand is on the map: new Apple Look Around places in Bangkok, Chiang Mai, Phuket, Ayutthaya and more, free to play.\n• Cleaner screens: a simpler Home, a clearer round result and a lighter game screen.\n• Easier to read and tap: layouts adapt to large text, controls are bigger and better labelled for VoiceOver.\n• Clearer Pro prices: every plan shows its billing period.\n• Fixes and improvements.",
+      "releaseNotes": "Fixed a bug where the Street View went black after leaving full screen.",
       "icon": "/apps/place-guesser/icon.webp",
       "tint": "#FDF8DB",
       "screens": [
@@ -144,18 +144,22 @@
         ]
       },
       "releaseDate": "2019-02-10T20:10:59Z",
-      "updatedAt": "2026-10-17T23:17:48Z",
-      "version": "2.6.0",
+      "updatedAt": "2026-10-23T21:31:55Z",
+      "version": "2.8.1",
       "minimumOsVersion": "26.0",
-      "fileSizeBytes": 31125504,
+      "fileSizeBytes": 32329728,
       "price": 0,
       "languages": [
         "AR",
         "EN",
+        "FR",
+        "DE",
+        "HE",
         "HI",
         "ID",
         "PT",
-        "ES"
+        "ES",
+        "TR"
       ],
       "rating": {
         "value": 4.5929,
@@ -165,10 +169,10 @@
       "gameCenter": false,
       "universal": true,
       "description": {
-        "en": "Turn your photos into stickers in seconds and send them to WhatsApp, Telegram and iMessage.\n\nPick a photo and the background disappears on its own. Touch it up with the eraser and restore brush, add text and emoji, and choose a finish: white border, puffy, comic or shadow.\n\nWHAT'S INSIDE\n- Automatic cutout, with a tap to choose who stays when there are several people or pets\n- Animated stickers from Live Photos, videos and GIFs\n- Quick Sticker: make one sticker and send it right away\n- Meme captions, text with outlines and emoji\n- Emoji tags added for you, so friends find your stickers as they type\n- Paste photos and GIFs copied from other apps\n- Reorder, duplicate, move and edit your stickers anytime\n- Your packs in iMessage, and share photos to the app from Photos\n- Export a pack as a .zip or save stickers to Photos\n- Back up your packs to Files and restore them\n- Emoji and pack name suggestions on devices with Apple Intelligence\n- Works on iPhone and iPad, and with Shortcuts\n\nEverything is made on your device. No account needed.\n\nPlease only use images you own or have the right to use.\n\nSticker Maker is an independent app. It is not affiliated with, associated with, authorized by, or endorsed by WhatsApp LLC, Meta Platforms, Inc., or Telegram. WhatsApp is a registered trademark of WhatsApp LLC.\n\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
-        "pt": "Transforme suas fotos em figurinhas em segundos e envie para o WhatsApp, o Telegram e o iMessage.\n\nEscolha uma foto e o fundo sai sozinho. Ajuste com a borracha e o pincel de restaurar, coloque texto e emojis e escolha um acabamento: borda branca, fofinha, quadrinho ou sombra.\n\nO QUE TEM NO APP\n- Recorte automático, com um toque para escolher quem fica quando há várias pessoas ou pets\n- Figurinhas animadas de Live Photos, vídeos e GIFs\n- Figurinha rápida: crie uma e envie na hora\n- Legendas de meme, texto com contorno e emojis\n- Emojis automáticos, para seus amigos acharem a figurinha enquanto digitam\n- Cole fotos e GIFs copiados de outros apps\n- Reordene, duplique, mova e edite suas figurinhas quando quiser\n- Seus pacotes no iMessage, e fotos compartilhadas direto do app Fotos\n- Exporte o pacote em .zip ou salve as figurinhas no Fotos\n- Backup dos pacotes no Arquivos, com restauração\n- Sugestões de emojis e de nomes de pacote em aparelhos com Apple Intelligence\n- Funciona no iPhone e no iPad, e com o app Atalhos\n\nTudo é feito no seu aparelho. Não precisa de conta.\n\nUse apenas imagens que são suas ou que você tem direito de usar.\n\nO Sticker Maker é um app independente, sem vínculo com WhatsApp LLC, Meta Platforms, Inc. ou Telegram, nem autorizado ou endossado por eles. WhatsApp é marca registrada da WhatsApp LLC.\n\nTermos de Uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        "en": "Turn your photos into stickers in seconds and send them to WhatsApp, Telegram and iMessage.\n\nPick a photo and the background disappears on its own. Touch it up with the eraser and restore brush, add text and emoji, and choose a finish: white border, puffy, comic or shadow.\n\nWHAT'S INSIDE\n- Automatic cutout, with a tap to choose who stays when there are several people or pets\n- Animated stickers from Live Photos, videos and GIFs\n- Quick Sticker: make one sticker and send it right away\n- Meme captions, text with outlines and emoji\n- Emoji tags added for you, so friends find your stickers as they type\n- Paste photos and GIFs copied from other apps\n- Reorder, duplicate, move and edit your stickers anytime\n- Your packs in iMessage, and share photos to the app from Photos\n- Export a pack as a .zip or save stickers to Photos\n- Back up your packs to Files (Pro) and restore them anytime\n- Emoji and pack name suggestions on devices with Apple Intelligence\n- Works on iPhone and iPad, and with Shortcuts\n\nEverything is made on your device. No account needed.\n\nPlease only use images you own or have the right to use.\n\nSticker Maker is an independent app. It is not affiliated with, associated with, authorized by, or endorsed by WhatsApp LLC, Meta Platforms, Inc., or Telegram. WhatsApp is a registered trademark of WhatsApp LLC.\n\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "pt": "Transforme suas fotos em figurinhas em segundos e envie para o WhatsApp, o Telegram e o iMessage.\n\nEscolha uma foto e o fundo sai sozinho. Ajuste com a borracha e o pincel de restaurar, coloque texto e emojis e escolha um acabamento: borda branca, fofinha, quadrinho ou sombra.\n\nO QUE TEM NO APP\n- Recorte automático, com um toque para escolher quem fica quando há várias pessoas ou pets\n- Figurinhas animadas de Live Photos, vídeos e GIFs\n- Figurinha rápida: crie uma e envie na hora\n- Legendas de meme, texto com contorno e emojis\n- Emojis automáticos, para seus amigos acharem a figurinha enquanto digitam\n- Cole fotos e GIFs copiados de outros apps\n- Reordene, duplique, mova e edite suas figurinhas quando quiser\n- Seus pacotes no iMessage, e fotos compartilhadas direto do app Fotos\n- Exporte o pacote em .zip ou salve as figurinhas no Fotos\n- Backup dos pacotes no Arquivos (Pro), com restauração grátis\n- Sugestões de emojis e de nomes de pacote em aparelhos com Apple Intelligence\n- Funciona no iPhone e no iPad, e com o app Atalhos\n\nTudo é feito no seu aparelho. Não precisa de conta.\n\nUse apenas imagens que são suas ou que você tem direito de usar.\n\nO Sticker Maker é um app independente, sem vínculo com WhatsApp LLC, Meta Platforms, Inc. ou Telegram, nem autorizado ou endossado por eles. WhatsApp é marca registrada da WhatsApp LLC.\n\nTermos de Uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
       },
-      "releaseNotes": "New: the Advanced mode of animated stickers. In Decorate, add text, emoji, photos and videos, and choose when each one shows and how it moves.\n\n- Mirror stickers, clips and layers with one tap.\n- Keep or remove the background of the photos and videos you add.\n- Crop and Rotate your video, then move, zoom and turn it.\n- Videos up to 5 minutes, with a progress bar while they open.\n- Copied an image? Open the app to turn it into a sticker.",
+      "releaseNotes": "Smoother animated stickers.\n\n- Animated stickers play at more frames per second in WhatsApp, so long, busy clips no longer stutter.\n- The Advanced Editor plays smoothly as soon as it opens, even with long 4K videos.\n- Links to a post with a photo, or with a video in a carousel, bring in the photo or the video.",
       "icon": "/apps/sticker-maker/icon.webp",
       "tint": "#FDFDFD",
       "screens": [
@@ -318,10 +322,10 @@
         ]
       },
       "releaseDate": "2018-09-20T03:11:29Z",
-      "updatedAt": "2026-10-11T10:40:24Z",
-      "version": "2.1.1",
+      "updatedAt": "2026-10-21T21:45:55Z",
+      "version": "2.2.0",
       "minimumOsVersion": "17.0",
-      "fileSizeBytes": 9370624,
+      "fileSizeBytes": 9444352,
       "price": 0,
       "languages": [
         "EN",
@@ -338,7 +342,7 @@
         "en": "Know exactly how much money is left on your trip. Add what you spend in seconds, in any currency, and see your balance update as you go.\n\nHOW IT WORKS\n• Create a trip, pick its currency and enter the money you're taking.\n• Add each expense in a couple of taps: amount, what it was, date and category.\n• Add money in too — an ATM withdrawal, a transfer, cash from a friend.\n• Your balance, total spent and money in are always at the top.\n• Expenses are grouped by day, so you see how every day of the trip went.\n\nMADE FOR TRAVELLING\n• Any currency: pounds, euros, dollars, riyals, dirhams, kroner and more.\n• Type amounts the way you're used to — 12.50 or 12,50 both work.\n• Categories for food, groceries, transport, lodging, shopping, entertainment, tours, health and fees.\n• Works offline. No account, no sign-up, no ads.\n• Your data stays on your iPhone or iPad.\n\nPREMIUM (one-time purchase, no subscription)\n• Unlimited trips — the free version includes one trip.\n• Photos: attach the receipt or a photo of what you bought.\n• Location: save where each expense happened and see it on a map.\n• Export to CSV: open your expenses in Excel, Numbers or Google Sheets, or send them by email.\n\nAlready bought Premium in an earlier version? Tap Restore purchase in Settings — it's free.\n\nQuestions or ideas? Tap Send feedback in Settings.",
         "pt": "Saiba exatamente quanto dinheiro ainda sobra na sua viagem. Anote cada gasto em segundos, em qualquer moeda, e veja o saldo atualizado na hora.\n\nCOMO FUNCIONA\n• Crie uma viagem, escolha a moeda e informe quanto dinheiro você vai levar.\n• Registre cada gasto com poucos toques: valor, descrição, data e categoria.\n• Lance também as entradas: saque no caixa eletrônico, transferência, dinheiro emprestado.\n• Saldo, total gasto e entradas ficam sempre no topo.\n• Os gastos aparecem separados por dia, para você ver como foi cada dia da viagem.\n\nFEITO PARA QUEM VIAJA\n• Qualquer moeda: real, dólar, euro, libra, peso e muito mais.\n• Digite valores do seu jeito — 12,50 ou 12.50, os dois funcionam.\n• Categorias para comida, mercado, transporte, hospedagem, compras, lazer, passeios, saúde e taxas.\n• Funciona sem internet. Sem cadastro, sem login e sem anúncios.\n• Seus dados ficam no seu iPhone ou iPad.\n\nPREMIUM (compra única, sem assinatura)\n• Viagens ilimitadas — a versão grátis inclui uma viagem.\n• Fotos: anexe o recibo ou uma foto do que você comprou.\n• Localização: salve onde cada gasto aconteceu e veja no mapa.\n• Exportação CSV: abra seus gastos no Excel, Numbers ou Planilhas Google, ou envie por e-mail.\n\nJá comprou o Premium numa versão anterior? Toque em Restaurar compra nos Ajustes — é grátis.\n\nDúvidas ou sugestões? Toque em Enviar feedback nos Ajustes"
       },
-      "releaseNotes": "Small improvements under the hood. The app now sends anonymous usage statistics (no tracking, and none of your trip data) so we can see which features to improve.",
+      "releaseNotes": "See where the money went: tap a category in \"Spending by category\" and the list shows only its expenses.\n• Tap an expense's photo to open it full screen and zoom in on the receipt.\n• Trips are listed by their most recent expense.\n• Fixed: on iPad, the chosen category went back to \"Food & drinks\".",
       "icon": "/apps/travel-budget/icon.webp",
       "tint": "#C3E0C8",
       "screens": [
@@ -577,7 +581,7 @@
       "id": 6752260529,
       "slug": "littletube",
       "name": "LittleTube: Kids Video Player",
-      "nameBR": "LittleTube: Kids Video Player",
+      "nameBR": "LittleTube: Vídeos Infantis",
       "url": "https://apps.apple.com/br/app/id6752260529",
       "genres": {
         "en": [
@@ -590,10 +594,10 @@
         ]
       },
       "releaseDate": "2025-09-23T07:00:00Z",
-      "updatedAt": "2026-10-18T21:00:51Z",
-      "version": "1.6.0",
+      "updatedAt": "2026-10-19T17:22:17Z",
+      "version": "1.7.0",
       "minimumOsVersion": "15.6",
-      "fileSizeBytes": 21423104,
+      "fileSizeBytes": 21439488,
       "price": 0,
       "languages": [
         "EN",
@@ -607,10 +611,10 @@
       "gameCenter": false,
       "universal": true,
       "description": {
-        "en": "LittleTube is a video player for kids that plays only the videos you choose.\n\nYou find a video on YouTube, tap Share, and send it to LittleTube. It lands in your child's list. Your child opens LittleTube and sees only what you added. There's no home feed, no Shorts and no algorithm deciding what comes next.\n\nBUILT FOR PARENTS WHO WANT TO STAY IN CHARGE\n• Only your picks: your child's list has only the videos you added\n• Your picks come next: when a video ends, LittleTube shows your other approved videos, not YouTube's suggestions\n• Links locked behind Face ID: tapping a link inside the player asks for a parent's Face ID or passcode before leaving the app. You can also block these links completely\n• Approve before it's added: you can require Face ID before any shared video joins the list\n• Lock settings and profiles with Face ID or your passcode\n\nADDING VIDEOS TAKES ONE TAP\n• Share any video from the YouTube app or Safari straight to LittleTube\n• Titles and descriptions come in automatically\n• Sort videos into groups like \"Bedtime\", \"Music\" or \"Learning\"\n• Search and sort your child's list\n\nLITTLETUBE PRO: FAMILY & CONTROLS\n• A profile for every child, each with their own videos\n• Daily watch time limits per profile (15 minutes to 2 hours). When time is up, the video stops and your child sees \"That's all for today!\". Need a few more minutes? Add 15 with Face ID\n• Unlimited videos and every safety feature above are free for everyone\n\nGOOD TO KNOW\nLittleTube plays videos with YouTube's official embedded player, so YouTube may still show ads during a video. LittleTube is not affiliated with or endorsed by YouTube or Google.\n\nBuilt by a dad, for families. Questions or ideas? Tap Settings → Send Feedback. We read every message.\n\nSUBSCRIPTION\nLittleTube Pro is an auto-renewing subscription. Payment is charged to your Apple ID at purchase confirmation. It renews automatically unless you cancel at least 24 hours before the end of the current period. You can manage or cancel it in your App Store account settings.\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nPrivacy Policy: https://bit.ly/peektube-privacy-policy\n\nVideos shown in screenshots: Caminandes, Big Buck Bunny and Spring © Blender Foundation (CC BY 4.0); Tour of the Moon © NASA.",
-        "pt": "LittleTube is a video player for kids that plays only the videos you choose.\n\nYou find a video on YouTube, tap Share, and send it to LittleTube. It lands in your child's list. Your child opens LittleTube and sees only what you added. There's no home feed, no Shorts and no algorithm deciding what comes next.\n\nBUILT FOR PARENTS WHO WANT TO STAY IN CHARGE\n• Only your picks: your child's list has only the videos you added\n• Your picks come next: when a video ends, LittleTube shows your other approved videos, not YouTube's suggestions\n• Links locked behind Face ID: tapping a link inside the player asks for a parent's Face ID or passcode before leaving the app. You can also block these links completely\n• Approve before it's added: you can require Face ID before any shared video joins the list\n• Lock settings and profiles with Face ID or your passcode\n\nADDING VIDEOS TAKES ONE TAP\n• Share any video from the YouTube app or Safari straight to LittleTube\n• Titles and descriptions come in automatically\n• Sort videos into groups like \"Bedtime\", \"Music\" or \"Learning\"\n• Search and sort your child's list\n\nLITTLETUBE PRO: FAMILY & CONTROLS\n• A profile for every child, each with their own videos\n• Daily watch time limits per profile (15 minutes to 2 hours). When time is up, the video stops and your child sees \"That's all for today!\". Need a few more minutes? Add 15 with Face ID\n• Unlimited videos and every safety feature above are free for everyone\n\nGOOD TO KNOW\nLittleTube plays videos with YouTube's official embedded player, so YouTube may still show ads during a video. LittleTube is not affiliated with or endorsed by YouTube or Google.\n\nBuilt by a dad, for families. Questions or ideas? Tap Settings → Send Feedback. We read every message.\n\nSUBSCRIPTION\nLittleTube Pro is an auto-renewing subscription. Payment is charged to your Apple ID at purchase confirmation. It renews automatically unless you cancel at least 24 hours before the end of the current period. You can manage or cancel it in your App Store account settings.\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nPrivacy Policy: https://bit.ly/peektube-privacy-policy\n\nVideos shown in screenshots: Caminandes, Big Buck Bunny and Spring © Blender Foundation (CC BY 4.0); Tour of the Moon © NASA."
+        "en": "LittleTube is a video player for kids that plays only the videos you choose.\n\nStart with a trusted channel, or share a video from YouTube. Your child opens LittleTube and sees only what you picked. There's no home feed, no Shorts and no algorithm deciding what comes next.\n\nSTART FULL, STAY FRESH\n• Pick a starter channel for your child's age (2–5 or 6–9) and the list fills itself\n• New videos from followed channels arrive on their own, with a \"New\" badge\n• One channel or playlist folder is free\n\nADD VIDEOS YOUR WAY\n• Share any video from the YouTube app or Safari straight to LittleTube\n• Search YouTube inside LittleTube and add what you like\n• Paste one link or a whole list\n• Sort videos into folders like \"Bedtime\", \"Music\" or \"Learning\"\n\nBUILT FOR PARENTS WHO WANT TO STAY IN CHARGE\n• Your picks come next: when a video ends, LittleTube shows your other approved videos, not YouTube's suggestions\n• If your child taps a suggestion that isn't approved, the video pauses and a grown-up decides: approve once, add it to a folder, or save it for later\n• Links locked behind Face ID: tapping a link inside the player asks for a parent's Face ID or passcode before leaving the app. You can also block these links completely\n• Require Face ID before any shared video joins the list\n• Lock settings, deleting and profiles with Face ID or your passcode\n• See what your child watched this week, and get a Sunday reminder (optional)\n\nLITTLETUBE PRO: FAMILY & CONTROLS\n• A profile for every child, each with their own videos\n• Daily watch time limit per profile, from 5 minutes to 4 hours. When time is up, the video stops. Need a few more minutes? Add 15 with Face ID\n• More folders and more followed channels\n• Unlimited videos and every safety feature above are free for everyone\n\nGOOD TO KNOW\nLittleTube plays videos with YouTube's official embedded player, so YouTube may still show ads during a video. LittleTube is not affiliated with or endorsed by YouTube or Google.\n\nBuilt by a dad, for families. Questions or ideas? Tap Settings → Send Feedback. We read every message.\n\nSUBSCRIPTION\nLittleTube Pro is an auto-renewing subscription. Payment is charged to your Apple ID at purchase confirmation. It renews automatically unless you cancel at least 24 hours before the end of the current period. You can manage or cancel it in your App Store account settings.\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nPrivacy Policy: https://bit.ly/peektube-privacy-policy\n\nVideos shown in screenshots: Caminandes, Big Buck Bunny and Spring © Blender Foundation (CC BY 4.0); Tour of the Moon © NASA.",
+        "pt": "O LittleTube é um player de vídeos para crianças que toca só os vídeos que você escolhe.\n\nComece por um canal de confiança ou compartilhe um vídeo do YouTube. Seu filho abre o LittleTube e vê só o que você escolheu. Não há feed inicial, nem Shorts, nem algoritmo decidindo o que vem depois.\n\nCOMECE CHEIO, FIQUE ATUALIZADO\n• Escolha um canal inicial para a idade do seu filho (2–5 ou 6–9 anos) e a lista se preenche sozinha\n• Vídeos novos dos canais que você segue chegam sozinhos, com o selo \"Novo\"\n• Uma pasta de canal ou playlist é grátis\n\nADICIONE VÍDEOS DO SEU JEITO\n• Compartilhe qualquer vídeo do app do YouTube ou do Safari direto para o LittleTube\n• Pesquise no YouTube dentro do LittleTube e adicione o que gostar\n• Cole um link ou uma lista inteira\n• Organize em pastas como \"Hora de dormir\", \"Música\" ou \"Aprender\"\n\nFEITO PARA PAIS QUE QUEREM O CONTROLE\n• Os seus vídeos vêm em seguida: quando um vídeo termina, o LittleTube mostra os outros vídeos aprovados, não as sugestões do YouTube\n• Se seu filho tocar numa sugestão não aprovada, o vídeo pausa e um adulto decide: aprovar uma vez, adicionar a uma pasta ou deixar para depois\n• Links protegidos por Face ID: tocar num link dentro do player pede o Face ID ou a senha de um adulto antes de sair do app. Você também pode bloquear esses links por completo\n• Exija Face ID antes de qualquer vídeo compartilhado entrar na lista\n• Proteja ajustes, exclusões e perfis com Face ID ou senha\n• Veja o que seu filho assistiu na semana e receba um lembrete no domingo (opcional)\n\nLITTLETUBE PRO: FAMÍLIA E CONTROLES\n• Um perfil para cada filho, cada um com seus vídeos\n• Limite diário de tempo por perfil, de 5 minutos a 4 horas. Acabou o tempo, o vídeo para. Precisa de mais alguns minutos? Adicione 15 com Face ID\n• Mais pastas e mais canais seguidos\n• Vídeos ilimitados e todos os recursos de segurança acima são grátis para todos\n\nBOM SABER\nO LittleTube toca os vídeos com o player oficial incorporado do YouTube, então o YouTube ainda pode mostrar anúncios durante um vídeo. O LittleTube não é afiliado nem endossado pelo YouTube ou pelo Google.\n\nFeito por um pai, para famílias. Dúvidas ou ideias? Toque em Ajustes → Enviar feedback. Lemos todas as mensagens.\n\nASSINATURA\nO LittleTube Pro é uma assinatura com renovação automática. O pagamento é cobrado no seu Apple ID na confirmação da compra. Renova automaticamente, a menos que você cancele pelo menos 24 horas antes do fim do período atual. Gerencie ou cancele nos ajustes da sua conta da App Store.\nTermos de Uso: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nPolítica de Privacidade: https://bit.ly/peektube-privacy-policy\n\nVídeos nas capturas de tela: Caminandes, Big Buck Bunny e Spring © Blender Foundation (CC BY 4.0); Tour of the Moon © NASA."
       },
-      "releaseNotes": "New: start with a channel. Pick a trusted channel for your child's age and the list fills itself, then stays fresh as new videos arrive.\n\n• Starter channels for ages 2–5 and 6–9, right in setup\n• New videos show a \"New\" badge and come first\n• One channel folder is free; follow more with Pro\n• New kangaroo mascot and a fresher app icon",
+      "releaseNotes": "New: a free Sunday summary. Every Sunday evening, a gentle reminder to see what your child watched and pick new videos for the week ahead.\n\n• Sunday summary is now free for everyone, offered right in setup\n• No more rating pop-ups while your child is watching\n• Rate LittleTube from Settings whenever you like",
       "icon": "/apps/littletube/icon.webp",
       "tint": "#F8E0CD",
       "screens": [
@@ -636,6 +640,11 @@
         },
         {
           "src": "/apps/littletube/screen-5.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/littletube/screen-6.webp",
           "width": 640,
           "height": 1391
         }
@@ -846,6 +855,135 @@
                 "category": "LOCATION",
                 "dataTypes": [
                   "Coarse Location"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 6818542422,
+      "slug": "talkcut",
+      "name": "Talkcut: Auto Captions",
+      "nameBR": "Talkcut: Legendas Automáticas",
+      "url": "https://apps.apple.com/br/app/id6818542422",
+      "genres": {
+        "en": [
+          "Photo & Video",
+          "Graphics & Design"
+        ],
+        "pt": [
+          "Foto e vídeo",
+          "Artes gráficas e design"
+        ]
+      },
+      "releaseDate": "2026-10-21T07:00:00Z",
+      "updatedAt": "2026-10-22T03:10:47Z",
+      "version": "1.0.0",
+      "minimumOsVersion": "18.0",
+      "fileSizeBytes": 12317696,
+      "price": 0,
+      "languages": [
+        "EN",
+        "PT",
+        "ES"
+      ],
+      "rating": {
+        "value": 0,
+        "count": 0,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": true,
+      "description": {
+        "en": "Talkcut turns your talking videos into ready-to-post clips. Captions timed word by word, pauses cut automatically and a cleaner voice, all on your iPhone or iPad, with no watermark.\n\nAUTO CAPTIONS, WORD BY WORD\n• Captions from your speech with timing for every word, generated on your device\n• One tap to start, with the speech language right on the button\n• 9 animated styles: Classic, Bold, Highlight, Neon, Minimal, Creator, Dynamic, Karaoke and Typewriter\n• Keywords highlighted automatically, plus matching emoji\n• Edit text and timing, split or merge, paste a script, export SRT\n\nSMART CUTS FOR TALKING VIDEOS\n• Cut silences and \"ums\" in one tap, with a preview of every cut\n• Punch-in zoom at every cut, like creator edits\n• Speed from 0.25× to 4× with natural-sounding voice\n• Transitions: dissolve, slide, zoom, flash, blur\n• Follow face: keeps you centered when changing format\n\nSOUND THAT HOLDS ATTENTION\n• Enhance voice: reduces background noise and evens out the volume\n• Music that lowers automatically while you speak\n• Record voiceovers and set the volume of each clip\n\nCREATE MORE\n• Add photos, text, emoji, stickers and shapes\n• Filters and adjustments for the whole video or a single clip\n• 9:16, 1:1, 16:9 and 4:5 with blurred, color or image backgrounds\n• Export video up to 1080p at 60 fps, an animated GIF or only the audio\n\nTALKCUT PRO\n• B-roll and picture-in-picture\n• Remove the background behind you\n• Translate captions, on your device\n• AI title, post text and hashtags (Apple Intelligence)\n• Save your own caption styles\n• 4K export\n\nTalkcut Pro is available as a yearly subscription or a one-time lifetime purchase. Payment is charged to your Apple ID at confirmation. The subscription renews automatically unless cancelled at least 24 hours before the end of the current period; your account is charged for renewal within 24 hours before the end of the period. Manage or cancel it in your Apple ID settings.\n\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\n\nNo account, no ads. Your projects stay on your device.",
+        "pt": "O Talkcut transforma seus vídeos falados em clipes prontos para postar. Legendas palavra por palavra, pausas cortadas automaticamente e voz mais limpa, tudo no seu iPhone ou iPad, sem marca d'água.\n\nLEGENDAS AUTOMÁTICAS, PALAVRA POR PALAVRA\n• Legendas a partir da sua fala, com o tempo de cada palavra, geradas no aparelho\n• Um toque para começar, com o idioma da fala no próprio botão\n• 9 estilos animados: Classic, Bold, Highlight, Neon, Minimal, Creator, Dynamic, Karaoke e Typewriter\n• Palavras-chave destacadas automaticamente e emojis que combinam\n• Edite texto e tempo, divida ou junte, cole um roteiro, exporte SRT\n\nCORTES INTELIGENTES PARA VÍDEOS FALADOS\n• Corte silêncios e \"é…\" em um toque, com prévia de cada corte\n• Zoom punch-in a cada corte, como os criadores fazem\n• Velocidade de 0,25× a 4× com voz natural\n• Transições: dissolver, deslizar, zoom, flash, desfoque\n• Seguir rosto: você continua no centro ao trocar o formato\n\nSOM QUE PRENDE A ATENÇÃO\n• Melhorar voz: reduz o ruído de fundo e equilibra o volume\n• Música que abaixa sozinha quando você fala\n• Grave narrações e ajuste o volume de cada clipe\n\nCRIE MAIS\n• Adicione fotos, textos, emojis, stickers e formas\n• Filtros e ajustes para o vídeo todo ou só um clipe\n• 9:16, 1:1, 16:9 e 4:5 com fundo desfocado, cor ou imagem\n• Exporte vídeo até 1080p a 60 fps, GIF animado ou só o áudio\n\nTALKCUT PRO\n• B-roll e vídeo em janela\n• Remover o fundo atrás de você\n• Traduzir legendas, no aparelho\n• Título, texto do post e hashtags com IA (Apple Intelligence)\n• Salvar seus estilos de legenda\n• Exportação em 4K\n\nO Talkcut Pro está disponível como assinatura anual ou compra vitalícia única. O pagamento é cobrado no seu ID Apple na confirmação. A assinatura renova automaticamente, a menos que seja cancelada pelo menos 24 horas antes do fim do período atual; a renovação é cobrada nas 24 horas anteriores ao fim do período. Gerencie ou cancele nos ajustes do seu ID Apple.\n\nTermos de uso: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\n\nSem conta, sem anúncios. Seus projetos ficam no seu aparelho."
+      },
+      "releaseNotes": "",
+      "icon": "/apps/talkcut/icon.webp",
+      "tint": "#FDE5C3",
+      "screens": [
+        {
+          "src": "/apps/talkcut/screen-1.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/talkcut/screen-2.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/talkcut/screen-3.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/talkcut/screen-4.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/talkcut/screen-5.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/talkcut/screen-6.webp",
+          "width": 640,
+          "height": 1391
+        }
+      ],
+      "privacy": {
+        "notCollected": false,
+        "notProvided": false,
+        "tracking": [],
+        "linked": [],
+        "notLinked": [
+          {
+            "purpose": "ANALYTICS",
+            "categories": [
+              {
+                "category": "PURCHASES",
+                "dataTypes": [
+                  "Purchase History"
+                ]
+              },
+              {
+                "category": "LOCATION",
+                "dataTypes": [
+                  "Coarse Location"
+                ]
+              },
+              {
+                "category": "IDENTIFIERS",
+                "dataTypes": [
+                  "Device ID"
+                ]
+              },
+              {
+                "category": "USAGE_DATA",
+                "dataTypes": [
+                  "Product Interaction"
+                ]
+              }
+            ]
+          },
+          {
+            "purpose": "APP_FUNCTIONALITY",
+            "categories": [
+              {
+                "category": "IDENTIFIERS",
+                "dataTypes": [
+                  "Device ID"
+                ]
+              },
+              {
+                "category": "DIAGNOSTICS",
+                "dataTypes": [
+                  "Crash Data",
+                  "Performance Data"
                 ]
               }
             ]
@@ -1290,6 +1428,100 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": 6817152216,
+      "slug": "sneak-out",
+      "name": "Sneak Out: Office Escape",
+      "nameBR": "Sneak Out: Fuga do Escritório",
+      "url": "https://apps.apple.com/br/app/id6817152216",
+      "genres": {
+        "en": [
+          "Games",
+          "Casual",
+          "Puzzle",
+          "Entertainment"
+        ],
+        "pt": [
+          "Jogos",
+          "Casual",
+          "Quebra-cabeça",
+          "Entreteni­mento"
+        ]
+      },
+      "releaseDate": "2026-10-22T07:00:00Z",
+      "updatedAt": "2026-10-22T13:31:42Z",
+      "version": "1.0.0",
+      "minimumOsVersion": "26.0",
+      "fileSizeBytes": 7241728,
+      "price": 0,
+      "languages": [
+        "EN",
+        "PT"
+      ],
+      "rating": {
+        "value": 0,
+        "count": 0,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": false,
+      "description": {
+        "en": "Leave work early. Don't get caught.\n\nSneak Out is a top-down stealth puzzle game about the most daring move in office life: walking out before the clock says so. Read everyone's line of sight, time your moves and reach the EXIT without being spotted.\n\nHOW IT WORKS\n• Every coworker, boss and camera has a visible vision cone. Stay out of it.\n• Walls block their view. Plants hide you completely.\n• Get seen and the alert meter fills up. Fill it and you're busted.\n• Bump into someone and it's over on the spot.\n• Grab the keycard to open locked doors.\n\nTHREE STARS PER LEVEL\n• Reach the exit.\n• Never get spotted.\n• Bonus goal: grab the coffee (always in the riskiest spot) or beat the clock.\nStuck? After a few tries, ask to see the route.\n\nWHO'S WATCHING\n• Coworkers who turn their heads when you least expect it\n• The boss: wide vision, fills the meter fast\n• Security cameras that sweep back and forth\n• Security guards with long flashlight beams (Office Pass)\n\nA NEW TRICK IN EVERY OFFICE\n• Open Office (free, 14 levels): vision cones, the boss on patrol, plants, cameras and keycards\n• Corporate Tower: glass walls and security guards with long flashlight beams\n• After Hours: flip the light switch. In the dark, people only notice you up close\n• Startup Loft: throw a paper ball and everyone nearby looks the other way\n• Headquarters: put on a security vest to fool the guards, and time the lasers\nThe Office Pass (one-time in-app purchase) unlocks the 56 levels of the four new offices, plus every future office.\n\nDAILY CHALLENGE\nFinish Open Office and a new level waits for you every day, free, mixing every trick in the game.\n\nMADE TO PLAY ANYWHERE\n• One-thumb floating joystick, portrait mode\n• Short levels, perfect for a coffee break\n• Plays offline\n• No ads, no energy timers, no loot boxes\n• Haptics, sound and music you can switch off\n• English and Brazilian Portuguese\n\nFound a level that felt unfair? Tell us from Settings > Send feedback.",
+        "pt": "Saia mais cedo do trabalho. Sem ser pego.\n\nSneak Out é um jogo de quebra-cabeça furtivo, visto de cima, sobre o movimento mais ousado da vida no escritório: ir embora antes da hora. Leia para onde cada um está olhando, escolha o momento certo e chegue à SAÍDA sem ser visto.\n\nCOMO FUNCIONA\n• Cada colega, chefe e câmera tem um cone de visão à mostra. Fique fora dele.\n• Paredes bloqueiam a visão. Plantas escondem você por completo.\n• Se alguém te vê, o medidor de alerta sobe. Encheu? Você foi pego.\n• Esbarrou em alguém? Fim de jogo na hora.\n• Pegue o crachá para abrir as portas trancadas.\n\nTRÊS ESTRELAS POR FASE\n• Chegue à saída.\n• Não seja visto nem uma vez.\n• Objetivo bônus: pegue o café (sempre no lugar mais arriscado) ou corra contra o relógio.\nTravou? Depois de algumas tentativas, peça para ver o caminho.\n\nQUEM ESTÁ DE OLHO\n• Colegas que viram a cabeça quando você menos espera\n• O chefe: visão ampla, enche o alerta rápido\n• Câmeras de segurança que giram de um lado para o outro\n• Seguranças com lanternas de longo alcance (Passe do Escritório)\n\nUM TRUQUE NOVO EM CADA ESCRITÓRIO\n• Escritório Aberto (grátis, 14 fases): cones de visão, o chefe na ronda, plantas, câmeras e crachás\n• Torre Corporativa: paredes de vidro e seguranças com lanternas de longo alcance\n• Depois do Expediente: aperte o interruptor. No escuro, só te notam de pertinho\n• Loft da Startup: jogue uma bolinha de papel e todo mundo por perto olha para o outro lado\n• Sede Global: vista o colete de segurança para enganar os seguranças e acerte o tempo dos lasers\nO Passe do Escritório (compra única no app) libera as 56 fases dos quatro escritórios novos, além de todos os escritórios futuros.\n\nDESAFIO DO DIA\nTermine o Escritório Aberto e uma fase nova te espera todo dia, de graça, misturando todos os truques do jogo.\n\nFEITO PARA JOGAR EM QUALQUER LUGAR\n• Joystick flutuante para um dedo, no modo retrato\n• Fases curtas, perfeitas para o intervalo do café\n• Funciona offline\n• Sem anúncios, sem energia para esperar, sem caixas de recompensa\n• Vibração, sons e música que você pode desligar\n• Em português e inglês\n\nAchou uma fase injusta? Conta pra gente em Ajustes > Enviar feedback."
+      },
+      "releaseNotes": "",
+      "icon": "/apps/sneak-out/icon.webp",
+      "tint": "#B5EADB",
+      "screens": [
+        {
+          "src": "/apps/sneak-out/screen-1.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/sneak-out/screen-2.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/sneak-out/screen-3.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/sneak-out/screen-4.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/sneak-out/screen-5.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/sneak-out/screen-6.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/sneak-out/screen-7.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/sneak-out/screen-8.webp",
+          "width": 640,
+          "height": 1391
+        }
+      ],
+      "privacy": {
+        "notCollected": true,
+        "notProvided": false,
+        "tracking": [],
+        "linked": [],
+        "notLinked": []
       }
     }
   ]
