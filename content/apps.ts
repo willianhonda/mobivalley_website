@@ -56,6 +56,8 @@ export type CuratedApp = {
     financial?: boolean;
     /** Users bring their own images or text (terms cover content rights). */
     userContent?: boolean;
+    /** Finished matches can be replayed as an anonymous opponent for other players (privacy policy says so, with the opt-out). */
+    recordedOpponents?: boolean;
   };
 };
 
@@ -111,6 +113,7 @@ export const curated: Record<string, CuratedApp> = {
       purchaseName: "Place Guesser Pro",
       thirdParties: ["apple-maps", "google-street-view", "game-center"],
       permissions: [],
+      recordedOpponents: true,
     },
   },
   aeroexplorer: {
