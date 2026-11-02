@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-26T16:02:57.453Z",
+  "syncedAt": "2026-11-02T19:24:33.373Z",
   "developerUrl": "https://apps.apple.com/br/developer/mobivalley/id1701006912",
   "apps": [
     {
@@ -23,10 +23,10 @@
         ]
       },
       "releaseDate": "2023-04-15T07:00:00Z",
-      "updatedAt": "2026-10-20T22:35:26Z",
-      "version": "1.66.1",
+      "updatedAt": "2026-10-29T00:58:24Z",
+      "version": "1.68.0",
       "minimumOsVersion": "18.6",
-      "fileSizeBytes": 92770304,
+      "fileSizeBytes": 92954624,
       "price": 0,
       "languages": [
         "AR",
@@ -40,8 +40,8 @@
         "ES"
       ],
       "rating": {
-        "value": 4.66317,
-        "count": 763,
+        "value": 4.66493,
+        "count": 767,
         "store": "us"
       },
       "gameCenter": true,
@@ -50,7 +50,7 @@
         "en": "Play as many rounds as you like, free and with no ads. Pro adds countries, rules and more.\n\nDrop into a street somewhere in the world, look around, and guess where you are on the map. The closer your guess, the more points you score.\n\nPlace Guesser is a geography game played through real street-level imagery from Apple Look Around and Google Street View.\n\nHOW YOU PLAY\n• Play now: five rounds around the world, three minutes each, one tap from the home screen.\n• NEW Maps: 63 themed maps, from NFL stadiums, castles and lighthouses to 15 world cities. 2 free maps every day.\n• Daily Challenge: the same mystery places for everyone, every day, with a global leaderboard. Keep your streak alive.\n• Country Streak: how many countries can you name in a row before you miss?\n• Guess The Spot: a close-up that zooms out with every wrong answer. Fewer clues, more points.\n• Infinite Mode: keep going as long as you like.\n• Custom games: pick the timer, the number of rounds and how you're allowed to move.\n\nPLAY WITH FRIENDS\n• Real-time multiplayer: play the same places at the same time.\n• Async challenges: send a challenge and let friends play whenever they like.\n• Game Center leaderboards, achievements and friends boards.\n\nTRACK YOUR PROGRESS\n• A Passport of every country you've visited, with bronze, silver and gold medals.\n• Day streaks with streak freezes, so one busy day doesn't cost you everything.\n• Stats, personal bests and shareable result cards.\n\nMORE WAYS TO PLAY\n• Home screen widgets.\n• Apple Watch and Apple TV apps.\n\nPLACE GUESSER PRO\n• Unlimited Maps.\n• Choose a country and play only there.\n• Worldwide Pro: the full location pool, including Street View locations.\n• No Move and NMPZ rules (no move, no pan, no zoom).\n• The Daily Challenge archive: replay the last 30 days.\n• Longer timers, extra streak freezes and streak repair.\n\nPro is an auto-renewing subscription. Payment is charged to your Apple Account at confirmation. It renews automatically unless you cancel at least 24 hours before the end of the current period. Manage or cancel in your App Store account settings.\n\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
         "pt": "Jogue quantas rodadas quiser, de graça e sem anúncios. O Pro adiciona países, regras e mais.\n\nO jogo mostra uma rua em algum lugar do mundo: olhe em volta e adivinhe no mapa onde você está. Quanto mais perto, mais pontos.\n\nPlace Guesser é um jogo de geografia com imagens reais de rua do Apple Look Around e do Google Street View.\n\nCOMO JOGAR\n• Jogar agora: cinco rodadas pelo mundo, três minutos cada, a um toque da tela inicial.\n• NOVO Mapas: 63 mapas temáticos, de estádios da NFL, castelos e faróis a 15 cidades do mundo. 2 mapas grátis todo dia.\n• Desafio diário: os mesmos lugares misteriosos para todo mundo, todo dia, com ranking global. Mantenha sua sequência viva.\n• Sequência de países: quantos países seguidos você acerta antes de errar?\n• Adivinhe o Local: uma imagem de perto que vai abrindo a cada erro. Menos pistas, mais pontos.\n• Modo Infinito: jogue quanto quiser.\n• Partidas personalizadas: escolha o tempo, o número de rodadas e como você pode se mover.\n\nJOGUE COM AMIGOS\n• Multijogador em tempo real: os mesmos lugares, ao mesmo tempo.\n• Desafios assíncronos: mande um desafio e seus amigos jogam quando puderem.\n• Rankings, conquistas e placar de amigos no Game Center.\n\nACOMPANHE SEU PROGRESSO\n• Um Passaporte com todos os países que você visitou, com medalhas de bronze, prata e ouro.\n• Sequência de dias com proteção, para um dia corrido não custar tudo.\n• Estatísticas, recordes pessoais e cards de resultado para compartilhar.\n\nMAIS JEITOS DE JOGAR\n• Widgets na tela inicial.\n• Apps para Apple Watch e Apple TV.\n\nPLACE GUESSER PRO\n• Mapas ilimitados.\n• Escolha um país e jogue só nele.\n• Pro Mundial: todos os locais do jogo, incluindo locais com Street View.\n• Regras Sem Mover e NMPZ (sem andar, sem girar, sem zoom).\n• Arquivo do Desafio diário: jogue de novo os últimos 30 dias.\n• Tempos maiores, mais proteções de sequência e recuperação de sequência.\n\nO Pro é uma assinatura com renovação automática. O pagamento é cobrado na sua Conta Apple ao confirmar. A assinatura renova automaticamente, a menos que seja cancelada pelo menos 24 horas antes do fim do período atual. Gerencie ou cancele nos ajustes da sua conta da App Store.\n\nTermos de Uso: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
       },
-      "releaseNotes": "Fixed a bug where the Street View went black after leaving full screen.",
+      "releaseNotes": "What's new in Place Guesser\n\n• Quick Play: the duration options are now translated, and “5 minutes”, “No time limit” and “No round limit” no longer show a Premium crown. They are free on the Worldwide Basic map.\n• Fixes and improvements.",
       "icon": "/apps/place-guesser/icon.webp",
       "tint": "#FDF8DB",
       "screens": [
@@ -144,26 +144,29 @@
         ]
       },
       "releaseDate": "2019-02-10T20:10:59Z",
-      "updatedAt": "2026-10-23T21:31:55Z",
-      "version": "2.8.1",
+      "updatedAt": "2026-11-02T10:15:25Z",
+      "version": "2.10.0",
       "minimumOsVersion": "26.0",
-      "fileSizeBytes": 32329728,
+      "fileSizeBytes": 33217536,
       "price": 0,
       "languages": [
         "AR",
+        "NL",
         "EN",
         "FR",
         "DE",
         "HE",
         "HI",
         "ID",
+        "IT",
         "PT",
+        "RU",
         "ES",
         "TR"
       ],
       "rating": {
-        "value": 4.5929,
-        "count": 366,
+        "value": 4.58856,
+        "count": 367,
         "store": "us"
       },
       "gameCenter": false,
@@ -172,7 +175,7 @@
         "en": "Turn your photos into stickers in seconds and send them to WhatsApp, Telegram and iMessage.\n\nPick a photo and the background disappears on its own. Touch it up with the eraser and restore brush, add text and emoji, and choose a finish: white border, puffy, comic or shadow.\n\nWHAT'S INSIDE\n- Automatic cutout, with a tap to choose who stays when there are several people or pets\n- Animated stickers from Live Photos, videos and GIFs\n- Quick Sticker: make one sticker and send it right away\n- Meme captions, text with outlines and emoji\n- Emoji tags added for you, so friends find your stickers as they type\n- Paste photos and GIFs copied from other apps\n- Reorder, duplicate, move and edit your stickers anytime\n- Your packs in iMessage, and share photos to the app from Photos\n- Export a pack as a .zip or save stickers to Photos\n- Back up your packs to Files (Pro) and restore them anytime\n- Emoji and pack name suggestions on devices with Apple Intelligence\n- Works on iPhone and iPad, and with Shortcuts\n\nEverything is made on your device. No account needed.\n\nPlease only use images you own or have the right to use.\n\nSticker Maker is an independent app. It is not affiliated with, associated with, authorized by, or endorsed by WhatsApp LLC, Meta Platforms, Inc., or Telegram. WhatsApp is a registered trademark of WhatsApp LLC.\n\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
         "pt": "Transforme suas fotos em figurinhas em segundos e envie para o WhatsApp, o Telegram e o iMessage.\n\nEscolha uma foto e o fundo sai sozinho. Ajuste com a borracha e o pincel de restaurar, coloque texto e emojis e escolha um acabamento: borda branca, fofinha, quadrinho ou sombra.\n\nO QUE TEM NO APP\n- Recorte automático, com um toque para escolher quem fica quando há várias pessoas ou pets\n- Figurinhas animadas de Live Photos, vídeos e GIFs\n- Figurinha rápida: crie uma e envie na hora\n- Legendas de meme, texto com contorno e emojis\n- Emojis automáticos, para seus amigos acharem a figurinha enquanto digitam\n- Cole fotos e GIFs copiados de outros apps\n- Reordene, duplique, mova e edite suas figurinhas quando quiser\n- Seus pacotes no iMessage, e fotos compartilhadas direto do app Fotos\n- Exporte o pacote em .zip ou salve as figurinhas no Fotos\n- Backup dos pacotes no Arquivos (Pro), com restauração grátis\n- Sugestões de emojis e de nomes de pacote em aparelhos com Apple Intelligence\n- Funciona no iPhone e no iPad, e com o app Atalhos\n\nTudo é feito no seu aparelho. Não precisa de conta.\n\nUse apenas imagens que são suas ou que você tem direito de usar.\n\nO Sticker Maker é um app independente, sem vínculo com WhatsApp LLC, Meta Platforms, Inc. ou Telegram, nem autorizado ou endossado por eles. WhatsApp é marca registrada da WhatsApp LLC.\n\nTermos de Uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
       },
-      "releaseNotes": "Smoother animated stickers.\n\n- Animated stickers play at more frames per second in WhatsApp, so long, busy clips no longer stutter.\n- The Advanced Editor plays smoothly as soon as it opens, even with long 4K videos.\n- Links to a post with a photo, or with a video in a carousel, bring in the photo or the video.",
+      "releaseNotes": "Give your stickers a new look.\n\n- Color looks for photos and videos in the Advanced Editor: Black & White, Sepia, Invert, Vintage and Cool.\n- Play video layers backwards.\n- Watch a short video to unlock a Pro extra for free: one more decorated sticker, 8-second stickers or Copy.\n- Now in Italian, Russian and Dutch too.",
       "icon": "/apps/sticker-maker/icon.webp",
       "tint": "#FDFDFD",
       "screens": [
@@ -215,81 +218,6 @@
           "src": "/apps/sticker-maker/screen-8.webp",
           "width": 640,
           "height": 1391
-        }
-      ],
-      "privacy": {
-        "notCollected": false,
-        "notProvided": false,
-        "tracking": [
-          {
-            "category": "IDENTIFIERS",
-            "dataTypes": []
-          }
-        ],
-        "linked": [],
-        "notLinked": []
-      }
-    },
-    {
-      "id": 1547922378,
-      "slug": "price-action",
-      "name": "Price Action: Trade Planner",
-      "nameBR": "Price Action: Plano de Trade",
-      "url": "https://apps.apple.com/br/app/id1547922378",
-      "genres": {
-        "en": [
-          "Finance",
-          "Productivity"
-        ],
-        "pt": [
-          "Finanças",
-          "Produtividade"
-        ]
-      },
-      "releaseDate": "2021-01-29T08:00:00Z",
-      "updatedAt": "2026-10-05T23:04:39Z",
-      "version": "2.1.0",
-      "minimumOsVersion": "17.0",
-      "fileSizeBytes": 14784512,
-      "price": 0,
-      "languages": [
-        "EN",
-        "PT"
-      ],
-      "rating": {
-        "value": 0,
-        "count": 0,
-        "store": "us"
-      },
-      "gameCenter": false,
-      "universal": true,
-      "description": {
-        "en": "Plan your trades before you enter them, and learn from every result.\n\nPrice Action is a simple, private trade planner and journal. Write down the asset, entry, target and stop, and the app calculates your risk:reward, the percentage to each level and the position size that fits your risk. When the trade is closed, record the exit and see the result in R and in money.\n\nPLAN\n• Long or short trades with entry, target, stop and quantity\n• Automatic risk:reward and % to target and stop\n• Position size calculator: account size × risk % ÷ distance to the stop\n• Warnings when the target or stop is on the wrong side of the entry\n\nTRACK\n• Statuses: Waiting, Open, Won, Loss, Breakeven and Cancelled\n• Exit price, profit and loss, and result in R\n• Tags for setups and strategies\n• Attach a chart screenshot to each trade\n• Reminders to review a trade on a given date\n• Home Screen and Lock Screen widgets with your open trades\n\nLEARN\n• Win rate, average result, profit factor and total result\n• Equity curve in R and stats by tag\n\nPRIVATE BY DESIGN\n• No account, no sign-up: your trades stay on your device\n• Optional Face ID / passcode lock\n• Export everything to CSV whenever you want\n\nWorks with stocks, ETFs, crypto, forex, futures and options. Enter prices with a comma or a dot.\n\nFREE AND PREMIUM\nFree: up to 10 trade plans, with ads.\nPremium: unlimited trade plans, all statuses, filters and sorting, equity curve and stats by tag, chart screenshots, and no ads. Start with a 1-week free trial.\n\nPrice Action is a planning tool. It does not provide financial advice, real-time quotes or order execution.\n\n———\n\nPayment will be charged to your Apple Account at confirmation of purchase. The subscription renews automatically for the same period and price unless it is cancelled at least 24 hours before the end of the free trial or the current period. Your account will be charged for renewal within 24 hours before the end of the current period. You can manage or cancel your subscription in your Apple Account settings after purchase. Any unused portion of a free trial is forfeited when you purchase a subscription.\n\nTerms of Use: https://docs.google.com/document/d/1oPBAViX9vr6yOxlsY7fJVCUxvPSQ13UbzhVj8zEmh4I/edit?usp=sharing\nPrivacy Policy: https://docs.google.com/document/d/1ABATV-iK8_mFpZOchIgFbftB7yTy30qfYaJr0b5IczA/edit?usp=sharing",
-        "pt": "Planeje seus trades antes de entrar e aprenda com cada resultado.\n\nO Price Action é um planejador e diário de trades simples e privado. Anote o ativo, a entrada, o alvo e o stop, e o app calcula o risco:retorno, a distância percentual até cada nível e o tamanho de posição adequado ao seu risco. Ao fechar o trade, registre a saída e veja o resultado em R e em dinheiro.\n\nPLANEJE\n• Trades de compra ou venda com entrada, alvo, stop e quantidade\n• Risco:retorno e % até o alvo e o stop calculados automaticamente\n• Calculadora de posição: capital × risco % ÷ distância até o stop\n• Avisos quando o alvo ou o stop estão do lado errado da entrada\n\nACOMPANHE\n• Status: Aguardando, Aberto, Gain, Loss, Empate e Cancelado\n• Preço de saída, resultado financeiro e resultado em R\n• Tags para setups e estratégias\n• Print do gráfico anexado a cada trade\n• Lembretes para revisar um trade numa data\n• Widgets na Tela de Início e na Tela Bloqueada com seus trades abertos\n\nAPRENDA\n• Taxa de acerto, resultado médio, fator de lucro e resultado total\n• Curva de capital em R e estatísticas por tag\n\nPRIVADO DE VERDADE\n• Sem conta e sem cadastro: seus trades ficam no seu aparelho\n• Bloqueio opcional com Face ID ou código\n• Exporte tudo para CSV quando quiser\n\nFunciona com ações, FIIs, ETFs, cripto, forex, mini-índice, mini-dólar e opções. Digite preços com vírgula ou ponto.\n\nGRÁTIS E PREMIUM\nGrátis: até 10 planos de trade, com anúncios.\nPremium: planos ilimitados, todos os status, filtros e ordenação, curva de capital e estatísticas por tag, prints de gráfico e sem anúncios. Comece com 1 semana grátis.\n\nO Price Action é uma ferramenta de planejamento. Não oferece recomendação de investimento, cotações em tempo real nem execução de ordens.\n\n———\n\nO pagamento é cobrado na sua Conta Apple quando a compra é confirmada. A assinatura renova automaticamente pelo mesmo período e preço, a menos que seja cancelada pelo menos 24 horas antes do fim do teste grátis ou do período atual. A renovação é cobrada nas 24 horas anteriores ao fim do período atual. Você pode gerenciar ou cancelar a assinatura nos ajustes da sua Conta Apple após a compra. Qualquer parte não usada do teste grátis é perdida ao assinar.\n\nTermos de Uso: https://docs.google.com/document/d/1oPBAViX9vr6yOxlsY7fJVCUxvPSQ13UbzhVj8zEmh4I/edit?usp=sharing\nPolítica de Privacidade: https://docs.google.com/document/d/1ABATV-iK8_mFpZOchIgFbftB7yTy30qfYaJr0b5IczA/edit?usp=sharing"
-      },
-      "releaseNotes": "Close trades without opening the app.\n\n• Mark a trade as Gain or Loss right from the widget\n• New Shortcuts and Siri actions: close a trade and check your active trades\n• New yearly Premium plan\n• Fixed: Premium sometimes didn't unlock after a successful purchase",
-      "icon": "/apps/price-action/icon.webp",
-      "tint": "#B5D2EA",
-      "screens": [
-        {
-          "src": "/apps/price-action/screen-1.webp",
-          "width": 640,
-          "height": 1138
-        },
-        {
-          "src": "/apps/price-action/screen-2.webp",
-          "width": 640,
-          "height": 1138
-        },
-        {
-          "src": "/apps/price-action/screen-3.webp",
-          "width": 640,
-          "height": 1138
-        },
-        {
-          "src": "/apps/price-action/screen-4.webp",
-          "width": 640,
-          "height": 1138
         }
       ],
       "privacy": {
@@ -420,6 +348,81 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": 1547922378,
+      "slug": "price-action",
+      "name": "Price Action: Trade Planner",
+      "nameBR": "Price Action: Plano de Trade",
+      "url": "https://apps.apple.com/br/app/id1547922378",
+      "genres": {
+        "en": [
+          "Finance",
+          "Productivity"
+        ],
+        "pt": [
+          "Finanças",
+          "Produtividade"
+        ]
+      },
+      "releaseDate": "2021-01-29T08:00:00Z",
+      "updatedAt": "2026-10-05T23:04:39Z",
+      "version": "2.1.0",
+      "minimumOsVersion": "17.0",
+      "fileSizeBytes": 14784512,
+      "price": 0,
+      "languages": [
+        "EN",
+        "PT"
+      ],
+      "rating": {
+        "value": 0,
+        "count": 0,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": true,
+      "description": {
+        "en": "Plan your trades before you enter them, and learn from every result.\n\nPrice Action is a simple, private trade planner and journal. Write down the asset, entry, target and stop, and the app calculates your risk:reward, the percentage to each level and the position size that fits your risk. When the trade is closed, record the exit and see the result in R and in money.\n\nPLAN\n• Long or short trades with entry, target, stop and quantity\n• Automatic risk:reward and % to target and stop\n• Position size calculator: account size × risk % ÷ distance to the stop\n• Warnings when the target or stop is on the wrong side of the entry\n\nTRACK\n• Statuses: Waiting, Open, Won, Loss, Breakeven and Cancelled\n• Exit price, profit and loss, and result in R\n• Tags for setups and strategies\n• Attach a chart screenshot to each trade\n• Reminders to review a trade on a given date\n• Home Screen and Lock Screen widgets with your open trades\n\nLEARN\n• Win rate, average result, profit factor and total result\n• Equity curve in R and stats by tag\n\nPRIVATE BY DESIGN\n• No account, no sign-up: your trades stay on your device\n• Optional Face ID / passcode lock\n• Export everything to CSV whenever you want\n\nWorks with stocks, ETFs, crypto, forex, futures and options. Enter prices with a comma or a dot.\n\nFREE AND PREMIUM\nFree: up to 10 trade plans, with ads.\nPremium: unlimited trade plans, all statuses, filters and sorting, equity curve and stats by tag, chart screenshots, and no ads. Start with a 1-week free trial.\n\nPrice Action is a planning tool. It does not provide financial advice, real-time quotes or order execution.\n\n———\n\nPayment will be charged to your Apple Account at confirmation of purchase. The subscription renews automatically for the same period and price unless it is cancelled at least 24 hours before the end of the free trial or the current period. Your account will be charged for renewal within 24 hours before the end of the current period. You can manage or cancel your subscription in your Apple Account settings after purchase. Any unused portion of a free trial is forfeited when you purchase a subscription.\n\nTerms of Use: https://docs.google.com/document/d/1oPBAViX9vr6yOxlsY7fJVCUxvPSQ13UbzhVj8zEmh4I/edit?usp=sharing\nPrivacy Policy: https://docs.google.com/document/d/1ABATV-iK8_mFpZOchIgFbftB7yTy30qfYaJr0b5IczA/edit?usp=sharing",
+        "pt": "Planeje seus trades antes de entrar e aprenda com cada resultado.\n\nO Price Action é um planejador e diário de trades simples e privado. Anote o ativo, a entrada, o alvo e o stop, e o app calcula o risco:retorno, a distância percentual até cada nível e o tamanho de posição adequado ao seu risco. Ao fechar o trade, registre a saída e veja o resultado em R e em dinheiro.\n\nPLANEJE\n• Trades de compra ou venda com entrada, alvo, stop e quantidade\n• Risco:retorno e % até o alvo e o stop calculados automaticamente\n• Calculadora de posição: capital × risco % ÷ distância até o stop\n• Avisos quando o alvo ou o stop estão do lado errado da entrada\n\nACOMPANHE\n• Status: Aguardando, Aberto, Gain, Loss, Empate e Cancelado\n• Preço de saída, resultado financeiro e resultado em R\n• Tags para setups e estratégias\n• Print do gráfico anexado a cada trade\n• Lembretes para revisar um trade numa data\n• Widgets na Tela de Início e na Tela Bloqueada com seus trades abertos\n\nAPRENDA\n• Taxa de acerto, resultado médio, fator de lucro e resultado total\n• Curva de capital em R e estatísticas por tag\n\nPRIVADO DE VERDADE\n• Sem conta e sem cadastro: seus trades ficam no seu aparelho\n• Bloqueio opcional com Face ID ou código\n• Exporte tudo para CSV quando quiser\n\nFunciona com ações, FIIs, ETFs, cripto, forex, mini-índice, mini-dólar e opções. Digite preços com vírgula ou ponto.\n\nGRÁTIS E PREMIUM\nGrátis: até 10 planos de trade, com anúncios.\nPremium: planos ilimitados, todos os status, filtros e ordenação, curva de capital e estatísticas por tag, prints de gráfico e sem anúncios. Comece com 1 semana grátis.\n\nO Price Action é uma ferramenta de planejamento. Não oferece recomendação de investimento, cotações em tempo real nem execução de ordens.\n\n———\n\nO pagamento é cobrado na sua Conta Apple quando a compra é confirmada. A assinatura renova automaticamente pelo mesmo período e preço, a menos que seja cancelada pelo menos 24 horas antes do fim do teste grátis ou do período atual. A renovação é cobrada nas 24 horas anteriores ao fim do período atual. Você pode gerenciar ou cancelar a assinatura nos ajustes da sua Conta Apple após a compra. Qualquer parte não usada do teste grátis é perdida ao assinar.\n\nTermos de Uso: https://docs.google.com/document/d/1oPBAViX9vr6yOxlsY7fJVCUxvPSQ13UbzhVj8zEmh4I/edit?usp=sharing\nPolítica de Privacidade: https://docs.google.com/document/d/1ABATV-iK8_mFpZOchIgFbftB7yTy30qfYaJr0b5IczA/edit?usp=sharing"
+      },
+      "releaseNotes": "Close trades without opening the app.\n\n• Mark a trade as Gain or Loss right from the widget\n• New Shortcuts and Siri actions: close a trade and check your active trades\n• New yearly Premium plan\n• Fixed: Premium sometimes didn't unlock after a successful purchase",
+      "icon": "/apps/price-action/icon.webp",
+      "tint": "#B5D2EA",
+      "screens": [
+        {
+          "src": "/apps/price-action/screen-1.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/price-action/screen-2.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/price-action/screen-3.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/price-action/screen-4.webp",
+          "width": 640,
+          "height": 1138
+        }
+      ],
+      "privacy": {
+        "notCollected": false,
+        "notProvided": false,
+        "tracking": [
+          {
+            "category": "IDENTIFIERS",
+            "dataTypes": []
+          }
+        ],
+        "linked": [],
+        "notLinked": []
       }
     },
     {
@@ -594,14 +597,15 @@
         ]
       },
       "releaseDate": "2025-09-23T07:00:00Z",
-      "updatedAt": "2026-10-19T17:22:17Z",
-      "version": "1.7.0",
+      "updatedAt": "2026-10-28T16:55:14Z",
+      "version": "1.8.0",
       "minimumOsVersion": "15.6",
-      "fileSizeBytes": 21439488,
+      "fileSizeBytes": 21879808,
       "price": 0,
       "languages": [
         "EN",
-        "PT"
+        "PT",
+        "ES"
       ],
       "rating": {
         "value": 4,
@@ -614,7 +618,7 @@
         "en": "LittleTube is a video player for kids that plays only the videos you choose.\n\nStart with a trusted channel, or share a video from YouTube. Your child opens LittleTube and sees only what you picked. There's no home feed, no Shorts and no algorithm deciding what comes next.\n\nSTART FULL, STAY FRESH\n• Pick a starter channel for your child's age (2–5 or 6–9) and the list fills itself\n• New videos from followed channels arrive on their own, with a \"New\" badge\n• One channel or playlist folder is free\n\nADD VIDEOS YOUR WAY\n• Share any video from the YouTube app or Safari straight to LittleTube\n• Search YouTube inside LittleTube and add what you like\n• Paste one link or a whole list\n• Sort videos into folders like \"Bedtime\", \"Music\" or \"Learning\"\n\nBUILT FOR PARENTS WHO WANT TO STAY IN CHARGE\n• Your picks come next: when a video ends, LittleTube shows your other approved videos, not YouTube's suggestions\n• If your child taps a suggestion that isn't approved, the video pauses and a grown-up decides: approve once, add it to a folder, or save it for later\n• Links locked behind Face ID: tapping a link inside the player asks for a parent's Face ID or passcode before leaving the app. You can also block these links completely\n• Require Face ID before any shared video joins the list\n• Lock settings, deleting and profiles with Face ID or your passcode\n• See what your child watched this week, and get a Sunday reminder (optional)\n\nLITTLETUBE PRO: FAMILY & CONTROLS\n• A profile for every child, each with their own videos\n• Daily watch time limit per profile, from 5 minutes to 4 hours. When time is up, the video stops. Need a few more minutes? Add 15 with Face ID\n• More folders and more followed channels\n• Unlimited videos and every safety feature above are free for everyone\n\nGOOD TO KNOW\nLittleTube plays videos with YouTube's official embedded player, so YouTube may still show ads during a video. LittleTube is not affiliated with or endorsed by YouTube or Google.\n\nBuilt by a dad, for families. Questions or ideas? Tap Settings → Send Feedback. We read every message.\n\nSUBSCRIPTION\nLittleTube Pro is an auto-renewing subscription. Payment is charged to your Apple ID at purchase confirmation. It renews automatically unless you cancel at least 24 hours before the end of the current period. You can manage or cancel it in your App Store account settings.\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nPrivacy Policy: https://bit.ly/peektube-privacy-policy\n\nVideos shown in screenshots: Caminandes, Big Buck Bunny and Spring © Blender Foundation (CC BY 4.0); Tour of the Moon © NASA.",
         "pt": "O LittleTube é um player de vídeos para crianças que toca só os vídeos que você escolhe.\n\nComece por um canal de confiança ou compartilhe um vídeo do YouTube. Seu filho abre o LittleTube e vê só o que você escolheu. Não há feed inicial, nem Shorts, nem algoritmo decidindo o que vem depois.\n\nCOMECE CHEIO, FIQUE ATUALIZADO\n• Escolha um canal inicial para a idade do seu filho (2–5 ou 6–9 anos) e a lista se preenche sozinha\n• Vídeos novos dos canais que você segue chegam sozinhos, com o selo \"Novo\"\n• Uma pasta de canal ou playlist é grátis\n\nADICIONE VÍDEOS DO SEU JEITO\n• Compartilhe qualquer vídeo do app do YouTube ou do Safari direto para o LittleTube\n• Pesquise no YouTube dentro do LittleTube e adicione o que gostar\n• Cole um link ou uma lista inteira\n• Organize em pastas como \"Hora de dormir\", \"Música\" ou \"Aprender\"\n\nFEITO PARA PAIS QUE QUEREM O CONTROLE\n• Os seus vídeos vêm em seguida: quando um vídeo termina, o LittleTube mostra os outros vídeos aprovados, não as sugestões do YouTube\n• Se seu filho tocar numa sugestão não aprovada, o vídeo pausa e um adulto decide: aprovar uma vez, adicionar a uma pasta ou deixar para depois\n• Links protegidos por Face ID: tocar num link dentro do player pede o Face ID ou a senha de um adulto antes de sair do app. Você também pode bloquear esses links por completo\n• Exija Face ID antes de qualquer vídeo compartilhado entrar na lista\n• Proteja ajustes, exclusões e perfis com Face ID ou senha\n• Veja o que seu filho assistiu na semana e receba um lembrete no domingo (opcional)\n\nLITTLETUBE PRO: FAMÍLIA E CONTROLES\n• Um perfil para cada filho, cada um com seus vídeos\n• Limite diário de tempo por perfil, de 5 minutos a 4 horas. Acabou o tempo, o vídeo para. Precisa de mais alguns minutos? Adicione 15 com Face ID\n• Mais pastas e mais canais seguidos\n• Vídeos ilimitados e todos os recursos de segurança acima são grátis para todos\n\nBOM SABER\nO LittleTube toca os vídeos com o player oficial incorporado do YouTube, então o YouTube ainda pode mostrar anúncios durante um vídeo. O LittleTube não é afiliado nem endossado pelo YouTube ou pelo Google.\n\nFeito por um pai, para famílias. Dúvidas ou ideias? Toque em Ajustes → Enviar feedback. Lemos todas as mensagens.\n\nASSINATURA\nO LittleTube Pro é uma assinatura com renovação automática. O pagamento é cobrado no seu Apple ID na confirmação da compra. Renova automaticamente, a menos que você cancele pelo menos 24 horas antes do fim do período atual. Gerencie ou cancele nos ajustes da sua conta da App Store.\nTermos de Uso: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nPolítica de Privacidade: https://bit.ly/peektube-privacy-policy\n\nVídeos nas capturas de tela: Caminandes, Big Buck Bunny e Spring © Blender Foundation (CC BY 4.0); Tour of the Moon © NASA."
       },
-      "releaseNotes": "New: a free Sunday summary. Every Sunday evening, a gentle reminder to see what your child watched and pick new videos for the week ahead.\n\n• Sunday summary is now free for everyone, offered right in setup\n• No more rating pop-ups while your child is watching\n• Rate LittleTube from Settings whenever you like",
+      "releaseNotes": "New: a Time left widget, backup & restore for your lists, and LittleTube in Spanish.\n\n• Time left widget shows today's watch time on your Home Screen\n• Backup & Restore: save your lists and move them to a new device\n• Choose the folder when you share a video from another app\n• Browse a channel catalog in Add Video; follow 3 channels free\n• Weekend time limit and extra time in 5, 10, 15 or 30 minutes (Pro)",
       "icon": "/apps/littletube/icon.webp",
       "tint": "#F8E0CD",
       "screens": [
@@ -709,8 +713,8 @@
         "PT"
       ],
       "rating": {
-        "value": 4.375,
-        "count": 8,
+        "value": 4.44444,
+        "count": 9,
         "store": "us"
       },
       "gameCenter": false,
@@ -863,6 +867,218 @@
       }
     },
     {
+      "id": 6772647088,
+      "slug": "speakscroll",
+      "name": "SpeakScroll: Teleprompter",
+      "nameBR": "SpeakScroll: Leitor de Roteiro",
+      "url": "https://apps.apple.com/br/app/id6772647088",
+      "genres": {
+        "en": [
+          "Photo & Video",
+          "Productivity"
+        ],
+        "pt": [
+          "Foto e vídeo",
+          "Produtividade"
+        ]
+      },
+      "releaseDate": "2026-06-01T07:00:00Z",
+      "updatedAt": "2026-10-19T13:17:33Z",
+      "version": "1.4.0",
+      "minimumOsVersion": "26.0",
+      "fileSizeBytes": 10809344,
+      "price": 0,
+      "languages": [
+        "EN",
+        "PT"
+      ],
+      "rating": {
+        "value": 0,
+        "count": 0,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": true,
+      "description": {
+        "en": "From script to finished video, on your iPhone or iPad.\n\nSpeakScroll places your script over the camera and follows your pace with Voice Scroll. Record, combine takes and finish your video in the built-in editor.\n\nRECORD WITH CONFIDENCE\n• Adjust scroll speed, text size, color and mirroring.\n• Use the front or rear camera, exposure controls and framing guides.\n• Choose external microphones and monitor audio levels.\n• Organize scripts and import text, Markdown, RTF or PDF.\n\nEDIT AND CAPTION\n• Split, trim, delete and reorder clips.\n• Cut footage by selecting words in the transcript.\n• Burn Classic captions into your video.\n• Choose 9:16, 1:1, 4:5 or 16:9 and adjust framing.\n• Save to Photos or share your video without a watermark.\n\nSPEAKSCROLL PRO\nAdd noise removal and voice enhancement, Magic Cut, background removal, animated caption styles, caption translation, music, a brand kit, Auto Shorts, an AI script assistant and 4K/60 export.\n\nReading, recording, saving, Voice Scroll, the library, basic editing and Classic captions stay free.\n\nNO ACCOUNT REQUIRED\nRecording and reading work offline. Script and media processing happens on your device. Speech recognition and translation may require an initial language-model download. The script assistant and Auto Shorts require Apple Intelligence and a supported device and language.\n\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "pt": "Do roteiro ao vídeo pronto, no seu iPhone ou iPad.\n\nO SpeakScroll coloca seu roteiro sobre a câmera e acompanha seu ritmo com o Voice Scroll. Grave, reúna vários takes e finalize o vídeo no editor integrado.\n\nGRAVE COM CONFIANÇA\n• Ajuste velocidade, tamanho, cor e espelhamento do texto.\n• Use a câmera frontal ou traseira, exposição e guias de enquadramento.\n• Escolha microfones externos e acompanhe o nível do áudio.\n• Organize seus roteiros e importe texto, Markdown, RTF ou PDF.\n\nEDITE E LEGENDE\n• Divida, apare, apague e reorganize clipes.\n• Corte trechos pelas palavras da transcrição.\n• Adicione legendas clássicas ao vídeo.\n• Escolha 9:16, 1:1, 4:5 ou 16:9 e ajuste o enquadramento.\n• Salve em Fotos ou compartilhe seu vídeo sem marca d'água.\n\nSPEAKSCROLL PRO\nAdicione redução de ruído e realce de voz, Corte Mágico, remoção de fundo, estilos de legenda animados, tradução de legendas, música, kit de marca, Auto Shorts, assistente de roteiro com IA e exportação 4K/60.\n\nLer, gravar, salvar, Voice Scroll, biblioteca, edição básica e legendas clássicas continuam grátis.\n\nSEM CONTA\nGravar e ler funcionam sem internet. O processamento de roteiro e mídia acontece no aparelho. Reconhecimento de fala e tradução podem exigir um download inicial dos modelos de idioma. O assistente de roteiro e Auto Shorts dependem de Apple Intelligence, aparelho e idioma compatíveis.\n\nTermos de Uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+      },
+      "releaseNotes": "Your script, your look: pick the prompter font, now with a high-legibility option.\n\n• New Font setting: Rounded, Serif, Monospaced or High legibility\n• Find your scripts in Spotlight and open them straight in the prompter\n• Pro trial reminder: we notify you 2 days before it ends\n• Clearer promise: no watermark, no account, recording works offline",
+      "icon": "/apps/speakscroll/icon.webp",
+      "tint": "#CDC8FD",
+      "screens": [
+        {
+          "src": "/apps/speakscroll/screen-1.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/speakscroll/screen-2.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/speakscroll/screen-3.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/speakscroll/screen-4.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/speakscroll/screen-5.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/speakscroll/screen-6.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/speakscroll/screen-7.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/speakscroll/screen-8.webp",
+          "width": 640,
+          "height": 1391
+        }
+      ],
+      "privacy": {
+        "notCollected": false,
+        "notProvided": false,
+        "tracking": [],
+        "linked": [],
+        "notLinked": [
+          {
+            "purpose": "APP_FUNCTIONALITY",
+            "categories": [
+              {
+                "category": "DIAGNOSTICS",
+                "dataTypes": [
+                  "Crash Data"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 1484146441,
+      "slug": "radar-de-concursos-publicos",
+      "name": "Radar de Concursos Públicos",
+      "nameBR": "Radar de Concursos Públicos",
+      "url": "https://apps.apple.com/br/app/id1484146441",
+      "genres": {
+        "en": [
+          "News",
+          "Reference"
+        ],
+        "pt": [
+          "Notícias",
+          "Referência"
+        ]
+      },
+      "releaseDate": "2019-10-26T07:00:00Z",
+      "updatedAt": "2026-10-27T15:54:52Z",
+      "version": "2.7.0",
+      "minimumOsVersion": "17.0",
+      "fileSizeBytes": 11975680,
+      "price": 0,
+      "languages": [
+        "PT"
+      ],
+      "rating": {
+        "value": 5,
+        "count": 1,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": true,
+      "description": {
+        "en": "Find Brazilian public-sector exams (concursos públicos) and selection processes that are open for registration, and never miss a deadline.\n\nEvery day, Radar reads municipal official gazettes and the federal Diário Oficial da União (DOU) and gathers the published notices in a single list, sorted by registration deadline.\n\nFIND THE RIGHT EXAM\n• On first launch, pick your states and education level: your list and your first alert are ready\n• Search by agency, city, job title or exam board\n• Filter by state, education level, level of government (municipal or federal), type and minimum salary; filters are remembered\n• See what closes this week, what is open now and what opens soon\n• Sort by nearest deadline, highest salary, most openings or newest\n\nEVERYTHING ABOUT THE NOTICE\n• Registration period, salary, openings and, when the gazette lists them, exam board, positions and education level\n• Excerpt from the official gazette with a link to the notice and registration page\n• A heads-up when the notice is amended\n• Share an exam with friends\n\nFOLLOW AND GET REMINDERS\n• Follow the exams you care about\n• Reminders 3 days and 1 day before registration closes, and on the day it opens\n• Mark \"I registered\", add the exam date and get reminders 7 days and 1 day before\n• Add the deadline or the exam day to your iPhone Calendar\n• Widget with registrations closing soon\n• Create an alert by state, education level, salary and keywords and hear about new exams\n• Your exams and alerts sync across your devices with iCloud\n\nNO ADS, NO SURPRISES\n• No ads, on any plan\n• Notifications only about the exams you follow and the alerts you create\n• The subscription is billed by Apple: cancel anytime in Settings, no calls or emails\n• A light app that opens fast and shows the last list even offline\n\nFREE TO BROWSE\nThe list, search, filters (including education level) and details are free. The free plan lets you follow up to 5 exams and set 1 new-exam alert, delivered as a daily digest. Exam-day reminders and amendment alerts are free too.\n\nRADAR PREMIUM (monthly or yearly subscription)\n• Follow unlimited exams\n• Unlimited new-exam alerts, sent as soon as the app finds the notice\n• Choose how early (7, 3 or 1 day) and at what time reminders arrive\n• Filter and alerts by job area: health, education, IT, legal and more\n• Full history of the exams you have opened\n\nThe app is in Brazilian Portuguese. Data is extracted automatically from official gazettes; always check the official notice. The app is not affiliated with any government agency or exam board.",
+        "pt": "Encontre concursos públicos e processos seletivos com inscrições abertas e não perca nenhum prazo.\n\nTodos os dias, o Radar lê os diários oficiais das prefeituras e o Diário Oficial da União (DOU) e reúne os editais publicados numa lista só, organizada pelo prazo de inscrição.\n\nENCONTRE O CONCURSO CERTO\n• Na primeira abertura, escolha seus estados e sua escolaridade: a lista e o seu primeiro alerta já vêm prontos\n• Busque por órgão, cidade, cargo ou banca\n• Filtre por estado, escolaridade, esfera (municipal ou federal), tipo e salário mínimo; os filtros ficam salvos\n• Veja primeiro o que encerra esta semana, o que está com inscrições abertas e o que abre em breve\n• Ordene por prazo mais próximo, maior salário, mais vagas ou mais recentes\n\nTUDO SOBRE O EDITAL\n• Período de inscrição, salário, vagas e, quando o diário cita, banca, cargos e escolaridade\n• Trecho do diário oficial com link para o edital e a inscrição\n• Aviso quando o edital é retificado\n• Compartilhe um concurso com quem também está estudando\n\nACOMPANHE E RECEBA LEMBRETES\n• Acompanhe os concursos que interessam a você\n• Lembrete 3 dias e 1 dia antes do fim das inscrições, e no dia em que elas abrem\n• Marque \"Já me inscrevi\", informe a data da prova e receba lembrete 7 dias e 1 dia antes\n• Coloque o prazo ou a prova no Calendário do iPhone\n• Widget com as inscrições que estão terminando\n• Crie um alerta por estado, escolaridade, salário e palavras-chave e saiba quando aparecer um concurso novo\n• Seus concursos e alertas sincronizam pelo iCloud entre os seus aparelhos\n\nSEM ANÚNCIOS E SEM SURPRESA\n• Nenhum anúncio, em nenhum plano\n• Avisos só dos concursos que você acompanha e dos alertas que você criou\n• A assinatura é feita pela Apple: você cancela quando quiser em Ajustes, sem ligar nem mandar e-mail\n• App leve, que abre rápido e funciona com a última lista mesmo sem internet\n\nGRÁTIS PARA CONSULTAR\nLista, busca, filtros (inclusive escolaridade) e detalhes são grátis. No plano grátis você acompanha até 5 concursos e tem 1 alerta de novos concursos, com resumo diário. O lembrete da prova e o aviso de retificação também são grátis.\n\nRADAR PREMIUM (assinatura mensal ou anual)\n• Acompanhe quantos concursos quiser\n• Alertas de novos concursos ilimitados, avisados assim que o app encontra o edital\n• Escolha a antecedência (7, 3 ou 1 dia) e o horário dos lembretes\n• Filtro e alertas por área do cargo: saúde, educação, TI, jurídica e mais\n• Histórico completo dos concursos que você já abriu\n\nOs dados são extraídos automaticamente dos diários oficiais. Confira sempre o edital. O app não tem vínculo com órgãos públicos nem com bancas organizadoras."
+      },
+      "releaseNotes": "An easier start and fixes for opening notifications.\n\n• \"Get started\": right after the welcome, follow an exam from your profile with one tap\n• On iPad, the exam list now shows on the first screen\n• Fixed an unexpected crash when tapping a notification\n• Larger text: detail, Following and filters are easier to read\n• Premium: benefits come before the subscription terms, and plans can be reloaded with a button",
+      "icon": "/apps/radar-de-concursos-publicos/icon.webp",
+      "tint": "#BAD7D7",
+      "screens": [
+        {
+          "src": "/apps/radar-de-concursos-publicos/screen-1.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/radar-de-concursos-publicos/screen-2.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/radar-de-concursos-publicos/screen-3.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/apps/radar-de-concursos-publicos/screen-4.webp",
+          "width": 640,
+          "height": 1138
+        }
+      ],
+      "privacy": {
+        "notCollected": false,
+        "notProvided": false,
+        "tracking": [],
+        "linked": [],
+        "notLinked": [
+          {
+            "purpose": "ANALYTICS",
+            "categories": [
+              {
+                "category": "LOCATION",
+                "dataTypes": [
+                  "Coarse Location"
+                ]
+              },
+              {
+                "category": "IDENTIFIERS",
+                "dataTypes": [
+                  "Device ID"
+                ]
+              },
+              {
+                "category": "USAGE_DATA",
+                "dataTypes": [
+                  "Product Interaction"
+                ]
+              }
+            ]
+          },
+          {
+            "purpose": "APP_FUNCTIONALITY",
+            "categories": [
+              {
+                "category": "IDENTIFIERS",
+                "dataTypes": [
+                  "Device ID"
+                ]
+              },
+              {
+                "category": "DIAGNOSTICS",
+                "dataTypes": [
+                  "Crash Data"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": 6818542422,
       "slug": "talkcut",
       "name": "Talkcut: Auto Captions",
@@ -992,177 +1208,6 @@
       }
     },
     {
-      "id": 6772647088,
-      "slug": "speakscroll",
-      "name": "SpeakScroll: Teleprompter",
-      "nameBR": "SpeakScroll: Leitor de Roteiro",
-      "url": "https://apps.apple.com/br/app/id6772647088",
-      "genres": {
-        "en": [
-          "Photo & Video",
-          "Productivity"
-        ],
-        "pt": [
-          "Foto e vídeo",
-          "Produtividade"
-        ]
-      },
-      "releaseDate": "2026-06-01T07:00:00Z",
-      "updatedAt": "2026-10-19T13:17:33Z",
-      "version": "1.4.0",
-      "minimumOsVersion": "26.0",
-      "fileSizeBytes": 10809344,
-      "price": 0,
-      "languages": [
-        "EN",
-        "PT"
-      ],
-      "rating": {
-        "value": 0,
-        "count": 0,
-        "store": "us"
-      },
-      "gameCenter": false,
-      "universal": true,
-      "description": {
-        "en": "From script to finished video, on your iPhone or iPad.\n\nSpeakScroll places your script over the camera and follows your pace with Voice Scroll. Record, combine takes and finish your video in the built-in editor.\n\nRECORD WITH CONFIDENCE\n• Adjust scroll speed, text size, color and mirroring.\n• Use the front or rear camera, exposure controls and framing guides.\n• Choose external microphones and monitor audio levels.\n• Organize scripts and import text, Markdown, RTF or PDF.\n\nEDIT AND CAPTION\n• Split, trim, delete and reorder clips.\n• Cut footage by selecting words in the transcript.\n• Burn Classic captions into your video.\n• Choose 9:16, 1:1, 4:5 or 16:9 and adjust framing.\n• Save to Photos or share your video without a watermark.\n\nSPEAKSCROLL PRO\nAdd noise removal and voice enhancement, Magic Cut, background removal, animated caption styles, caption translation, music, a brand kit, Auto Shorts, an AI script assistant and 4K/60 export.\n\nReading, recording, saving, Voice Scroll, the library, basic editing and Classic captions stay free.\n\nNO ACCOUNT REQUIRED\nRecording and reading work offline. Script and media processing happens on your device. Speech recognition and translation may require an initial language-model download. The script assistant and Auto Shorts require Apple Intelligence and a supported device and language.\n\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
-        "pt": "Do roteiro ao vídeo pronto, no seu iPhone ou iPad.\n\nO SpeakScroll coloca seu roteiro sobre a câmera e acompanha seu ritmo com o Voice Scroll. Grave, reúna vários takes e finalize o vídeo no editor integrado.\n\nGRAVE COM CONFIANÇA\n• Ajuste velocidade, tamanho, cor e espelhamento do texto.\n• Use a câmera frontal ou traseira, exposição e guias de enquadramento.\n• Escolha microfones externos e acompanhe o nível do áudio.\n• Organize seus roteiros e importe texto, Markdown, RTF ou PDF.\n\nEDITE E LEGENDE\n• Divida, apare, apague e reorganize clipes.\n• Corte trechos pelas palavras da transcrição.\n• Adicione legendas clássicas ao vídeo.\n• Escolha 9:16, 1:1, 4:5 ou 16:9 e ajuste o enquadramento.\n• Salve em Fotos ou compartilhe seu vídeo sem marca d'água.\n\nSPEAKSCROLL PRO\nAdicione redução de ruído e realce de voz, Corte Mágico, remoção de fundo, estilos de legenda animados, tradução de legendas, música, kit de marca, Auto Shorts, assistente de roteiro com IA e exportação 4K/60.\n\nLer, gravar, salvar, Voice Scroll, biblioteca, edição básica e legendas clássicas continuam grátis.\n\nSEM CONTA\nGravar e ler funcionam sem internet. O processamento de roteiro e mídia acontece no aparelho. Reconhecimento de fala e tradução podem exigir um download inicial dos modelos de idioma. O assistente de roteiro e Auto Shorts dependem de Apple Intelligence, aparelho e idioma compatíveis.\n\nTermos de Uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
-      },
-      "releaseNotes": "Your script, your look: pick the prompter font, now with a high-legibility option.\n\n• New Font setting: Rounded, Serif, Monospaced or High legibility\n• Find your scripts in Spotlight and open them straight in the prompter\n• Pro trial reminder: we notify you 2 days before it ends\n• Clearer promise: no watermark, no account, recording works offline",
-      "icon": "/apps/speakscroll/icon.webp",
-      "tint": "#CDC8FD",
-      "screens": [
-        {
-          "src": "/apps/speakscroll/screen-1.webp",
-          "width": 640,
-          "height": 1391
-        },
-        {
-          "src": "/apps/speakscroll/screen-2.webp",
-          "width": 640,
-          "height": 1391
-        },
-        {
-          "src": "/apps/speakscroll/screen-3.webp",
-          "width": 640,
-          "height": 1391
-        },
-        {
-          "src": "/apps/speakscroll/screen-4.webp",
-          "width": 640,
-          "height": 1391
-        },
-        {
-          "src": "/apps/speakscroll/screen-5.webp",
-          "width": 640,
-          "height": 1391
-        },
-        {
-          "src": "/apps/speakscroll/screen-6.webp",
-          "width": 640,
-          "height": 1391
-        },
-        {
-          "src": "/apps/speakscroll/screen-7.webp",
-          "width": 640,
-          "height": 1391
-        },
-        {
-          "src": "/apps/speakscroll/screen-8.webp",
-          "width": 640,
-          "height": 1391
-        }
-      ],
-      "privacy": {
-        "notCollected": false,
-        "notProvided": false,
-        "tracking": [],
-        "linked": [],
-        "notLinked": [
-          {
-            "purpose": "APP_FUNCTIONALITY",
-            "categories": [
-              {
-                "category": "DIAGNOSTICS",
-                "dataTypes": [
-                  "Crash Data"
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": 1484146441,
-      "slug": "radar-de-concursos-publicos",
-      "name": "Radar de Concursos Públicos",
-      "nameBR": "Radar de Concursos Públicos",
-      "url": "https://apps.apple.com/br/app/id1484146441",
-      "genres": {
-        "en": [
-          "News",
-          "Reference"
-        ],
-        "pt": [
-          "Notícias",
-          "Referência"
-        ]
-      },
-      "releaseDate": "2019-10-26T07:00:00Z",
-      "updatedAt": "2026-10-19T06:59:44Z",
-      "version": "2.6.0",
-      "minimumOsVersion": "17.0",
-      "fileSizeBytes": 11922432,
-      "price": 0,
-      "languages": [
-        "PT"
-      ],
-      "rating": {
-        "value": 5,
-        "count": 1,
-        "store": "us"
-      },
-      "gameCenter": false,
-      "universal": true,
-      "description": {
-        "en": "Find Brazilian public-sector exams (concursos públicos) and selection processes that are open for registration, and never miss a deadline.\n\nEvery day, Radar reads municipal official gazettes and the federal Diário Oficial da União (DOU) and gathers the published notices in a single list, sorted by registration deadline.\n\nFIND THE RIGHT EXAM\n• On first launch, pick your states and education level: your list and your first alert are ready\n• Search by agency, city, job title or exam board\n• Filter by state, education level, level of government (municipal or federal), type and minimum salary; filters are remembered\n• See what closes this week, what is open now and what opens soon\n• Sort by nearest deadline, highest salary, most openings or newest\n\nEVERYTHING ABOUT THE NOTICE\n• Registration period, salary, openings and, when the gazette lists them, exam board, positions and education level\n• Excerpt from the official gazette with a link to the notice and registration page\n• A heads-up when the notice is amended\n• Share an exam with friends\n\nFOLLOW AND GET REMINDERS\n• Follow the exams you care about\n• Reminders 3 days and 1 day before registration closes, and on the day it opens\n• Mark \"I registered\", add the exam date and get reminders 7 days and 1 day before\n• Add the deadline or the exam day to your iPhone Calendar\n• Widget with registrations closing soon\n• Create an alert by state, education level, salary and keywords and hear about new exams\n• Your exams and alerts sync across your devices with iCloud\n\nNO ADS, NO SURPRISES\n• No ads, on any plan\n• Notifications only about the exams you follow and the alerts you create\n• The subscription is billed by Apple: cancel anytime in Settings, no calls or emails\n• A light app that opens fast and shows the last list even offline\n\nFREE TO BROWSE\nThe list, search, filters (including education level) and details are free. The free plan lets you follow up to 5 exams and set 1 new-exam alert, delivered as a daily digest. Exam-day reminders and amendment alerts are free too.\n\nRADAR PREMIUM (monthly or yearly subscription)\n• Follow unlimited exams\n• Unlimited new-exam alerts, sent as soon as the app finds the notice\n• Choose how early (7, 3 or 1 day) and at what time reminders arrive\n• Filter and alerts by job area: health, education, IT, legal and more\n• Full history of the exams you have opened\n\nThe app is in Brazilian Portuguese. Data is extracted automatically from official gazettes; always check the official notice. The app is not affiliated with any government agency or exam board.",
-        "pt": "Encontre concursos públicos e processos seletivos com inscrições abertas e não perca nenhum prazo.\n\nTodos os dias, o Radar lê os diários oficiais das prefeituras e o Diário Oficial da União (DOU) e reúne os editais publicados numa lista só, organizada pelo prazo de inscrição.\n\nENCONTRE O CONCURSO CERTO\n• Na primeira abertura, escolha seus estados e sua escolaridade: a lista e o seu primeiro alerta já vêm prontos\n• Busque por órgão, cidade, cargo ou banca\n• Filtre por estado, escolaridade, esfera (municipal ou federal), tipo e salário mínimo; os filtros ficam salvos\n• Veja primeiro o que encerra esta semana, o que está com inscrições abertas e o que abre em breve\n• Ordene por prazo mais próximo, maior salário, mais vagas ou mais recentes\n\nTUDO SOBRE O EDITAL\n• Período de inscrição, salário, vagas e, quando o diário cita, banca, cargos e escolaridade\n• Trecho do diário oficial com link para o edital e a inscrição\n• Aviso quando o edital é retificado\n• Compartilhe um concurso com quem também está estudando\n\nACOMPANHE E RECEBA LEMBRETES\n• Acompanhe os concursos que interessam a você\n• Lembrete 3 dias e 1 dia antes do fim das inscrições, e no dia em que elas abrem\n• Marque \"Já me inscrevi\", informe a data da prova e receba lembrete 7 dias e 1 dia antes\n• Coloque o prazo ou a prova no Calendário do iPhone\n• Widget com as inscrições que estão terminando\n• Crie um alerta por estado, escolaridade, salário e palavras-chave e saiba quando aparecer um concurso novo\n• Seus concursos e alertas sincronizam pelo iCloud entre os seus aparelhos\n\nSEM ANÚNCIOS E SEM SURPRESA\n• Nenhum anúncio, em nenhum plano\n• Avisos só dos concursos que você acompanha e dos alertas que você criou\n• A assinatura é feita pela Apple: você cancela quando quiser em Ajustes, sem ligar nem mandar e-mail\n• App leve, que abre rápido e funciona com a última lista mesmo sem internet\n\nGRÁTIS PARA CONSULTAR\nLista, busca, filtros (inclusive escolaridade) e detalhes são grátis. No plano grátis você acompanha até 5 concursos e tem 1 alerta de novos concursos, com resumo diário. O lembrete da prova e o aviso de retificação também são grátis.\n\nRADAR PREMIUM (assinatura mensal ou anual)\n• Acompanhe quantos concursos quiser\n• Alertas de novos concursos ilimitados, avisados assim que o app encontra o edital\n• Escolha a antecedência (7, 3 ou 1 dia) e o horário dos lembretes\n• Filtro e alertas por área do cargo: saúde, educação, TI, jurídica e mais\n• Histórico completo dos concursos que você já abriu\n\nOs dados são extraídos automaticamente dos diários oficiais. Confira sempre o edital. O app não tem vínculo com órgãos públicos nem com bancas organizadoras."
-      },
-      "releaseNotes": "Nationwide exams in any state, and a summary every Monday.\n\n• Nationwide exams now show up whatever state you pick\n• \"Resumo da semana\": every Monday, the new exams in your states\n• \"Avise-me do edital\" on upcoming exams: know when the notice is out\n• Alerts by level (federal, state, municipal) and by exam board\n• \"Próximos prazos\" Siri shortcut and a Lock Screen widget",
-      "icon": "/apps/radar-de-concursos-publicos/icon.webp",
-      "tint": "#BAD7D7",
-      "screens": [
-        {
-          "src": "/apps/radar-de-concursos-publicos/screen-1.webp",
-          "width": 640,
-          "height": 1138
-        },
-        {
-          "src": "/apps/radar-de-concursos-publicos/screen-2.webp",
-          "width": 640,
-          "height": 1138
-        },
-        {
-          "src": "/apps/radar-de-concursos-publicos/screen-3.webp",
-          "width": 640,
-          "height": 1138
-        },
-        {
-          "src": "/apps/radar-de-concursos-publicos/screen-4.webp",
-          "width": 640,
-          "height": 1138
-        }
-      ],
-      "privacy": {
-        "notCollected": true,
-        "notProvided": false,
-        "tracking": [],
-        "linked": [],
-        "notLinked": []
-      }
-    },
-    {
       "id": 6759080666,
       "slug": "offchat-ai",
       "name": "OffChat: Offline Travel AI",
@@ -1263,8 +1308,8 @@
     {
       "id": 6751415745,
       "slug": "unsaid",
-      "name": "Unsaid: Party Word Game",
-      "nameBR": "Unsaid: Jogo de Palavras",
+      "name": "Unsaid: Forbidden Words Game",
+      "nameBR": "Unsaid: Palavras Proibidas",
       "url": "https://apps.apple.com/br/app/id6751415745",
       "genres": {
         "en": [
@@ -1281,8 +1326,8 @@
         ]
       },
       "releaseDate": "2026-09-30T07:00:00Z",
-      "updatedAt": "2026-10-05T20:46:30Z",
-      "version": "1.1.0",
+      "updatedAt": "2026-10-28T21:07:47Z",
+      "version": "1.1.1",
       "minimumOsVersion": "26.0",
       "fileSizeBytes": 13068288,
       "price": 0,
@@ -1305,7 +1350,7 @@
         "en": "Describe the word. Dodge the forbidden ones.\n\nSplit into teams, pass the phone and get your team to guess the word on the card — without saying any of the forbidden words. The other team is watching: slip up and you lose a point!\n\nMADE FOR PLAYING TOGETHER\n\n• 2 to 4 teams, with automatic rotation of who explains\n• A \"pass the phone\" screen between turns so nobody peeks\n• Auto-pause when a call comes in\n• Scores, party stats and an MVP for every game\n\nGAME MODES\n\n• Classic — 60-second turns, first to 30 points\n• Quick Match — 3 fast rounds of 45 seconds\n• Party — streaks earn combo bonus points\n• Sudden Death — say a forbidden word and your turn is over\n• No Timer — relaxed play, perfect with kids\n• Custom — set every rule yourself\n\nTONS OF WORDS, SIX LANGUAGES\n\n• 6,600 original cards in English, Brazilian Portuguese, Spanish, French, German and Italian\n• Decks for everyday words, food, kids & family, movies & TV, music, internet & memes, sports, travel, jobs, office life and parties\n• Four difficulty levels\n• Build your own decks and share them with friends\n\nNO STRINGS ATTACHED\n\n• Works completely offline\n• No account, no ads, no tracking\n• Free to play. Plus is a one-time purchase (no subscription) that unlocks every deck and unlimited custom decks, with Family Sharing\n\nPerfect for parties, family gatherings, road trips and game night.",
         "pt": "Explique a palavra. Fuja das proibidas.\n\nDivida a galera em times, passe o celular e descreva a palavra da carta para o seu time adivinhar — sem usar nenhuma das palavras proibidas. O outro time fica de olho: escorregou, perdeu ponto!\n\nFEITO PARA JOGAR JUNTO\n\n• De 2 a 4 times, com rodízio automático de quem explica\n• Tela \"passe o celular\" entre os turnos, para ninguém espiar\n• Pausa automática se tocar o telefone\n• Placar, estatísticas da partida e o craque da rodada\n\nMODOS DE JOGO\n\n• Clássico — turnos de 60s, quem chegar a 30 pontos vence\n• Partida Rápida — 3 rodadas de 45s\n• Festa — combos dão pontos extras\n• Morte Súbita — falou palavra proibida, acabou o turno\n• Sem Tempo — perfeito com crianças\n• Personalizado — você define todas as regras\n\nMUITAS PALAVRAS, VÁRIOS IDIOMAS\n\n• 6.600 cartas originais em português do Brasil, inglês, espanhol, francês, alemão e italiano\n• Decks de clássico, comida, crianças e família, filmes e séries, música, internet e memes, esportes, viagens, profissões, escritório e festa\n• Quatro níveis de dificuldade\n• Crie seus próprios decks e compartilhe com os amigos\n\nSEM PEGADINHAS\n\n• Funciona totalmente offline\n• Sem conta, sem anúncios, sem rastreamento\n• Grátis para jogar; o Plus é uma compra única (sem assinatura) com todos os decks e decks próprios ilimitados, compatível com o Compartilhamento Familiar\n\nIdeal para festas, reuniões de família, churrasco, viagens e aquela noite de jogos com os amigos."
       },
-      "releaseNotes": "New Forehead mode: hold the phone to your forehead and tilt to guess or pass.\n\n• Cards no longer repeat from one game to the next until you've seen them all\n• Tapped the wrong button? Fix a card's result on the turn summary\n• Report a card with a problem right from the turn summary\n• Purchases now unlock right away, plus small fixes",
+      "releaseNotes": "Small fixes and a refreshed App Store page. Thanks for playing Unsaid!",
       "icon": "/apps/unsaid/icon.webp",
       "tint": "#FDFDFD",
       "screens": [
@@ -1451,10 +1496,10 @@
         ]
       },
       "releaseDate": "2026-10-22T07:00:00Z",
-      "updatedAt": "2026-10-22T13:31:42Z",
-      "version": "1.0.0",
+      "updatedAt": "2026-11-02T11:11:23Z",
+      "version": "1.1.0",
       "minimumOsVersion": "26.0",
-      "fileSizeBytes": 7241728,
+      "fileSizeBytes": 10259456,
       "price": 0,
       "languages": [
         "EN",
@@ -1471,7 +1516,7 @@
         "en": "Leave work early. Don't get caught.\n\nSneak Out is a top-down stealth puzzle game about the most daring move in office life: walking out before the clock says so. Read everyone's line of sight, time your moves and reach the EXIT without being spotted.\n\nHOW IT WORKS\n• Every coworker, boss and camera has a visible vision cone. Stay out of it.\n• Walls block their view. Plants hide you completely.\n• Get seen and the alert meter fills up. Fill it and you're busted.\n• Bump into someone and it's over on the spot.\n• Grab the keycard to open locked doors.\n\nTHREE STARS PER LEVEL\n• Reach the exit.\n• Never get spotted.\n• Bonus goal: grab the coffee (always in the riskiest spot) or beat the clock.\nStuck? After a few tries, ask to see the route.\n\nWHO'S WATCHING\n• Coworkers who turn their heads when you least expect it\n• The boss: wide vision, fills the meter fast\n• Security cameras that sweep back and forth\n• Security guards with long flashlight beams (Office Pass)\n\nA NEW TRICK IN EVERY OFFICE\n• Open Office (free, 14 levels): vision cones, the boss on patrol, plants, cameras and keycards\n• Corporate Tower: glass walls and security guards with long flashlight beams\n• After Hours: flip the light switch. In the dark, people only notice you up close\n• Startup Loft: throw a paper ball and everyone nearby looks the other way\n• Headquarters: put on a security vest to fool the guards, and time the lasers\nThe Office Pass (one-time in-app purchase) unlocks the 56 levels of the four new offices, plus every future office.\n\nDAILY CHALLENGE\nFinish Open Office and a new level waits for you every day, free, mixing every trick in the game.\n\nMADE TO PLAY ANYWHERE\n• One-thumb floating joystick, portrait mode\n• Short levels, perfect for a coffee break\n• Plays offline\n• No ads, no energy timers, no loot boxes\n• Haptics, sound and music you can switch off\n• English and Brazilian Portuguese\n\nFound a level that felt unfair? Tell us from Settings > Send feedback.",
         "pt": "Saia mais cedo do trabalho. Sem ser pego.\n\nSneak Out é um jogo de quebra-cabeça furtivo, visto de cima, sobre o movimento mais ousado da vida no escritório: ir embora antes da hora. Leia para onde cada um está olhando, escolha o momento certo e chegue à SAÍDA sem ser visto.\n\nCOMO FUNCIONA\n• Cada colega, chefe e câmera tem um cone de visão à mostra. Fique fora dele.\n• Paredes bloqueiam a visão. Plantas escondem você por completo.\n• Se alguém te vê, o medidor de alerta sobe. Encheu? Você foi pego.\n• Esbarrou em alguém? Fim de jogo na hora.\n• Pegue o crachá para abrir as portas trancadas.\n\nTRÊS ESTRELAS POR FASE\n• Chegue à saída.\n• Não seja visto nem uma vez.\n• Objetivo bônus: pegue o café (sempre no lugar mais arriscado) ou corra contra o relógio.\nTravou? Depois de algumas tentativas, peça para ver o caminho.\n\nQUEM ESTÁ DE OLHO\n• Colegas que viram a cabeça quando você menos espera\n• O chefe: visão ampla, enche o alerta rápido\n• Câmeras de segurança que giram de um lado para o outro\n• Seguranças com lanternas de longo alcance (Passe do Escritório)\n\nUM TRUQUE NOVO EM CADA ESCRITÓRIO\n• Escritório Aberto (grátis, 14 fases): cones de visão, o chefe na ronda, plantas, câmeras e crachás\n• Torre Corporativa: paredes de vidro e seguranças com lanternas de longo alcance\n• Depois do Expediente: aperte o interruptor. No escuro, só te notam de pertinho\n• Loft da Startup: jogue uma bolinha de papel e todo mundo por perto olha para o outro lado\n• Sede Global: vista o colete de segurança para enganar os seguranças e acerte o tempo dos lasers\nO Passe do Escritório (compra única no app) libera as 56 fases dos quatro escritórios novos, além de todos os escritórios futuros.\n\nDESAFIO DO DIA\nTermine o Escritório Aberto e uma fase nova te espera todo dia, de graça, misturando todos os truques do jogo.\n\nFEITO PARA JOGAR EM QUALQUER LUGAR\n• Joystick flutuante para um dedo, no modo retrato\n• Fases curtas, perfeitas para o intervalo do café\n• Funciona offline\n• Sem anúncios, sem energia para esperar, sem caixas de recompensa\n• Vibração, sons e música que você pode desligar\n• Em português e inglês\n\nAchou uma fase injusta? Conta pra gente em Ajustes > Enviar feedback."
       },
-      "releaseNotes": "",
+      "releaseNotes": "What's new in 1.1:\n• New switch in Settings: share anonymous play data, or turn it off. It helps us balance levels and fix crashes faster.\n• Stability improvements behind the scenes.",
       "icon": "/apps/sneak-out/icon.webp",
       "tint": "#B5EADB",
       "screens": [
@@ -1517,11 +1562,170 @@
         }
       ],
       "privacy": {
-        "notCollected": true,
+        "notCollected": false,
         "notProvided": false,
         "tracking": [],
         "linked": [],
-        "notLinked": []
+        "notLinked": [
+          {
+            "purpose": "ANALYTICS",
+            "categories": [
+              {
+                "category": "IDENTIFIERS",
+                "dataTypes": [
+                  "Device ID"
+                ]
+              },
+              {
+                "category": "USAGE_DATA",
+                "dataTypes": [
+                  "Product Interaction"
+                ]
+              },
+              {
+                "category": "DIAGNOSTICS",
+                "dataTypes": [
+                  "Crash Data",
+                  "Other Diagnostic Data"
+                ]
+              }
+            ]
+          },
+          {
+            "purpose": "APP_FUNCTIONALITY",
+            "categories": [
+              {
+                "category": "DIAGNOSTICS",
+                "dataTypes": [
+                  "Crash Data"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 6818547763,
+      "slug": "cashcade",
+      "name": "Cashcade: Passive Income",
+      "nameBR": "Cashcade: Renda Passiva",
+      "url": "https://apps.apple.com/br/app/id6818547763",
+      "genres": {
+        "en": [
+          "Games",
+          "Simulation",
+          "Board",
+          "Education"
+        ],
+        "pt": [
+          "Jogos",
+          "Simulação",
+          "Jogos de tabuleiro",
+          "Educação"
+        ]
+      },
+      "releaseDate": "2026-11-01T07:00:00Z",
+      "updatedAt": "2026-11-01T22:01:51Z",
+      "version": "1.0",
+      "minimumOsVersion": "17.0",
+      "fileSizeBytes": 2723840,
+      "price": 0,
+      "languages": [
+        "EN",
+        "PT"
+      ],
+      "rating": {
+        "value": 0,
+        "count": 0,
+        "store": "us"
+      },
+      "gameCenter": false,
+      "universal": true,
+      "description": {
+        "en": "What is a money decision really worth? In Cashcade you find out by playing: spin the wheel, move around the board and choose what to buy, sell or pay until your passive income covers all your expenses and you escape the paycheck cycle.\n\nHOW IT WORKS\n• Pick one of 10 careers, each with its own salary, expenses and debts.\n• Every turn, decide in just a few taps: invest in opportunities, close big deals, handle surprises or resist impulse spending.\n• Collect your monthly cash flow on Payday: net salary + passive income − expenses (plus the yearly bonus!).\n• Use the bank: take loans, pay down installments and manage your cash so you don't go bankrupt.\n• Win when passive income is greater than or equal to your monthly expenses.\n\nLEARN WITHOUT PRESSURE\n• In-game tutorial and concept help.\n• End-of-game summary with stats, score and your best and worst decisions.\n• Games last 10 to 15 minutes.\n\nMORE WAYS TO PLAY\n• 3 difficulty levels\n• Dreams with score bonuses\n• Daily challenge\n• 5-chapter story mode\n• High scores\n\nPLAY YOUR WAY\n• 100% offline, no sign-up and no ads.\n• For iPhone and iPad, with an enlarged board on iPad.\n• English and Portuguese, switchable inside the app.\n• Adjustable music and sound effects, haptics and a reduce-motion option.\n\nAn independent educational game. Cashcade is not financial advice.",
+        "pt": "Quanto vale uma decisão financeira? No Cashcade você descobre jogando: gire a roleta, ande pelo tabuleiro e escolha o que comprar, vender ou pagar até sua renda passiva cobrir todas as despesas e você sair do Ciclo do Salário.\n\nCOMO FUNCIONA\n• Escolha entre 10 profissões brasileiras, cada uma com salário, despesas e dívidas próprios.\n• A cada turno, decida em poucos toques: investir em oportunidades, fechar grandes negócios, enfrentar imprevistos ou resistir a gastos por impulso.\n• Receba o fluxo mensal ao passar pelo Pagamento: salário líquido + renda passiva − despesas (e o 13º!).\n• Use o banco: peça empréstimos, amortize parcelas e cuide do caixa para não quebrar.\n• Vença quando a renda passiva for maior ou igual às despesas mensais.\n\nCONTEXTO BRASILEIRO\nValores em reais e conceitos do dia a dia: FIIs, CDB, MEI, 13º salário, rescisão e seguro-desemprego.\n\nAPRENDA SEM PRESSÃO\n• Tutorial e ajuda de conceitos dentro do jogo.\n• Resumo no fim da partida com estatísticas, pontuação e as melhores e piores decisões.\n• Partidas de 10 a 15 minutos.\n\nMAIS MODOS\n• 3 níveis de dificuldade\n• Sonhos com bônus de pontuação\n• Desafio do dia\n• Modo história em 5 capítulos\n• Recordes\n\nPARA JOGAR COMO QUISER\n• Funciona 100% offline, sem cadastro e sem anúncios.\n• Para iPhone e iPad, com tabuleiro ampliado no iPad.\n• Português e inglês, com troca dentro do app.\n• Música e efeitos sonoros configuráveis, vibração e opção de reduzir animações.\n\nJogo independente e educativo. O Cashcade não é aconselhamento financeiro."
+      },
+      "releaseNotes": "",
+      "icon": "/apps/cashcade/icon.webp",
+      "tint": "#BFBAD2",
+      "screens": [
+        {
+          "src": "/apps/cashcade/screen-1.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/cashcade/screen-2.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/cashcade/screen-3.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/cashcade/screen-4.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/cashcade/screen-5.webp",
+          "width": 640,
+          "height": 1391
+        },
+        {
+          "src": "/apps/cashcade/screen-6.webp",
+          "width": 640,
+          "height": 1391
+        }
+      ],
+      "privacy": {
+        "notCollected": false,
+        "notProvided": false,
+        "tracking": [],
+        "linked": [],
+        "notLinked": [
+          {
+            "purpose": "ANALYTICS",
+            "categories": [
+              {
+                "category": "IDENTIFIERS",
+                "dataTypes": [
+                  "Device ID"
+                ]
+              },
+              {
+                "category": "USAGE_DATA",
+                "dataTypes": [
+                  "Product Interaction"
+                ]
+              },
+              {
+                "category": "DIAGNOSTICS",
+                "dataTypes": [
+                  "Crash Data",
+                  "Performance Data",
+                  "Other Diagnostic Data"
+                ]
+              }
+            ]
+          },
+          {
+            "purpose": "APP_FUNCTIONALITY",
+            "categories": [
+              {
+                "category": "DIAGNOSTICS",
+                "dataTypes": [
+                  "Crash Data",
+                  "Performance Data",
+                  "Other Diagnostic Data"
+                ]
+              }
+            ]
+          }
+        ]
       }
     }
   ]
